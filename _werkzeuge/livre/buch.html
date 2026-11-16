@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="de">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=2,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script><!--demo-weiche--><script src="../../_demo/karte.js"></script><script src="../../_demo/shim.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Markenbuch · Der Europäische Hof Heidelberg</title>
+<meta name="description" content="Das Markenbuch des Europäischen Hofs Heidelberg: Wappen und Logo, Farben und ihre Herkunft, Schriften, Drucksachen, Bilder, Bausteine, Auszeichnungen und Ton.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="../../assets/logo/EHH-touch-Icon.png" type="image/png">
+<link rel="preload" href="../../assets/schrift/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/schrift/roboto-condensed-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="buch/marke.css?v=5a1b3310ed">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<nav class="leiste" aria-label="Markenbuch">
+  <a class="leiste__m" href="./" title="Zurück zum Markenbuch"><img src="buch/zeichen/wappen-gold.png" alt="" style="height:30px;width:auto"><span><b><span class="kw">MARKENBUCH</span></b><small>Zurück zum Werkzeug</small></span></a>
+  <div class="leiste__k"><a href="#haltung"><span class="kw">HALTUNG</span></a><a href="#zeichen"><span class="kw">ZEICHEN</span></a><a href="#farben"><span class="kw">FARBEN</span></a><a href="#herkunft"><span class="kw">HERKUNFT</span></a><a href="#schrift"><span class="kw">SCHRIFT</span></a><a href="#drucksachen"><span class="kw">DRUCKSACHEN</span></a><a href="#bilder"><span class="kw">BILDER</span></a><a href="#bausteine"><span class="kw">BAUSTEINE</span></a><a href="#logo"><span class="kw">LOGO</span></a></div>
+<button class="kn kn--leiste" type="button" id="bu-pdf"><span class="kw">ALS PDF SICHERN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></button></nav>
+
+<main>
+<section class="titel tapete" id="oben">
+  <div class="titel__in">
+    <p class="titel__kap" data-r="hero" style="--i:0"><i></i><b><span class="kw">MARKENBUCH · NOVEMBER 2026</span></b><i></i></p>
+    <div class="titel__z" data-r="zeichen"><img src="buch/zeichen/wappen-gold.png" alt="" width="369" height="600"></div>
+    <h1 class="titel__w" data-r="maske"><span class="z"><span><img src="buch/zeichen/logo_white_bottom.png" width="500" height="178" alt="Der Europäische Hof Heidelberg, Privathotel seit 1865"></span></span></h1>
+    <p class="titel__ort" data-r="hero" style="--i:2"><span class="kw">PRIVATHOTEL SEIT 1865</span> <span class="raute"></span> <span class="kw">FRIEDRICH-EBERT-ANLAGE 1</span> <span class="raute"></span> <span class="kw">HEIDELBERG</span></p>
+    <p class="titel__lead" data-r="hero" style="--i:3">Alles, was den Europäischen Hof erkennbar macht, an einem Ort: das Wappen und das Logo, die Farben und woher sie kommen, die Schriften, die Drucksachen, die Bilder, die Auszeichnungen und der Ton. So, wie Website und Broschüren des Hauses es heute zeigen.</p>
+    <div class="knr knr--mitte" data-r="hero" style="--i:4"><a class="kn " href="#haltung"><span class="kw">LESEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div>
+  </div>
+  <nav class="index" aria-label="Inhalt" data-g><a href="#haltung" data-r style="--i:0"><span>Haltung</span></a><a href="#zeichen" data-r style="--i:1"><span>Zeichen</span></a><a href="#farben" data-r style="--i:2"><span>Farben</span></a><a href="#herkunft" data-r style="--i:3"><span>Herkunft</span></a><a href="#schrift" data-r style="--i:4"><span>Schrift</span></a><a href="#drucksachen" data-r style="--i:5"><span>Drucksachen</span></a><a href="#bilder" data-r style="--i:6"><span>Bilder</span></a><a href="#bausteine" data-r style="--i:7"><span>Bausteine</span></a><a href="#logo" data-r style="--i:8"><span>Logo</span></a><a href="#ehre" data-r style="--i:9"><span>Auszeichnungen</span></a><a href="#welt" data-r style="--i:10"><span>Eigene Welt</span></a><a href="#mitnehmen" data-r style="--i:11"><span>Mitnehmen</span></a></nav>
+  <span class="titel__runter" aria-hidden="true"><i></i></span>
+</section>
+
+<section class="ab blatt papier tapete-h" id="haltung">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">HALTUNG</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Wir lieben,</span></span><span class="z"><span><em>was wir tun.</em></span></span></h2></div>
+      <p class="mk__lead">Der Leitsatz des Hauses steht auf der Website und in den Broschüren. Der Europäische Hof ist ein privat geführtes Fünf-Sterne-Superior-Grandhotel an der Friedrich-Ebert-Anlage, seit 1865 in Familienhand und heute in vierter Generation von Dr. Caroline von Kretschmann geführt.</p>
+    </header>
+    <div class="drei" data-g>
+      <article class="k3 k3--karte" data-r="feder" style="--i:0">
+        <div class="k3__b"><img src="../../assets/bild/galerie-big-halle-scaled-1-1200.webp" alt="Die Halle mit Flügel, Kronleuchtern und roten Sesseln" loading="lazy" decoding="async" style="object-position:50% 50%"></div>
+        <div class="k3__n"><small><span class="kw">DAS HAUS</span></small><b>Eintreten. Wohlfühlen.</b><p>So beginnt die Imagebroschüre. Halle, Kaminzimmer und Treppe zeigen, was die Broschüre „Schönheit in jedem Detail“ nennt.</p></div>
+      </article>
+      <article class="k3 k3--karte" data-r="feder" style="--i:1">
+        <div class="k3__b"><img src="../../assets/bild/dr-caroline-von-kretschmann-geschaeftsfuehrerin-1200.webp" alt="Dr. Caroline von Kretschmann, Geschäftsführerin" loading="lazy" decoding="async" style="object-position:50% 22%"></div>
+        <div class="k3__n"><small><span class="kw">DIE FAMILIE</span></small><b>Vierte Generation.</b><p>Fritz und Luise Gabler kauften das Haus 1906; seit 2013 führt Dr. Caroline von Kretschmann die Geschäfte, mit ihrer Mutter Sylvia von Kretschmann.</p></div>
+      </article>
+      <article class="k3 k3--karte" data-r="feder" style="--i:2">
+        <div class="k3__b"><img src="../../assets/bild/barchef-felix-franke-03-1200.webp" alt="Felix Franke, Barchef" loading="lazy" decoding="async" style="object-position:50% 22%"></div>
+        <div class="k3__n"><small><span class="kw">DAS TEAM</span></small><b>Der einzelne Gast.</b><p>„Nur wer als Mitarbeiter glücklich ist, kann auch unsere Gäste glücklich machen“, steht in der Ausbildungsbroschüre. Das Haus ist Partner der Fair Job Hotels.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="fenster" aria-label="Eintreten. Wohlfühlen.">
+  <div class="fenster__f">
+    <div class="fenster__b"><img src="buch/bilder/hotel-europaeischer-hof-heidelberg-5-sterne-hotel-aussen-eingang-treppenaufgang-02.jpg" alt="Der Eingang mit Säulen und rotem Teppich" decoding="async" style="object-position:50% 45%"></div>
+    <div class="fenster__t"><p class="fenster__s"><span class="z"><span>Eintreten.</span></span><span class="z"><span><em>Wohlfühlen.</em></span></span></p><p class="fenster__u">Der Eingang an der Friedrich-Ebert-Anlage. Der erste Satz der Imagebroschüre.</p></div>
+  </div>
+</section>
+
+<section class="ab blatt creme tapete-h" id="zeichen">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">ZEICHEN UND NAME</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Ein Wappen,</span></span><span class="z"><span><em>ein Name.</em></span></span></h2></div>
+      <p class="mk__lead">Das Logo besteht aus dem Wappen und darunter dem Namen „Der Europäische Hof Heidelberg“ mit dem Zusatz „Privathotel seit 1865“. Es stammt aus dem Jahr 2010 („Rebranding mit neuem Logo“, Geschichte des Hauses) und wird immer als Originaldatei eingesetzt, nie nachgesetzt und nie umgefärbt.</p>
+    </header>
+    <div class="lockups" data-g>
+      <figure class="lock lock--marine tapete" data-r="flug" style="--i:0;--fx:-14vw;--fy:22vh;--fw:-6deg"><div><img src="buch/zeichen/logo_white_bottom.png" width="500" height="178" alt="Der Name in Weiß"><p class="lock__o"><span class="kw">AUF SCHWARZ UND DUNKLEN FOTOS</span></p></div><figcaption class="kerbe"><span class="kw">WEISS AUF SCHWARZ</span></figcaption></figure>
+      <figure class="lock lock--quer" data-r="flug" style="--i:2;--fx:-12vw;--fy:30vh;--fw:5deg"><div><img src="dateien/europaeischer-hof-heidelberg-voll.jpg" width="592" height="490" alt="Das ganze Logo"></div><figcaption class="kerbe"><span class="kw">DAS GANZE LOGO AUF WEISS</span></figcaption></figure>
+      <figure class="lock lock--groessen lock--wappen tapete" data-r="flug" style="--i:3;--fx:12vw;--fy:30vh;--fw:-5deg"><div><img src="buch/zeichen/wappen-gold.png" width="369" height="600" alt="Das Wappen allein"></div><figcaption class="kerbe"><span class="kw">DAS WAPPEN ALLEIN</span></figcaption></figure>
+      <figure class="lock lock--quer" data-r="flug" style="--i:4;--fx:14vw;--fy:22vh;--fw:6deg"><div style="background:#F3EFED"><img src="dateien/europaeischer-hof-heidelberg-wortmarke-schwarz.png" width="1181" height="420" alt="Der Name in Schwarz"></div><figcaption class="kerbe"><span class="kw">DER NAME IN SCHWARZ AUF WARMEM HELL</span></figcaption></figure>
+    </div>
+    <div class="reihe5" data-g>
+      <div class="zei" data-r="feder" style="--i:0"><img src="dateien/europaeischer-hof-heidelberg-signet.png" alt="" style="border-radius:14px"><b>Das Signet</b><small>Zeichen der Website im Browser · Originaldatei</small></div>
+      <div class="zei" data-r="feder" style="--i:1"><img src="buch/druck-karte-kurfuerstenstube.jpg" alt="Die Karte der Kurfürstenstube" style="height:120px;border-radius:4px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)"><b>Auf der Karte</b><small>Kurfürstenstube ab 16. Oktober 2026 · Name über der Karte</small></div>
+    </div>
+    <div class="regeln" data-g style="margin-top:clamp(30px,3vw,48px)">
+      <div class="regel regel--r" data-r="feder" style="--i:0"><div class="regel__f"><div class="lf" style="background:#fff"><img src="buch/druck-logo-lage.jpg?v=b51d6972f4" width="901" height="652" alt="Imagebroschüre: das Logo oben auf der Seite" loading="lazy" decoding="async"></div></div><h3>Lage auf der Seite</h3><p>In den Broschüren steht das Logo oben in der Mitte: auf „Willkommen in Heidelberg“ 44,3&nbsp;mm breit auf einer 170,0&nbsp;mm breiten Seite, 13,1&nbsp;mm unter dem oberen Rand.</p></div>
+      <div class="regel regel--r" data-r="feder" style="--i:1"><div class="regel__f"><div class="lf" style="background:#fff"><div style="position:relative;padding:7%;outline:1px dashed #8A7340;width:70%"><img src="dateien/europaeischer-hof-heidelberg-voll.jpg" alt="" style="max-width:100%;max-height:96px;margin:0 auto"></div></div></div><h3>Schutzraum</h3><p>Rundum bleibt so viel Luft, wie das Wappen breit ist. Kein Text, kein Bildrand und keine Linie ragen hinein.</p></div>
+      <div class="regel regel--r" data-r="feder" style="--i:2"><div class="regel__f"><div class="lf" style="background:#000"><img src="buch/druck-kalender-titel.jpg?v=f8da864779" width="900" height="1278" alt="Kulinarischer Kalender 2026, Umschlag" loading="lazy" decoding="async"></div></div><h3>Auf dem Foto</h3><p>Auf den Umschlägen steht das Logo in Weiß auf dem Foto, wieder mittig, so wie auf dem Kulinarischen Kalender und der Imagebroschüre.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ab blatt papier" id="farben">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">FARBEN</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Neun Töne,</span></span><span class="z"><span><em>jeder mit Fundstelle.</em></span></span></h2></div>
+      <p class="mk__lead">Die Website trägt Schwarz als Hauptfarbe, dazu ein Grau, ein Hellgrau, das warme Hell der Kacheln und Pink nur auf der Gutschein-Plakette. In den Broschüren kommen ein weiches Schriftgrau, ein Silbergrau für die englische Zeile und das Gold der Spa-Broschüre dazu. Ein Klick auf eine Farbe kopiert ihren Wert.</p>
+    </header>
+    <div class="faecher" data-r="faecher"><div class="faecher__in"><button class="fa" type="button" data-hex="#000000" style="--c:#000000;--t:#FFFFFF;--j:0;--w:-33.6deg" aria-label="Schwarz #000000 kopieren">
+          <span class="fa__n"><b>Schwarz</b><small>#000000</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#919792" style="--c:#919792;--t:#FFFFFF;--j:1;--w:-25.2deg" aria-label="Grau #919792 kopieren">
+          <span class="fa__n"><b>Grau</b><small>#919792</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#F1F1F2" style="--c:#F1F1F2;--t:#000000;--j:2;--w:-16.8deg" aria-label="Hellgrau #F1F1F2 kopieren">
+          <span class="fa__n"><b>Hellgrau</b><small>#F1F1F2</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#F3EFED" style="--c:#F3EFED;--t:#000000;--j:3;--w:-8.4deg" aria-label="Warmes Hell #F3EFED kopieren">
+          <span class="fa__n"><b>Warmes Hell</b><small>#F3EFED</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#FFFFFF" style="--c:#FFFFFF;--t:#000000;--j:4;--w:0.0deg" aria-label="Weiß #FFFFFF kopieren">
+          <span class="fa__n"><b>Weiß</b><small>#FFFFFF</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#DF007E" style="--c:#DF007E;--t:#FFFFFF;--j:5;--w:8.4deg" aria-label="Pink #DF007E kopieren">
+          <span class="fa__n"><b>Pink</b><small>#DF007E</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#58595B" style="--c:#58595B;--t:#FFFFFF;--j:6;--w:16.8deg" aria-label="Schriftgrau #58595B kopieren">
+          <span class="fa__n"><b>Schriftgrau</b><small>#58595B</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#808285" style="--c:#808285;--t:#FFFFFF;--j:7;--w:25.2deg" aria-label="Silbergrau #808285 kopieren">
+          <span class="fa__n"><b>Silbergrau</b><small>#808285</small></span><span class="fa__ok">kopiert</span>
+        </button><button class="fa" type="button" data-hex="#A1884C" style="--c:#A1884C;--t:#FFFFFF;--j:8;--w:33.6deg" aria-label="Gold #A1884C kopieren">
+          <span class="fa__n"><b>Gold</b><small>#A1884C</small></span><span class="fa__ok">kopiert</span>
+        </button></div><p class="faecher__h">Über den Fächer fahren, ein Klick kopiert den Farbwert.</p></div>
+    <div class="anteil" data-r="anteil"><p class="mk__kap"><b><span class="kw">MENGENVERHÄLTNIS</span></b><i></i><span>gemessen auf acht Seiten der Broschüren und Karten</span></p><div class="anteil__b"><span style="--p:50;--j:0;background:#FFFFFF;color:#000000"><b><span data-zahl="50">0</span> %</b><small>Weiß und warmes Hell</small></span><span style="--p:42;--j:1;background:#58595B;color:#FFFFFF"><b><span data-zahl="42">0</span> %</b><small>Fotos</small></span><span style="--p:3;--j:2;background:#58595B;color:#FFFFFF"><b><span data-zahl="3">0</span> %</b><small>Schrift</small></span><span style="--p:3;--j:3;background:#A1884C;color:#000000"><b><span data-zahl="3">0</span> %</b><small>Gold</small></span><span style="--p:2;--j:4;background:#000000;color:#FFFFFF"><b><span data-zahl="2">0</span> %</b><small>Schwarz</small></span></div></div>
+    <div class="gr gr--haus" data-g>
+        <div class="gr__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">VON DER WEBSITE</span></b><i></i></p><p class="gr__s">Schwarz trägt alles: Schrift, Linien, Kopf und Fuss. Dazu ein ruhiges Grau, das warme Hell der Kacheln und viel Weiß. Pink steht nur auf der Gutschein-Plakette.</p></div>
+        <div class="gr__l gr__l--3"><button class="fk" type="button" data-r="feder" data-hex="#000000" style="--i:0;--c:#000000;--t:#FFFFFF" aria-label="Schwarz #000000 kopieren">
+            <span class="fk__f"><span class="fk__hex">#000000</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Schwarz</span>
+            <span class="fk__r">Hauptfarbe der Website: Schrift, Linie der Knöpfe, Kopf und Fuss</span>
+            <span class="fk__w"><span>HEX</span>#000000<span>RGB</span><span class="wo">0 · 0 · 0</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#919792" style="--i:1;--c:#919792;--t:#FFFFFF" aria-label="Grau #919792 kopieren">
+            <span class="fk__f"><span class="fk__hex">#919792</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Grau</span>
+            <span class="fk__r">Grau der Website: Fokuslinie, leise Linien</span>
+            <span class="fk__w"><span>HEX</span>#919792<span>RGB</span><span class="wo">145 · 151 · 146</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#F1F1F2" style="--i:2;--c:#F1F1F2;--t:#000000" aria-label="Hellgrau #F1F1F2 kopieren">
+            <span class="fk__f"><span class="fk__hex">#F1F1F2</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Hellgrau</span>
+            <span class="fk__r">helle Fläche der Website</span>
+            <span class="fk__w"><span>HEX</span>#F1F1F2<span>RGB</span><span class="wo">241 · 241 · 242</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#F3EFED" style="--i:3;--c:#F3EFED;--t:#000000" aria-label="Warmes Hell #F3EFED kopieren">
+            <span class="fk__f"><span class="fk__hex">#F3EFED</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Warmes Hell</span>
+            <span class="fk__r">Grund der Karten und Kacheln auf der Website</span>
+            <span class="fk__w"><span>HEX</span>#F3EFED<span>RGB</span><span class="wo">243 · 239 · 237</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#FFFFFF" style="--i:4;--c:#FFFFFF;--t:#000000" aria-label="Weiß #FFFFFF kopieren">
+            <span class="fk__f"><span class="fk__hex">#FFFFFF</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Weiß</span>
+            <span class="fk__r">Grund der Seiten, Website und Drucksachen</span>
+            <span class="fk__w"><span>HEX</span>#FFFFFF<span>RGB</span><span class="wo">255 · 255 · 255</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#DF007E" style="--i:5;--c:#DF007E;--t:#FFFFFF" aria-label="Pink #DF007E kopieren">
+            <span class="fk__f"><span class="fk__hex">#DF007E</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Pink</span>
+            <span class="fk__r">nur die Gutschein-Plakette der Website, sparsam, nie als Fläche</span>
+            <span class="fk__w"><span>HEX</span>#DF007E<span>RGB</span><span class="wo">223 · 0 · 126</span></span>
+          </button></div>
+      </div><div class="gr gr--abend" data-g>
+        <div class="gr__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">AUS DEN DRUCKSACHEN</span></b><i></i></p><p class="gr__s">In den Broschüren des Hauses wird der Lauftext in einem weichen Grau gesetzt, die englische Zeile in einem helleren Silbergrau. Die Spa-Broschüre trägt dazu ein warmes Gold.</p></div>
+        <div class="gr__l gr__l--3"><button class="fk" type="button" data-r="feder" data-hex="#58595B" style="--i:0;--c:#58595B;--t:#FFFFFF" aria-label="Schriftgrau #58595B kopieren">
+            <span class="fk__f"><span class="fk__hex">#58595B</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Schriftgrau</span>
+            <span class="fk__r">Lauftext der Image- und Hochzeitsbroschüre</span>
+            <span class="fk__w"><span>HEX</span>#58595B<span>RGB</span><span class="wo">88 · 89 · 91</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#808285" style="--i:1;--c:#808285;--t:#FFFFFF" aria-label="Silbergrau #808285 kopieren">
+            <span class="fk__f"><span class="fk__hex">#808285</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Silbergrau</span>
+            <span class="fk__r">die englische Zeile unter den Titeln der Broschüren</span>
+            <span class="fk__w"><span>HEX</span>#808285<span>RGB</span><span class="wo">128 · 130 · 133</span></span>
+          </button><button class="fk" type="button" data-r="feder" data-hex="#A1884C" style="--i:2;--c:#A1884C;--t:#FFFFFF" aria-label="Gold #A1884C kopieren">
+            <span class="fk__f"><span class="fk__hex">#A1884C</span><span class="fk__ok">kopiert</span></span>
+            <span class="fk__n">Gold</span>
+            <span class="fk__r">Titel und Flächen der Spa-Broschüre</span>
+            <span class="fk__w"><span>HEX</span>#A1884C<span>RGB</span><span class="wo">161 · 136 · 76</span></span>
+          </button></div>
+      </div>
+    <div class="kontrast">
+      <div class="kontrast__k" data-r><p class="mk__kap"><b><span class="kw">LESBARKEIT</span></b><i></i></p><h3>Welche Farbe auf welcher stehen darf.</h3><p>Gerechnet nach dem internationalen Standard für Lesbarkeit im Netz (WCAG 2.1) aus den Farbwerten des Hauses. Ab 4,5 zu 1 ist Lesetext gut lesbar, ab 3 zu 1 große Zeilen.</p></div>
+      <ul class="kontrast__l" data-g><li class="ko" data-r="feder" style="--i:0;--g:#FFFFFF;--s:#000000">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Schwarz auf Weiß</b><small>Lesetext</small></span>
+          <span class="ko__z"><b><span data-zahl="21.0" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Sehr gut, auch für langen Text</em>
+        </li><li class="ko" data-r="feder" style="--i:1;--g:#F3EFED;--s:#000000">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Schwarz auf Warmes Hell</b><small>Lesetext auf den Kacheln</small></span>
+          <span class="ko__z"><b><span data-zahl="18.4" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Sehr gut, auch für langen Text</em>
+        </li><li class="ko" data-r="feder" style="--i:2;--g:#000000;--s:#FFFFFF">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Weiß auf Schwarz</b><small>Lesetext auf Dunkel</small></span>
+          <span class="ko__z"><b><span data-zahl="21.0" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Sehr gut, auch für langen Text</em>
+        </li><li class="ko" data-r="feder" style="--i:0;--g:#FFFFFF;--s:#58595B">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Schriftgrau auf Weiß</b><small>Lauftext der Broschüren</small></span>
+          <span class="ko__z"><b><span data-zahl="7.0" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Sehr gut, auch für langen Text</em>
+        </li><li class="ko" data-r="feder" style="--i:1;--g:#000000;--s:#A1884C">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Gold auf Schwarz</b><small>Betonung auf Dunkel</small></span>
+          <span class="ko__z"><b><span data-zahl="6.1" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Gut für Lesetext</em>
+        </li><li class="ko" data-r="feder" style="--i:2;--g:#FFFFFF;--s:#808285">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Silbergrau auf Weiß</b><small>englische Zeile</small></span>
+          <span class="ko__z"><b><span data-zahl="3.9" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Nur große Zeilen</em>
+        </li><li class="ko" data-r="feder" style="--i:0;--g:#FFFFFF;--s:#A1884C">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Gold auf Weiß</b><small>Betonung auf Hell</small></span>
+          <span class="ko__z"><b><span data-zahl="3.4" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Nur große Zeilen</em>
+        </li><li class="ko" data-r="feder" style="--i:1;--g:#FFFFFF;--s:#919792">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Grau auf Weiß</b><small>leise Linien</small></span>
+          <span class="ko__z"><b><span data-zahl="3.0" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Nur Linie, nie Schrift</em>
+        </li><li class="ko" data-r="feder" style="--i:2;--g:#FFFFFF;--s:#DF007E">
+          <span class="ko__p"><span>Aa</span><small>Willkommen in Heidelberg.</small></span>
+          <span class="ko__n"><b>Pink auf Weiß</b><small>die Plakette</small></span>
+          <span class="ko__z"><b><span data-zahl="4.7" data-komma>0</span></b><small>zu 1</small></span>
+          <em class="ko__u">Gut für Lesetext</em>
+        </li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="ab blatt marine tapete" id="herkunft">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">HERKUNFT</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Woher die</span></span><span class="z"><span><em>Farben kommen.</em></span></span></h2></div>
+      <p class="mk__lead">Aus den Drucksachen des Hauses: Imagebroschüre, Hochzeits- und Spa-Broschüre, der Kulinarische Kalender und die Ausbildungsbroschüre. Unter jeder Seite der Streifen, der beim Bau dieses Buchs aus ihr gemessen wurde, darunter die Töne des Hauses, die darin stehen.</p>
+    </header>
+    <div class="hers" data-g><article class="her k3" data-r="feder" style="--i:0">
+        <div class="k3__b her__b"><img src="buch/druck-image-titel.jpg?v=989c086dde" width="900" height="1483" alt="Imagebroschüre ab 2026, Umschlag" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">IMAGEBROSCHÜRE AB 2026</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #FEFFFF · #F0EFEA · #CBC1B2 · #A1937A · #6A5A44"><i style="flex:0.156;background:#feffff;--j:0"></i><i style="flex:0.124;background:#f0efea;--j:1"></i><i style="flex:0.247;background:#cbc1b2;--j:2"></i><i style="flex:0.226;background:#a1937a;--j:3"></i><i style="flex:0.247;background:#6a5a44;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #FEFFFF · #F0EFEA · #CBC1B2 · #A1937A · #6A5A44</p>
+        <p class="her__x">Der Umschlag: der Eingang am Abend, das Logo in Weiß, der Titel „Eintreten. Wohlfühlen.“ in Playfair Display.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#FFFFFF"></i>Weiß</span><span class="mini"><i style="background:#F3EFED"></i>Warmes Hell</span><span class="mini"><i style="background:#919792"></i>Grau</span><span class="mini"><i style="background:#58595B"></i>Schriftgrau</span></p>
+      </article><article class="her k3" data-r="feder" style="--i:1">
+        <div class="k3__b her__b"><img src="buch/druck-image-willkommen.jpg?v=c3f3e37eb4" width="900" height="1483" alt="Imagebroschüre, Seite „Willkommen in Heidelberg“" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">WILLKOMMEN IN HEIDELBERG</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #FFFFFF · #FFFFFE · #FEFFFE · #B98573 · #5D2511"><i style="flex:0.540;background:#ffffff;--j:0"></i><i style="flex:0.004;background:#fffffe;--j:1"></i><i style="flex:0.057;background:#fefffe;--j:2"></i><i style="flex:0.145;background:#b98573;--j:3"></i><i style="flex:0.254;background:#5d2511;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #FFFFFF · #FFFFFE · #FEFFFE · #B98573 · #5D2511</p>
+        <p class="her__x">Eine weiße Seite, das Logo oben in der Mitte, das Foto groß, der Lauftext im weichen Schriftgrau.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#FFFFFF"></i>Weiß</span><span class="mini"><i style="background:#A1884C"></i>Gold</span></p>
+      </article><article class="her k3" data-r="feder" style="--i:2">
+        <div class="k3__b her__b"><img src="buch/druck-hochzeit-titel.jpg?v=4865f9d26f" width="900" height="1483" alt="Hochzeitsbroschüre ab 2024, Umschlag" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">HOCHZEITSBROSCHÜRE AB 2024</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #F2EDEA · #9D8D79 · #4E4328 · #2E2113 · #190E0B"><i style="flex:0.263;background:#f2edea;--j:0"></i><i style="flex:0.169;background:#9d8d79;--j:1"></i><i style="flex:0.193;background:#4e4328;--j:2"></i><i style="flex:0.163;background:#2e2113;--j:3"></i><i style="flex:0.212;background:#190e0b;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #F2EDEA · #9D8D79 · #4E4328 · #2E2113 · #190E0B</p>
+        <p class="her__x">„Für immer“: der Titel in Weiß auf dem Foto, die englische Zeile darunter.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#F3EFED"></i>Warmes Hell</span><span class="mini"><i style="background:#919792"></i>Grau</span><span class="mini"><i style="background:#000000"></i>Schwarz</span></p>
+      </article><article class="her k3" data-r="feder" style="--i:0">
+        <div class="k3__b her__b"><img src="buch/druck-spa-titel.jpg?v=3aafcae3a3" width="1200" height="846" alt="Spa-Broschüre, Umschlag" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">SPA-BROSCHÜRE</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #F3F7F8 · #D3CFCB · #9DCFD1 · #93B8B8 · #9C8379"><i style="flex:0.120;background:#f3f7f8;--j:0"></i><i style="flex:0.278;background:#d3cfcb;--j:1"></i><i style="flex:0.148;background:#9dcfd1;--j:2"></i><i style="flex:0.303;background:#93b8b8;--j:3"></i><i style="flex:0.151;background:#9c8379;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #F3F7F8 · #D3CFCB · #9DCFD1 · #93B8B8 · #9C8379</p>
+        <p class="her__x">„Abtauchen im PANORAMA SPA“: hier kommt das Gold her, in Titeln und Flächen.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#F1F1F2"></i>Hellgrau</span><span class="mini"><i style="background:#808285"></i>Silbergrau</span></p>
+      </article><article class="her k3" data-r="feder" style="--i:1">
+        <div class="k3__b her__b"><img src="buch/druck-kalender-titel.jpg?v=f8da864779" width="900" height="1278" alt="Kulinarischer Kalender 2026, Umschlag" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">KULINARISCHER KALENDER 2026</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #FEFEFE · #EDEDEC · #E4E3DE · #D4C090 · #916B1F"><i style="flex:0.126;background:#fefefe;--j:0"></i><i style="flex:0.188;background:#ededec;--j:1"></i><i style="flex:0.281;background:#e4e3de;--j:2"></i><i style="flex:0.145;background:#d4c090;--j:3"></i><i style="flex:0.260;background:#916b1f;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #FEFEFE · #EDEDEC · #E4E3DE · #D4C090 · #916B1F</p>
+        <p class="her__x">Ein Teller auf Weiß, darüber das Logo in Weiß, darunter der Titel in Gold.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#FFFFFF"></i>Weiß</span><span class="mini"><i style="background:#F3EFED"></i>Warmes Hell</span></p>
+      </article><article class="her k3" data-r="feder" style="--i:2">
+        <div class="k3__b her__b"><img src="buch/druck-ausbildung.jpg?v=7601d33c28" width="1200" height="846" alt="Ausbildungsbroschüre, „Lernen mit 5 Sternen“" loading="lazy" decoding="async"><span class="kerbe"><span class="kw">AUSBILDUNGSBROSCHÜRE</span></span></div>
+        <div class="her__st" aria-label="Gemessene Töne: #FFFFFF · #FCFCFD · #F8F9FB · #E8E7E9 · #564D53"><i style="flex:0.296;background:#ffffff;--j:0"></i><i style="flex:0.214;background:#fcfcfd;--j:1"></i><i style="flex:0.161;background:#f8f9fb;--j:2"></i><i style="flex:0.128;background:#e8e7e9;--j:3"></i><i style="flex:0.201;background:#564d53;--j:4"></i></div>
+        <p class="her__m">aus der Drucksache gemessen · #FFFFFF · #FCFCFD · #F8F9FB · #E8E7E9 · #564D53</p>
+        <p class="her__x">„Wir lieben, was wir tun.“ auf warmem Hell, daneben ein Mensch des Hauses.</p>
+        <p class="her__wird"><span><span class="kw">DARAUS</span></span><span class="mini"><i style="background:#FFFFFF"></i>Weiß</span><span class="mini"><i style="background:#F3EFED"></i>Warmes Hell</span><span class="mini"><i style="background:#58595B"></i>Schriftgrau</span></p>
+      </article></div>
+  </div>
+</section>
+
+<section class="ab blatt papier" id="schrift">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">SCHRIFT</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Eine Antiqua</span></span><span class="z"><span><em>für Titel.</em></span></span></h2></div>
+      <p class="mk__lead">Playfair Display setzt die Titel, auf der Website und in jeder Broschüre, in einer Stärke. Darunter steht in den Drucksachen die englische Zeile, kleiner, kursiv und in Grau. Lauftext und Knöpfe der Website stehen in Roboto Condensed, die Formulare in Open Sans. Alle drei sind frei lizenziert und liegen als Dateien bei.</p>
+    </header>
+    <article class="sch" data-g>
+        <div class="sch__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">TITEL</span></b><i></i></p><h3 class="sch__n" style="font-family:'Playfair Display'">Playfair Display</h3><dl><dt>Schnitt</dt><dd>400, eine Stärke, nie fett</dd><dt>Wofür</dt><dd>Titel der Website und jeder Broschüre</dd></dl></div>
+        <div class="sch__aa" data-r="maske" aria-hidden="true" style="font-family:'Playfair Display'"><span class="z"><span>Aa</span></span></div>
+        <div class="sch__r" data-r style="--i:2"><p class="sch__satz" style="font-family:'Playfair Display'">Willkommen<br>in Heidelberg</p><p class="sch__abc" style="font-family:'Playfair Display'">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyzäöüß<br>0123456789 · € 39,-</p></div>
+      </article><article class="sch" data-g>
+        <div class="sch__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">ENGLISCHE ZEILE</span></b><i></i></p><h3 class="sch__n" style="font-family:'Playfair Display';font-style:italic">Playfair Display kursiv</h3><dl><dt>Schnitt</dt><dd>400 kursiv, kleiner und in Silbergrau</dd><dt>Wofür</dt><dd>die englische Zeile unter dem deutschen Titel</dd></dl></div>
+        <div class="sch__aa" data-r="maske" aria-hidden="true" style="font-family:'Playfair Display';font-style:italic"><span class="z"><span>Aa</span></span></div>
+        <div class="sch__r" data-r style="--i:2"><p class="sch__satz" style="font-family:'Playfair Display';font-style:italic">Welcome<br>to Heidelberg</p><p class="sch__abc" style="font-family:'Playfair Display';font-style:italic">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789</p></div>
+      </article><article class="sch" data-g>
+        <div class="sch__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">LAUFTEXT</span></b><i></i></p><h3 class="sch__n" style="font-family:'Roboto Condensed';font-weight:300">Roboto Condensed</h3><dl><dt>Schnitt</dt><dd>300 und 400; Knöpfe in Versalien, 0,2 rem gesperrt</dd><dt>Wofür</dt><dd>Lauftext und Knöpfe der Website</dd></dl></div>
+        <div class="sch__aa" data-r="maske" aria-hidden="true" style="font-family:'Roboto Condensed';font-weight:300"><span class="z"><span>Aa</span></span></div>
+        <div class="sch__r" data-r style="--i:2"><p class="sch__satz" style="font-family:'Roboto Condensed';font-weight:300">Wir lieben,<br>was wir tun.</p><p class="sch__abc" style="font-family:'Roboto Condensed';font-weight:300">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyzäöüß<br>0123456789</p></div>
+      </article><article class="sch" data-g>
+        <div class="sch__k" data-r style="--i:0"><p class="mk__kap"><b><span class="kw">FORMULARE</span></b><i></i></p><h3 class="sch__n" style="font-family:'Open Sans'">Open Sans</h3><dl><dt>Schnitt</dt><dd>400, von der Website eigens geladen</dd><dt>Wofür</dt><dd>Suche und Formulare der Website</dd></dl></div>
+        <div class="sch__aa" data-r="maske" aria-hidden="true" style="font-family:'Open Sans'"><span class="z"><span>Aa</span></span></div>
+        <div class="sch__r" data-r style="--i:2"><p class="sch__satz" style="font-family:'Open Sans'">Zimmer, Restaurants,<br>Spa und Tagungen</p><p class="sch__abc" style="font-family:'Open Sans'">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyzäöüß<br>0123456789</p></div>
+      </article>
+  </div>
+</section>
+
+<section class="ab blatt creme tapete-h" id="drucksachen">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">DRUCKSACHEN</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Weiße Seiten,</span></span><span class="z"><span><em>ein Foto, ein Titel.</em></span></span></h2></div>
+      <p class="mk__lead">Die Broschüren des Hauses sind ruhig gebaut: viel Weiß, ein großes Foto, der Titel in Playfair Display mit der englischen Zeile darunter, das Logo oben in der Mitte. Die Karten der Restaurants und der Bar führen Deutsch und Englisch nebeneinander, getrennt durch einen senkrechten Strich.</p>
+    </header>
+    <div class="drei" data-g><article class="k3 k3--karte" data-r="feder" style="--i:0"><div class="k3__b" style="background:#fff"><img src="buch/druck-image-titel.jpg?v=989c086dde" width="900" height="1483" alt="Imagebroschüre ab 2026, Umschlag" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Imagebroschüre</b><p>„Eintreten. Wohlfühlen.“</p></div></article><article class="k3 k3--karte" data-r="feder" style="--i:1"><div class="k3__b" style="background:#fff"><img src="buch/druck-hochzeit-titel.jpg?v=4865f9d26f" width="900" height="1483" alt="Hochzeitsbroschüre ab 2024, Umschlag" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Hochzeitsbroschüre</b><p>„Für immer“</p></div></article><article class="k3 k3--karte" data-r="feder" style="--i:2"><div class="k3__b" style="background:#fff"><img src="buch/druck-kalender-titel.jpg?v=f8da864779" width="900" height="1278" alt="Kulinarischer Kalender 2026, Umschlag" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Kulinarischer Kalender 2026</b><p>Kulinarischer Kalender 2026, Umschlag</p></div></article><article class="k3 k3--karte" data-r="feder" style="--i:0"><div class="k3__b" style="background:#fff"><img src="buch/druck-image-willkommen.jpg?v=c3f3e37eb4" width="900" height="1483" alt="Imagebroschüre, Seite „Willkommen in Heidelberg“" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Imagebroschüre</b><p>„Willkommen in Heidelberg“</p></div></article><article class="k3 k3--karte" data-r="feder" style="--i:1"><div class="k3__b" style="background:#fff"><img src="buch/druck-spa-titel.jpg?v=3aafcae3a3" width="1200" height="846" alt="Spa-Broschüre, Umschlag" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Spa-Broschüre</b><p>„Abtauchen im PANORAMA SPA“</p></div></article><article class="k3 k3--karte" data-r="feder" style="--i:2"><div class="k3__b" style="background:#fff"><img src="buch/druck-ausbildung.jpg?v=7601d33c28" width="1200" height="846" alt="Ausbildungsbroschüre, „Lernen mit 5 Sternen“" loading="lazy" decoding="async"></div><div class="k3__n"><small><span class="kw">DRUCKSACHE</span></small><b>Ausbildungsbroschüre</b><p>„Wir lieben, was wir tun.“</p></div></article></div>
+  </div>
+</section>
+
+<section class="ab blatt papier" id="bilder">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">BILDER</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Helle Räume,</span></span><span class="z"><span><em>gedeckte Tafeln.</em></span></span></h2></div>
+      <p class="mk__lead">Die Fotos der Website zeigen die Räume weit und hell, mit Kronleuchtern, Stoffen und Holz; die Teller der Kurfürstenstube einzeln auf Weiß; die Menschen des Hauses vor hellem Grund. Im Bildarchiv des Markenbuchs liegen alle Fotos der Website mit ihrer Herkunft.</p>
+    </header>
+    <div class="collage" data-g><figure class="bi b1 k3" data-r="feder" style="--i:0"><div class="k3__b"><img src="../../assets/bild/kurfuerstenstube-raum-2026-1200.webp" alt="Die Kurfürstenstube mit Holzdecke" loading="lazy" decoding="async" style="object-position:50% 45%"><figcaption class="kerbe"><span class="kw">DIE KURFÜRSTENSTUBE</span></figcaption></div></figure><figure class="bi b2 k3" data-r="feder" style="--i:1"><div class="k3__b"><img src="../../assets/bild/luxus-hotel-europaeischer-hof-heidelberg-europa-bar-1200.webp" alt="Die Europa Bar, quadratisch" loading="lazy" decoding="async" style="object-position:50% 50%"><figcaption class="kerbe"><span class="kw">DIE EUROPA BAR</span></figcaption></div></figure><figure class="bi b3 k3" data-r="feder" style="--i:2"><div class="k3__b"><img src="../../assets/bild/panorama-spa-2025-1200.webp" alt="Sonnenterrasse mit Blick auf den Odenwald" loading="lazy" decoding="async" style="object-position:50% 50%"><figcaption class="kerbe"><span class="kw">PANORAMA SPA</span></figcaption></div></figure><figure class="bi b4 k3" data-r="feder" style="--i:0"><div class="k3__b"><img src="../../assets/bild/eeh-essensfotos-2026-03-1200.webp" alt="Garnele im Teller, Aufsicht" loading="lazy" decoding="async" style="object-position:50% 50%"><figcaption class="kerbe"><span class="kw">EIN TELLER AUF WEISS</span></figcaption></div></figure><figure class="bi b5 k3" data-r="feder" style="--i:1"><div class="k3__b"><img src="../../assets/bild/hotelhalle-2026-1200.webp" alt="Die Halle von oben" loading="lazy" decoding="async" style="object-position:50% 50%"><figcaption class="kerbe"><span class="kw">DIE HALLE</span></figcaption></div></figure><figure class="bi b6 k3" data-r="feder" style="--i:2"><div class="k3__b"><img src="../../assets/bild/galerie-big-sommerrestaurant-terrasse-scaled-1-1200.webp" alt="Das Sommerrestaurant, Terrasse im Innenhof" loading="lazy" decoding="async" style="object-position:50% 50%"><figcaption class="kerbe"><span class="kw">DIE TERRASSE IM INNENHOF</span></figcaption></div></figure><figure class="bi b7 k3" data-r="feder" style="--i:0"><div class="k3__b"><img src="../../assets/bild/luxus-hotel-europaeischer-hof-heidelberg-alte-bruecke-heidelberg-1200.webp" alt="Die Alte Brücke, klein" loading="lazy" decoding="async" style="object-position:50% 60%"><figcaption class="kerbe"><span class="kw">HEIDELBERG VOR DER TÜR</span></figcaption></div></figure></div>
+    <div class="satz3" data-g>
+      <div data-r style="--i:0"><h3>Ein Foto, ein Raum.</h3><p>Jedes Bild zeigt genau den Ort, von dem der Text spricht.</p></div>
+      <div data-r style="--i:1"><h3>Teller auf Weiß.</h3><p>Die Gerichte stehen einzeln, von oben oder flach, auf hellem Grund.</p></div>
+      <div data-r style="--i:2"><h3>Herkunft vermerkt.</h3><p>Fotografiert haben Thomas Haberland und Melisa Kara; wo die Herkunft offen ist, steht es im Bildarchiv.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="fenster" aria-label="Schönheit in jedem Detail.">
+  <div class="fenster__f">
+    <div class="fenster__b"><img src="buch/bilder/galerie-big-kaminzimmer.jpg" alt="Das Kaminzimmer, breit" decoding="async" style="object-position:50% 50%"></div>
+    <div class="fenster__t"><p class="fenster__s"><span class="z"><span>Schönheit</span></span><span class="z"><span><em>in jedem Detail.</em></span></span></p><p class="fenster__u">Das Kaminzimmer. Titel einer Doppelseite der Imagebroschüre.</p></div>
+  </div>
+</section>
+
+<section class="ab blatt marine tapete" id="bausteine">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">BAUSTEINE</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Knopf, Karte</span></span><span class="z"><span><em>und zwei Sprachen.</em></span></span></h2></div>
+      <p class="mk__lead">Die kleinen Teile, die auf Website und Papier wiederkehren: der Knopf der Website mit feiner Linie und Versalien, die Karte mit Preis und Allergenen, der Titel mit seiner englischen Zeile.</p>
+    </header>
+    <div class="baus" data-g>
+      <div class="bau" data-r="feder" style="--i:0"><div class="bau__f knr knr--mitte"><span class="kn-haus">Kontaktformular</span><span class="kn-haus">Mehr erfahren</span></div><h3>Knöpfe</h3><p>Roboto Condensed in Versalien, 0,2 rem gesperrt, mit feiner Linie in der Farbe der Schrift, so wie auf der Website.</p></div>
+      <div class="bau" data-r="feder" style="--i:1"><div class="bau__f" style="justify-content:center"><div class="karte-probe"><h4>Kalte Vorspeisen <em>| Cold Starters</em></h4><p><span>Heimischer Feldsalat mit steirischer Kürbiskernöl-Vinaigrette<small>Local lamb’s lettuce with Styrian pumpkin seed oil vinaigrette</small></span><span>€ 18,-</span></p></div></div><h3>Die Karte</h3><p>Deutsch, senkrechter Strich, Englisch kursiv; der Preis mit „€“ vorn und Strich bei vollen Euro, wie in der Kurfürstenstube.</p></div>
+      <div class="bau" data-r="feder" style="--i:2"><div class="bau__f bau__f--druck" data-r="maske"><div><p class="mk__kap"><b><span class="kw">IMAGEBROSCHÜRE 2026</span></b><i></i></p><p class="zwei-spr">Alles Unikate<em>Every piece is unique</em></p></div><img src="buch/druck-image-zimmer.jpg?v=368a7a24d0" width="1400" height="1153" alt="Doppelseite „Alles Unikate“ der Imagebroschüre" loading="lazy" decoding="async"></div><h3>Die zweite Zeile</h3><p>Unter jedem deutschen Titel steht die englische Zeile, kursiv, kleiner und in Silbergrau. So sind die Broschüren gebaut.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ab blatt creme tapete-h" id="logo">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">LOGO RICHTIG UND FALSCH</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Eingesetzt,</span></span><span class="z"><span><em>nie verändert.</em></span></span></h2></div>
+      <p class="mk__lead">Logo, Name und Wappen sind Dateien. Sie werden eingesetzt, nie nachgezeichnet, nie umgefärbt, nie gestreckt. Vier Dinge, die gehen, und vier, die nicht gehen.</p>
+    </header>
+    <p class="mk__kap" data-r><b><span class="kw">RICHTIG</span></b><i></i></p>
+    <div class="regeln regeln--4" data-g style="margin-top:18px;margin-bottom:clamp(40px,4vw,64px)"><div class="regel regel--r" data-r="feder" style="--i:0"><div class="regel__f"><div class="lf" style="background:#fff;"><img src="dateien/europaeischer-hof-heidelberg-voll.jpg" alt=""></div></div><h3>Das ganze Logo</h3><p>Wappen über dem Namen, auf Weiß. So steht es oben auf den Seiten der Broschüren.</p></div><div class="regel regel--r" data-r="feder" style="--i:1"><div class="regel__f"><div class="lf" style="background:#000;"><img src="buch/zeichen/logo_white_bottom.png" alt=""></div></div><h3>Der Name in Weiß</h3><p>Auf Schwarz und auf dunklen Fotos, wie im Kopf der Website.</p></div><div class="regel regel--r" data-r="feder" style="--i:2"><div class="regel__f"><div class="lf" style="background:#F3EFED;"><img src="dateien/europaeischer-hof-heidelberg-wortmarke-schwarz.png" alt=""></div></div><h3>Der Name in Schwarz</h3><p>Auf hellem Grund, wo das Wappen schon an anderer Stelle steht.</p></div><div class="regel regel--r" data-r="feder" style="--i:3"><div class="regel__f"><div class="lf" style="background:#fff;"><img src="buch/zeichen/wappen-maske-dunkel.png" alt="" style="max-height:96px"></div></div><h3>Das Wappen allein</h3><p>Als kleines Zeichen: im Browser, über PANORAMA SPA. Kein Ersatz für das ganze Logo.</p></div></div>
+    <p class="mk__kap" data-r><b><span class="kw">FALSCH</span></b><i></i></p>
+    <div class="regeln regeln--4" data-g style="margin-top:18px"><div class="regel regel--f" data-r="feder" style="--i:0"><div class="regel__f"><div class="lf" style="background:#fff;"><img src="dateien/europaeischer-hof-heidelberg-wortmarke-schwarz.png" alt="" style="transform:scaleX(1.5);max-width:60%"></div></div><h3>Gestreckt</h3><p>Die Proportion bleibt. Nie breiter, höher oder schmaler gezogen.</p></div><div class="regel regel--f" data-r="feder" style="--i:1"><div class="regel__f"><div class="lf" style="background:#fff;"><img src="dateien/europaeischer-hof-heidelberg-wortmarke-schwarz.png" alt="" style="filter:invert(18%) sepia(98%) saturate(5000%) hue-rotate(300deg)"></div></div><h3>Umgefärbt</h3><p>Nur Schwarz oder Weiß. Pink, Gold oder Grau nie als Farbe des Logos.</p></div><div class="regel regel--f" data-r="feder" style="--i:2"><div class="regel__f"><div class="lf" style="background:#202020;"><img src="buch/zeichen/logo_white_bottom.png" alt="" style="filter:drop-shadow(0 0 10px #A1884C) drop-shadow(0 4px 6px #000)"></div></div><h3>Mit Schatten und Glanz</h3><p>Kein Schatten, kein Leuchten, kein Prägen. Das Logo liegt flach.</p></div><div class="regel regel--f" data-r="feder" style="--i:3"><div class="regel__f"><div class="lf" style="background:#fff;"><span style="font-family:Playfair Display;font-size:clamp(20px,2vw,28px);color:#000;text-align:center;line-height:1.1">Der Europäische Hof<br>Heidelberg</span></div></div><h3>Neu gesetzt</h3><p>Der Name wird nie in der Titelschrift nachgeschrieben, auch nicht in Playfair Display. Das Logo ist eine Datei.</p></div></div>
+  </div>
+</section>
+
+<section class="ab blatt papier" id="ehre">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">AUSZEICHNUNGEN</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Ausgezeichnet,</span></span><span class="z"><span><em>in eigenen Farben.</em></span></span></h2></div>
+      <p class="mk__lead">Im Fuß der Website stehen die Zeichen der Auszeichnungen und Mitgliedschaften des Hauses. Sie werden nur als Originaldatei gezeigt, in ihren eigenen Farben, nie umgefärbt und nie beschnitten.</p>
+    </header>
+    <div class="ehre" data-g><figure data-r="feder" style="--i:0"><div><img src="dateien/ehre/michelin-guide-2026.png" alt="Restaurant Selection: die Kurfürstenstube im Michelin Guide 2026. Die Website zeigt die Plakette in Rot und in Grau." loading="lazy" decoding="async"></div><figcaption>Michelin Guide&nbsp;2026</figcaption></figure><figure data-r="feder" style="--i:1"><div><img src="dateien/ehre/greensign.png" alt="Logo des Greensign Institutes, welches den Europäischen Hof für nachhaltigen Tourismus zertifiziert hat." loading="lazy" decoding="async"></div><figcaption>GreenSign</figcaption></figure><figure data-r="feder" style="--i:2"><div><img src="dateien/ehre/fair-job-hotels.png" alt="Logo der Initiative „Fair Job Hotels“ mit dem Slogan „Werte leben“." loading="lazy" decoding="async"></div><figcaption>Fair Job&nbsp;Hotels</figcaption></figure><figure data-r="feder" style="--i:3"><div><img src="dateien/ehre/101-besten-hotels.png" alt="Auszeichnung „Die 101 besten Hotels Deutschlands 2023/2024“." loading="lazy" decoding="async"></div><figcaption>Die 101 besten Hotels&nbsp;Deutschlands</figcaption></figure><figure data-r="feder" style="--i:4"><div><img src="dateien/ehre/best-of-southwest.png" alt="Best of Southwest Germany – Private Luxury Hotels in Baden-Württemberg." loading="lazy" decoding="async"></div><figcaption>Best of Southwest&nbsp;Germany</figcaption></figure><figure data-r="feder" style="--i:5"><div><img src="dateien/ehre/hotelier-des-jahres.png" alt="Logo der Auszeichnung „Hotelier des Jahres“." loading="lazy" decoding="async"></div><figcaption>Hotelier des&nbsp;Jahres</figcaption></figure><figure data-r="feder" style="--i:0"><div><img src="dateien/ehre/brillat-savarin.png" alt="Rundes Logo mit Porträt von Brillat Savarin und der Aufschrift „66. Brillat Savarin Plakette“." loading="lazy" decoding="async"></div><figcaption>66.&nbsp;Brillat-Savarin-Plakette</figcaption></figure><figure data-r="feder" style="--i:1"><div><img src="dateien/ehre/top-ausbildungsbetrieb.jpg" alt="Siegel der DEHOGA: Der Europäische Hof Heidelberg ist Top-Ausbildungsbetrieb." loading="lazy" decoding="async"></div><figcaption>DEHOGA&nbsp;Top-Ausbildungsbetrieb</figcaption></figure><figure data-r="feder" style="--i:2"><div><img src="dateien/ehre/top-arbeitgeber.png" alt="Top Arbeitgeber – Hotel &amp; Gastro, Hospitality HR Award by Deutsche Hotelakademie." loading="lazy" decoding="async"></div><figcaption>Top Arbeitgeber Hotel &amp;&nbsp;Gastro</figcaption></figure><figure data-r="feder" style="--i:3"><div><img src="dateien/ehre/hotelverband.png" alt="Logo des Hotelverbandes Deutschland (IHA)." loading="lazy" decoding="async"></div><figcaption>Hotelverband&nbsp;IHA</figcaption></figure><figure data-r="feder" style="--i:4"><div><img src="dateien/ehre/erfolgsfaktor-familie.webp" alt="Mitglied im Unternehmensnetzwerk „Erfolgsfaktor Familie“." loading="lazy" decoding="async"></div><figcaption>Erfolgsfaktor&nbsp;Familie</figcaption></figure><figure data-r="feder" style="--i:5"><div><img src="dateien/ehre/familienunternehmer.png" alt="Mitglied im Verband „Die Familienunternehmer“." loading="lazy" decoding="async"></div><figcaption>ASU – Die&nbsp;Familienunternehmer</figcaption></figure></div>
+  </div>
+</section>
+
+<section class="ab blatt creme" id="welt">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">DIE EIGENE WELT</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Was nur der</span></span><span class="z"><span><em>Europäische Hof ist.</em></span></span></h2></div>
+      <p class="mk__lead">Das Haus spricht seine Gäste mit Sie an, in ruhigen, vollständigen Sätzen und ohne Werbesprache. Die Broschüren sprechen von Sorgfalt und vom einzelnen Gast, die Karten nennen genau, was auf den Teller kommt.</p>
+    </header>
+    <div class="satz3" data-g style="margin-top:0;padding-top:0;border-top:0">
+      <div data-r style="--i:0"><h3>Charakter</h3><ul><li>Ein Grandhotel in Familienhand seit 1865, heute in vierter Generation.</li><li>Halle, Kaminzimmer und Treppe: Kronleuchter, Stoffe, Holz und viel Licht.</li><li>Die Kurfürstenstube von Mitte September bis Mitte April, im Sommer das Restaurant im Innenhof.</li></ul></div>
+      <div data-r style="--i:1"><h3>Worte des Hauses</h3><ul><li>Wir lieben, was wir tun.</li><li>Eintreten. Wohlfühlen.</li><li>Schönheit in jedem Detail</li><li>Genüsse für Kenner</li><li>Sie werden schon erwartet</li><li>Privathotel seit 1865</li></ul></div>
+      <div data-r style="--i:2"><h3>Nicht</h3><ul class="nicht"><li>Du</li><li>Ausrufezeichen</li><li>Schnäppchen</li><li>Superlative ohne Beleg</li><li>Abfertigung und Stückzahlen</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="ab blatt marine tapete schluss" id="mitnehmen">
+  <div class="in">
+    <header class="mk" data-r="kopf">
+      <div><p class="mk__kap"><b><span class="kw">ZUM MITNEHMEN</span></b><i></i></p>
+      <h2 class="mk__t"><span class="z"><span>Alles für die</span></span><span class="z"><span><em>nächste Drucksache.</em></span></span></h2></div>
+      <p class="mk__lead">Logo, Name und Wappen als Originaldateien, die Farben als fertige Dateien, die Schriften zum Installieren. Wer eine Broschüre, eine Karte oder einen Aushang gestaltet, findet hier alles dafür.</p>
+    </header>
+    <ul class="laden" data-g><li data-r style="--i:0"><span><b>Das ganze Logo</b><small>Wappen und Name auf Weiß · JPG</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-voll.jpg" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:1"><span><b>Der Name in Weiß</b><small>für Schwarz und dunkle Fotos · PNG</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-wortmarke-weiss.png" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:2"><span><b>Der Name in Schwarz</b><small>für hellen Grund · PNG</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-wortmarke-schwarz.png" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:3"><span><b>Das Wappen</b><small>in Weiß · PNG</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-wappen-weiss.png" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:4"><span><b>Farben</b><small>alle neun Töne · CSS</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-farben.css" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:5"><span><b>Farben für Grafikprogramme</b><small>Adobe Swatch Exchange · ASE</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-farben.ase" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:6"><span><b>Schriften</b><small>Playfair Display, Roboto Condensed, Open Sans · ZIP</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-schriften.zip" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li><li data-r style="--i:7"><span><b>Alles zur Marke</b><small>Logo, Wappen, Farben · ZIP</small></span><a class="kn " href="dateien/europaeischer-hof-heidelberg-marke.zip" download><span class="kw">LADEN</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v10M3.5 7.5 8 12l4.5-4.5M3 14h10"/></svg></i></a></li></ul>
+    <div class="ende" data-r="ende">
+      <span class="strich strich--gross"><img src="buch/zeichen/wappen-gold.png" alt="" style="height:64px;width:auto"></span>
+      <p class="ende__w"><img src="buch/zeichen/logo_white_bottom.png" alt="Der Europäische Hof Heidelberg" style="width:min(380px,70vw);height:auto;margin:0 auto"></p>
+      <p class="ende__s">Markenbuch · Der Europäische Hof Heidelberg · Stand November 2026.</p>
+    </div>
+  </div>
+</section>
+</main>
+<div class="meldung" id="meldung" aria-live="polite"></div>
+<script src="buch/marke.js?v=8b092e3350" defer></script>
+<script src="buch.js?v=6318e09859"></script>
+</body>
+</html>

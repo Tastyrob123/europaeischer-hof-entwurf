@@ -1,0 +1,41 @@
+{
+ "geprueft": "Wort für Wort gegen pdftotext -raw, Zahl und Summe der Preise gegen das Original (karten_lesen.py)",
+ "karten": {
+  "kurfuerstenstube": {
+   "name": "Die Kurfürstenstube",
+   "seiten": 6,
+   "pdf": "Kurfuerstenstube-ab-16.OKT_.26.pdf",
+   "pdf_datum": "16.10.2026"
+  },
+  "weinkarte": {
+   "name": "Die Weinkarte",
+   "seiten": 32,
+   "pdf": "2025-kurfürstenstube-Weinkarte.pdf",
+   "pdf_datum": "24.06.2025"
+  },
+  "barkarte": {
+   "name": "Die Barkarte",
+   "seiten": 6,
+   "pdf": "Barkarte-ab-10.01.2024.pdf",
+   "pdf_datum": "31.08.2024"
+  },
+  "zigarren": {
+   "name": "Die Zigarrenliste",
+   "seiten": 1,
+   "pdf": "Zigarren-Liste-Aushang_ab-11.2026.pdf",
+   "pdf_datum": "04.11.2026"
+  },
+  "catering": {
+   "name": "Das Catering",
+   "seiten": 3,
+   "pdf": "Luxus-Hotel-Europaeischer-Hof-Heidelberg-Catering-2021.pdf",
+   "pdf_datum": "19.01.2021"
+  },
+  "kalender": {
+   "name": "Der Kulinarische Kalender",
+   "seiten": 12,
+   "pdf": "EHH_Kulinarischer_Kalender_WEBDESING.pdf",
+   "pdf_datum": "17.11.2025"
+  }
+ }
+}

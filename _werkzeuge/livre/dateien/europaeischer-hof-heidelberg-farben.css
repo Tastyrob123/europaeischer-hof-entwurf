@@ -1,0 +1,12 @@
+/* Der Europäische Hof Heidelberg · Farben der Marke (09.11.2026): Website (theme-styles.css) und Drucksachen (gemessen) */
+:root{
+  --schwarz:#000000; /* Schwarz: Hauptfarbe der Website: Schrift, Linie der Knöpfe, Kopf und Fuss */
+  --grau:#919792; /* Grau: Grau der Website: Fokuslinie, leise Linien */
+  --hellgrau:#F1F1F2; /* Hellgrau: helle Fläche der Website */
+  --warmhell:#F3EFED; /* Warmes Hell: Grund der Karten und Kacheln auf der Website */
+  --weiss:#FFFFFF; /* Weiss: Grund der Seiten, Website und Drucksachen */
+  --pink:#DF007E; /* Pink: nur die Gutschein-Plakette der Website, sparsam, nie als Fläche */
+  --druckgrau:#58595B; /* Schriftgrau: Lauftext der Image- und Hochzeitsbroschüre */
+  --drucksilber:#808285; /* Silbergrau: die englische Zeile unter den Titeln der Broschüren */
+  --gold:#A1884C; /* Gold: Titel und Flächen der Spa-Broschüre */
+}

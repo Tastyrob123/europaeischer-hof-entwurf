@@ -1,0 +1,32 @@
+Karte zigarren · Zigarren-Liste-Aushang_ab-11.2026.pdf
+Wörter in den Daten: 199 · in der PDF (pdftotext -raw): 199
+Preise in den Daten: 24, Summe 925.40 · im Original: 24, Summe 925.40
+Ergebnis: GLEICH (Wort für Wort, jedes Wort gleich oft; Zahl und Summe der Preise gleich)
+
+--- Seite 1
+  {"t": "tabellenkopf", "spalten": [{"de": "Fach", "en": "Compartment"}, {"de": "Zigarren", "en": "Cigars"}, {"de": "Preis pro Stück", "en": "Price per piece"}]}
+  {"t": "zigarre", "nr": "1", "name": "Partagas Chicos | Cuba", "preis": "1,20 €"}
+  {"t": "zigarre", "nr": "2", "name": "Cohiba Club | Cuba", "preis": "1,15 €"}
+  {"t": "zigarre", "nr": "3", "name": "Montecristo Club | Cuba", "preis": "0,95 €"}
+  {"t": "zigarre", "nr": "4", "name": "Montecristo No 5 | Cuba", "preis": "12,20 €"}
+  {"t": "zigarre", "nr": "5", "name": "Cuaba Divinos | Cuba", "preis": "10,00 €"}
+  {"t": "zigarre", "nr": "6", "name": "Montecristo Maltes | Cuba", "preis": "65,00 €"}
+  {"t": "zigarre", "nr": "7", "name": "Trinidad Edición Limitada | Cuba", "preis": "110,00 €"}
+  {"t": "zigarre", "nr": "8", "name": "Partagas Rito | Cuba", "preis": "90,00 €"}
+  {"t": "zigarre", "nr": "9", "name": "Qual d'Orsay Especial 50 Años | Cuba", "preis": "50,00 €"}
+  {"t": "zigarre", "nr": "10", "name": "Cohiba Robusto | Cuba", "preis": "78,00 €"}
+  {"t": "zigarre", "nr": "11", "name": "Cohiba Magicos | Cuba", "preis": "83,30 €"}
+  {"t": "zigarre", "nr": "12", "name": "Rocky Patel Year of Horse Churchill | Nicaragua", "preis": "27,50 €"}
+  {"t": "zigarre", "nr": "13", "name": "Patargas Year of the snake | Cuba", "preis": "70,00 €"}
+  {"t": "zigarre", "nr": "14", "name": "Skelton relax Robusto | Nicaragua", "preis": "9,90 €"}
+  {"t": "zigarre", "nr": "15", "name": "Rocky Patel Year of the Horse | Nicaragua", "preis": "27,50 €"}
+  {"t": "zigarre", "nr": "16", "name": "Arturo Fuente Magnum R | Dom. Republik", "preis": "15,90 €"}
+  {"t": "zigarre", "nr": "17", "name": "Arturo Fuentes Don Carlos Presidente Dom. Republik", "preis": "24,90 €"}
+  {"t": "zigarre", "nr": "18", "name": "Davidoff Escurio Robusto | Brasil", "preis": "19,50 €"}
+  {"t": "zigarre", "nr": "19", "name": "Davidoff Late Hour Churchill Dom. Republik", "preis": "33,50 €"}
+  {"t": "zigarre", "nr": "20", "name": "Davidoff Royal Release Robusto Dom. Republik", "preis": "120,00 €"}
+  {"t": "zigarre", "nr": "21", "name": "Davidoff Grand Cru Robusto | Dom. Republik", "preis": "24,20 €"}
+  {"t": "zigarre", "nr": "22", "name": "Oliva Melanio Gran Reserva Limitada | Nicaragua", "preis": "27,00 €"}
+  {"t": "zigarre", "nr": "23", "name": "Oliva Serie V Belicoso | Nicaragua", "preis": "12,70 €"}
+  {"t": "zigarre", "nr": "24", "name": "Flor de Selva Robusto | Honduras", "preis": "11,00 €"}
+  {"t": "stand", "de": "Stand November 2026"}

@@ -1,0 +1,59 @@
+@font-face{font-family:PF;src:url(../../assets/schrift/playfair-display-latin-400-normal.woff2)}
+@font-face{font-family:PF;font-style:italic;src:url(../../assets/schrift/playfair-display-latin-400-italic.woff2)}
+@font-face{font-family:RC;font-weight:300;src:url(../../assets/schrift/roboto-condensed-latin-300-normal.woff2)}
+@font-face{font-family:RC;font-weight:400;src:url(../../assets/schrift/roboto-condensed-latin-400-normal.woff2)}
+@font-face{font-family:RC;font-weight:500;src:url(../../assets/schrift/roboto-condensed-latin-500-normal.woff2)}
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{background:#5d5d5d;font:300 11pt/1.42 RC,sans-serif}
+@media screen{body{padding:30px 0;display:flex;flex-direction:column;align-items:center;gap:30px}}
+@media print{body{background:none}.seite{break-after:page}}
+.seite{width:210mm;height:297mm;position:relative;overflow:hidden;display:flex;flex-direction:column}
+sup{font:400 7.5pt RC;letter-spacing:.02em;vertical-align:.45em;margin-left:.4mm}
+.vg{height:3.6mm;vertical-align:-.5mm;margin-left:1.6mm}
+.hin .vg{height:3mm;margin:0 .6mm}
+.liste{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+.teller{display:none;justify-content:center;align-items:center;flex:none}
+.teller img{display:block;mix-blend-mode:multiply}
+.hw em,.leg em{display:block}
+/* Entwurf 2 · Salon: warmes Hell, Satz linksbündig, Preise rechts, feine schwarze Linien */
+.e2 .seite{background:#f3efed;color:#000;padding:16mm 20mm 12mm}
+.e2 .lauf{display:flex;align-items:center;gap:3mm;font:400 9pt RC;letter-spacing:.3em;text-transform:uppercase;color:#58595b}.e2 .lauf img{height:7.5mm}
+.e2 .kopf{margin-top:9mm;padding-bottom:3.4mm;border-bottom:.4mm solid #000;display:flex;align-items:baseline;justify-content:space-between;gap:6mm}
+.e2 .kopf h2{font:400 21pt/1.1 PF;letter-spacing:.1em;text-transform:uppercase}
+.e2 .kopf p{font:400 10.5pt RC;letter-spacing:.2em;text-transform:uppercase;color:#808285;white-space:nowrap}
+.e2 .liste{justify-content:flex-start}
+.e2 .g{display:grid;grid-template-columns:1fr auto;column-gap:8mm;padding:4.2mm 0;border-bottom:.2mm solid rgba(0,0,0,.2)}
+.e2 .gn{font:400 12.5pt/1.32 PF;grid-column:1}.e2 .ge{grid-column:1;font:300 11pt/1.4 RC;color:#58595b;margin-top:.8mm}
+.e2 .gp{grid-column:2;grid-row:1/3;font:400 11.5pt RC;letter-spacing:.04em;text-align:right;white-space:nowrap}.e2 .pre{display:block;font-size:10pt;color:#808285}
+.e2 .rub{margin-top:9mm;padding-bottom:2.6mm;border-bottom:.4mm solid #000;display:flex;justify-content:space-between;align-items:baseline;font:400 15pt/1.15 PF;letter-spacing:.1em;text-transform:uppercase}
+.e2 .rub em{font:400 10pt RC;letter-spacing:.2em;color:#808285;font-style:normal}
+.e2 .zw{margin-top:6mm;font:400 10pt RC;letter-spacing:.24em;text-transform:uppercase;color:#8a7340;display:flex;justify-content:space-between}.e2 .zw em{font-style:normal;color:#808285}
+.e2 .stern{display:none}
+.e2 .mps{margin-top:6mm;padding-top:3.4mm;border-top:.4mm solid #000}.e2 .mp{display:flex;justify-content:space-between;gap:6mm;padding:1.6mm 0;font:400 12pt PF;border-bottom:.2mm solid rgba(0,0,0,.2)}.e2 .mp em{font:300 10.5pt RC;color:#58595b;font-style:normal;text-align:right}
+.e2 .hw{font-size:11pt;color:#58595b;margin-top:5mm}.e2 .hw em{color:#808285;font-style:normal}.e2 .leg{font-size:9.5pt;line-height:1.45;color:#58595b;margin-top:5mm}.e2 .leg em{color:#808285;font-style:normal}
+.e2 .z{display:grid;grid-template-columns:1fr 16mm 18mm;align-items:baseline;padding:2mm 0;border-bottom:.2mm solid rgba(0,0,0,.15)}.e2 .zn{font:400 11.5pt PF}.e2 .z i{display:none}
+.e2 .zm{font-size:11pt;color:#808285;text-align:right}.e2 .zp{font-size:11pt;text-align:right}
+.e2 .teller{margin:5mm 0 1mm;justify-content:flex-end}
+.e2 .fu{margin-top:4mm;padding-top:2.6mm;border-top:.2mm solid rgba(0,0,0,.35);display:flex;justify-content:space-between;font:400 9pt RC;letter-spacing:.16em;text-transform:uppercase;color:#808285}
+.e2 .hin{font-size:8.5pt;line-height:1.35;color:#808285;margin-top:1.2mm}
+/* Deckblatt und Rückseite: der Name als grosser Satz, linksbündig */
+.e2 .deck,.e2 .rueck{padding:20mm 20mm 18mm;justify-content:space-between}
+.e2 .deck .lauf,.e2 .rueck .lauf{font-size:10pt}
+.e2 .deck .mitte{border-top:.4mm solid #000;padding-top:9mm;flex:1;display:flex;flex-direction:column;margin-top:14mm}
+.e2 .deck .die{font:400 11pt RC;letter-spacing:.5em;text-transform:uppercase;color:#8a7340}
+.e2 .deck h1{font:400 58pt/1 PF;letter-spacing:-.005em;margin-top:4mm}
+.e2 .deck .en{font:400 11pt RC;letter-spacing:.3em;text-transform:uppercase;color:#58595b;margin-top:8mm}
+.e2 .deck .teller{display:flex;flex:1;justify-content:flex-end;align-items:center;margin:6mm 0}.e2 .deck .teller img{width:112mm}
+.e2 .deck .unten,.e2 .rueck .unten{border-top:.4mm solid #000;padding-top:4mm;display:flex;justify-content:space-between;font:400 10pt RC;letter-spacing:.24em;text-transform:uppercase;color:#58595b}
+.e2 .rueck .mitte{border-top:.4mm solid #000;padding-top:10mm}
+.e2 .rueck .satz{font:400 40pt/1.08 PF}
+.e2 .rueck .txt{font:300 12.5pt/1.6 RC;color:#58595b;max-width:120mm;margin-top:9mm}
+.e2 .rueck .teller{display:flex;justify-content:flex-end;margin-top:2mm}.e2 .rueck .teller img{width:66mm}
+.e2 .rueck .adr{margin-top:6mm}.e2 .rueck .adr img{width:64mm;display:block}.e2 .rueck .adr p{font:300 11pt/1.6 RC;color:#58595b;margin-top:5mm}
+/* volle Seiten: nur die Abstände werden enger, der Lesetext bleibt 11 pt */
+.eng .g{margin-top:3.2mm!important;padding-top:2.6mm!important;padding-bottom:2.6mm!important}.eng .rub{margin-top:6mm!important}.eng .zw{margin-top:4mm!important}.eng .z{margin-top:1.4mm!important;padding-top:1.4mm!important;padding-bottom:1.4mm!important}.eng .kopf{margin-bottom:-1mm}
+.enger .g{margin-top:2mm!important;padding-top:1.8mm!important;padding-bottom:1.8mm!important}.enger .gn{line-height:1.24!important}.enger .ge{line-height:1.3!important}.enger .orn{margin-top:3mm!important}.enger .stern{margin-top:1.2mm!important;line-height:1}
+.enger .kopf img{height:8mm!important}.enger .kopf h2{font-size:17pt!important}.enger .mps{margin-top:4mm!important;padding-top:2.4mm!important}.enger .mp{margin-top:.8mm!important;padding-top:.8mm!important;padding-bottom:.8mm!important}.enger .rub{margin-top:5mm!important}
+.am-engsten .g{margin-top:1.2mm!important;padding-top:1.2mm!important;padding-bottom:1.2mm!important}.am-engsten .stern{display:none!important}.am-engsten .kopf img{display:none!important}.am-engsten .orn{margin-top:2mm!important}.am-engsten .mp em{display:inline!important;margin-left:2mm}.am-engsten .gn{font-size:12pt!important}.am-engsten .z{margin-top:.8mm!important;padding-top:.9mm!important;padding-bottom:.9mm!important}.am-engsten .lauf{display:none!important}.am-engsten .kopf{margin-top:0!important}

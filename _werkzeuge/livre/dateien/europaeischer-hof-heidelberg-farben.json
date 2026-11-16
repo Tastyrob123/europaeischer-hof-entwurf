@@ -1,0 +1,110 @@
+[
+ {
+  "name": "Schwarz",
+  "hex": "#000000",
+  "rgb": [
+   0,
+   0,
+   0
+  ],
+  "rolle": "Hauptfarbe der Website: Schrift, Linie der Knöpfe, Kopf und Fuss",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Grau",
+  "hex": "#919792",
+  "rgb": [
+   145,
+   151,
+   146
+  ],
+  "rolle": "Grau der Website: Fokuslinie, leise Linien",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Hellgrau",
+  "hex": "#F1F1F2",
+  "rgb": [
+   241,
+   241,
+   242
+  ],
+  "rolle": "helle Fläche der Website",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Warmes Hell",
+  "hex": "#F3EFED",
+  "rgb": [
+   243,
+   239,
+   237
+  ],
+  "rolle": "Grund der Karten und Kacheln auf der Website",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Weiß",
+  "hex": "#FFFFFF",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "rolle": "Grund der Seiten, Website und Drucksachen",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Pink",
+  "hex": "#DF007E",
+  "rgb": [
+   223,
+   0,
+   126
+  ],
+  "rolle": "nur die Gutschein-Plakette der Website, sparsam, nie als Fläche",
+  "gruppe": "website",
+  "woher": "Wert der Website (theme-styles.css)"
+ },
+ {
+  "name": "Schriftgrau",
+  "hex": "#58595B",
+  "rgb": [
+   88,
+   89,
+   91
+  ],
+  "rolle": "Lauftext der Image- und Hochzeitsbroschüre",
+  "gruppe": "druck",
+  "woher": "gemessen in der Drucksache EHH_Imagebroschuere-ab-2026.pdf"
+ },
+ {
+  "name": "Silbergrau",
+  "hex": "#808285",
+  "rgb": [
+   128,
+   130,
+   133
+  ],
+  "rolle": "die englische Zeile unter den Titeln der Broschüren",
+  "gruppe": "druck",
+  "woher": "gemessen in der Drucksache EHH_Imagebroschuere-ab-2026.pdf"
+ },
+ {
+  "name": "Gold",
+  "hex": "#A1884C",
+  "rgb": [
+   161,
+   136,
+   76
+  ],
+  "rolle": "Titel und Flächen der Spa-Broschüre",
+  "gruppe": "druck",
+  "woher": "gemessen in der Drucksache EHH_Spa_Broschuere_DINA5quer_RZ_web_260327.pdf"
+ }
+]

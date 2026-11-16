@@ -1,0 +1,61 @@
+@font-face{font-family:PF;src:url(../../assets/schrift/playfair-display-latin-400-normal.woff2)}
+@font-face{font-family:PF;font-style:italic;src:url(../../assets/schrift/playfair-display-latin-400-italic.woff2)}
+@font-face{font-family:RC;font-weight:300;src:url(../../assets/schrift/roboto-condensed-latin-300-normal.woff2)}
+@font-face{font-family:RC;font-weight:400;src:url(../../assets/schrift/roboto-condensed-latin-400-normal.woff2)}
+@font-face{font-family:RC;font-weight:500;src:url(../../assets/schrift/roboto-condensed-latin-500-normal.woff2)}
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{background:#5d5d5d;font:300 11pt/1.42 RC,sans-serif}
+@media screen{body{padding:30px 0;display:flex;flex-direction:column;align-items:center;gap:30px}}
+@media print{body{background:none}.seite{break-after:page}}
+.seite{width:210mm;height:297mm;position:relative;overflow:hidden;display:flex;flex-direction:column}
+sup{font:400 7.5pt RC;letter-spacing:.02em;vertical-align:.45em;margin-left:.4mm}
+.vg{height:3.6mm;vertical-align:-.5mm;margin-left:1.6mm}
+.hin .vg{height:3mm;margin:0 .6mm}
+.liste{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+.teller{display:none;justify-content:center;align-items:center;flex:none}
+.teller img{display:block;mix-blend-mode:multiply}
+.hw em,.leg em{display:block}
+/* Entwurf 3 · Abend: Deckblatt und Rückseite in Schwarz mit Wappen-Tapete wie die abgenommene Schlössli-Karte, innen Hellgrau mit Gold, Überschrift auf der Mitte */
+.e3 .seite{background:#f1f1f2;color:#000;padding:16mm 26mm 12mm}
+.e3 .innen::before,.e3 .innen::after{content:"";position:absolute;top:10mm;bottom:10mm;width:.3mm;background:#a1884c}.e3 .innen::before{left:13mm}.e3 .innen::after{right:13mm}
+.e3 .kopf{text-align:center}.e3 .kopf img{height:10mm}
+.e3 .kopf .titel{display:flex;align-items:center;gap:5mm;margin-top:4mm}.e3 .kopf .titel i{flex:1;height:.3mm;background:#a1884c}
+.e3 .kopf h2{font:400 19pt/1.15 PF;letter-spacing:.18em;text-transform:uppercase;color:#000}
+.e3 .kopf p{font:400 10pt RC;letter-spacing:.3em;text-transform:uppercase;color:#8a7340;margin-top:2mm}
+.e3 .liste{justify-content:flex-start;padding-top:3mm}
+.e3 .g{display:grid;grid-template-columns:1fr auto;column-gap:8mm;padding:3.8mm 0}
+.e3 .g+.g{border-top:.2mm solid rgba(161,136,76,.45)}
+.e3 .gn{font:400 12.5pt/1.32 PF;grid-column:1}.e3 .ge{grid-column:1;font:italic 400 10.5pt/1.4 PF;color:#58595b;margin-top:.8mm}
+.e3 .gp{grid-column:2;grid-row:1/3;font:400 11.5pt RC;letter-spacing:.06em;color:#8a7340;text-align:right;white-space:nowrap}.e3 .pre{display:block;font-size:10pt;color:#808285}
+.e3 .rub{margin-top:9mm;text-align:center;font:400 14pt/1.2 PF;letter-spacing:.18em;text-transform:uppercase}.e3 .rub em{display:block;font:400 9.5pt RC;letter-spacing:.3em;color:#8a7340;font-style:normal;margin-top:1.4mm}
+.e3 .zw{margin-top:6mm;text-align:center;font:400 10pt RC;letter-spacing:.26em;text-transform:uppercase;color:#8a7340}.e3 .zw em{display:block;font:italic 400 10pt PF;letter-spacing:0;text-transform:none;color:#808285}
+.e3 .stern{display:none}
+.e3 .mps{margin-top:6mm;padding-top:4mm;border-top:.3mm solid #a1884c;text-align:center}.e3 .mp{padding:1.2mm 0;font:400 12pt PF}.e3 .mp em{display:block;font:italic 400 10.5pt PF;color:#808285}
+.e3 .hw{font-size:11pt;color:#58595b;margin-top:5mm;text-align:center}.e3 .hw em{font:italic 400 10.5pt PF;color:#808285}.e3 .leg{font-size:9.5pt;line-height:1.45;color:#58595b;margin-top:5mm;text-align:center}.e3 .leg em{font-style:italic;color:#808285}
+.e3 .z{display:flex;align-items:baseline;gap:2mm;margin-top:2.4mm}.e3 .zn{font:400 11.5pt PF}.e3 .z i{flex:1;border-bottom:.25mm dotted #a1884c;transform:translateY(-1mm)}
+.e3 .zm{font-size:11pt;color:#808285;min-width:12mm;text-align:right}.e3 .zp{font:400 11pt RC;letter-spacing:.06em;min-width:14mm;text-align:right;color:#8a7340}
+.e3 .teller{margin:4mm 0 1mm}
+.e3 .fu{margin-top:4mm;display:flex;align-items:center;gap:4mm;font:400 9pt RC;letter-spacing:.16em;text-transform:uppercase;color:#808285}.e3 .fu i{flex:1;height:.2mm;background:#a1884c}
+.e3 .hin{font-size:8.5pt;line-height:1.35;color:#808285;margin-top:1.2mm;text-align:center}
+.e3 .deck,.e3 .rueck{background:#000;color:#fff;align-items:center;justify-content:space-between;text-align:center;padding:30mm 24mm 26mm}
+.e3 .tap{position:absolute;inset:0;background-image:url(tapete-ehh.png);background-size:22mm auto;opacity:.08}
+.e3 .deck>*:not(.tap),.e3 .rueck>*:not(.tap){position:relative}
+.e3 .deck .kl,.e3 .rueck .kl{font:400 10pt RC;letter-spacing:.34em;text-transform:uppercase;color:#a1884c}
+.e3 .deck .mitte,.e3 .rueck .mitte{display:flex;flex-direction:column;align-items:center;width:100%}
+.e3 .deck .mitte img.wp{height:44mm}
+.e3 .deck .haus{font:400 10.5pt RC;letter-spacing:.34em;text-transform:uppercase;color:#d9d1bd;margin-top:9mm}
+.e3 .deck .linie,.e3 .rueck .linie{width:100%;height:.3mm;background:#a1884c;margin:10mm 0}
+.e3 .deck h1{font:400 30pt/1.15 PF;letter-spacing:.16em;text-transform:uppercase}
+.e3 .deck .en{font:italic 400 14pt PF;color:#a1884c;margin-top:4mm}
+.e3 .deck .unten,.e3 .rueck .unten{font:400 10pt/1.9 RC;letter-spacing:.28em;text-transform:uppercase;color:#bdbdbd}
+.e3 .rueck .mitte img.wp{height:26mm}
+.e3 .rueck .satz{font:400 30pt/1.2 PF;color:#fff}
+.e3 .rueck .txt{font:300 12pt/1.6 RC;color:#cfcfcf;max-width:120mm}
+.e3 .rueck .unten img{width:62mm;margin:0 auto 6mm;display:block}
+/* volle Seiten: nur die Abstände werden enger, der Lesetext bleibt 11 pt */
+.eng .g{margin-top:3.2mm!important;padding-top:2.6mm!important;padding-bottom:2.6mm!important}.eng .rub{margin-top:6mm!important}.eng .zw{margin-top:4mm!important}.eng .z{margin-top:1.4mm!important;padding-top:1.4mm!important;padding-bottom:1.4mm!important}.eng .kopf{margin-bottom:-1mm}
+.enger .g{margin-top:2mm!important;padding-top:1.8mm!important;padding-bottom:1.8mm!important}.enger .gn{line-height:1.24!important}.enger .ge{line-height:1.3!important}.enger .orn{margin-top:3mm!important}.enger .stern{margin-top:1.2mm!important;line-height:1}
+.enger .kopf img{height:8mm!important}.enger .kopf h2{font-size:17pt!important}.enger .mps{margin-top:4mm!important;padding-top:2.4mm!important}.enger .mp{margin-top:.8mm!important;padding-top:.8mm!important;padding-bottom:.8mm!important}.enger .rub{margin-top:5mm!important}
+.am-engsten .g{margin-top:1.2mm!important;padding-top:1.2mm!important;padding-bottom:1.2mm!important}.am-engsten .stern{display:none!important}.am-engsten .kopf img{display:none!important}.am-engsten .orn{margin-top:2mm!important}.am-engsten .mp em{display:inline!important;margin-left:2mm}.am-engsten .gn{font-size:12pt!important}.am-engsten .z{margin-top:.8mm!important;padding-top:.9mm!important;padding-bottom:.9mm!important}.am-engsten .lauf{display:none!important}.am-engsten .kopf{margin-top:0!important}

@@ -1,0 +1,24 @@
+barkarte: Zeichen für Zeichen gleich
+catering: Zeichen für Zeichen gleich
+kalender: Zeichen für Zeichen gleich
+kurfuerstenstube: Zeichen für Zeichen gleich
+weinkarte: Zeichen für Zeichen gleich
+zigarren: Zeichen für Zeichen gleich
+barkarte: 1815 Wörter im Original, 1690 im Druck, Preise 177/177 Summe 2942.01/2942.01 · Wortlaut gleich
+catering: 467 Wörter im Original, 467 im Druck, Preise 30/30 Summe 880.45/880.45 · Wortlaut gleich
+kalender: 1239 Wörter im Original, 1238 im Druck, Preise 0/0 Summe 0.00/0.00 · Wortlaut gleich
+kurfuerstenstube: 1279 Wörter im Original, 1247 im Druck, Preise 48/48 Summe 2540.50/2540.50 · Wortlaut gleich
+weinkarte: 5077 Wörter im Original, 5081 im Druck, Preise 440/440 Summe 62189.25/62189.25 · Wortlaut gleich
+zigarren: 199 Wörter im Original, 199 im Druck, Preise 24/24 Summe 925.40/925.40 · Wortlaut gleich
+
+Druck gegen die Originale: alle Karten stimmen
+barkarte: feste Schnitte, ganze Wörter · PlayfairDisplay-Regular, RobotoCondensed-Regular, OpenSans-SemiBold, OpenSans-Regular, RobotoCondensed-Light
+catering: feste Schnitte, ganze Wörter · PlayfairDisplay-Italic, PlayfairDisplay-SemiBold, OpenSans-Regular, PlayfairDisplay-Regular
+kalender: feste Schnitte, ganze Wörter · PlayfairDisplay-Regular, RobotoCondensed-Light, RobotoCondensed-Regular
+kurfuerstenstube: feste Schnitte, ganze Wörter · PlayfairDisplay-Regular, PlayfairDisplay-Italic, OpenSans-SemiBold, OpenSans-Regular, OpenSans-Italic
+weinkarte: feste Schnitte, ganze Wörter · PlayfairDisplay-Regular, OpenSans-Regular, RobotoCondensed-Regular
+zigarren: feste Schnitte, ganze Wörter · OpenSans-Regular, OpenSans-Italic
+
+Schriften der PDFs: gut
+
+GESAMT: GRÜN

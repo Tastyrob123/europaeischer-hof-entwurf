@@ -1,0 +1,89 @@
+@font-face{font-family:PF;src:url(../../assets/schrift/playfair-display-latin-400-normal.woff2)}
+@font-face{font-family:PF;font-style:italic;src:url(../../assets/schrift/playfair-display-latin-400-italic.woff2)}
+@font-face{font-family:RC;font-weight:300;src:url(../../assets/schrift/roboto-condensed-latin-300-normal.woff2)}
+@font-face{font-family:RC;font-weight:400;src:url(../../assets/schrift/roboto-condensed-latin-400-normal.woff2)}
+@font-face{font-family:RC;font-weight:500;src:url(../../assets/schrift/roboto-condensed-latin-500-normal.woff2)}
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{background:#5d5d5d;font:300 11pt/1.42 RC,sans-serif}
+@media screen{body{padding:30px 0;display:flex;flex-direction:column;align-items:center;gap:30px}}
+@media print{body{background:none}.seite{break-after:page}}
+.seite{width:210mm;height:297mm;position:relative;overflow:hidden;display:flex;flex-direction:column}
+sup{font:400 7.5pt RC;letter-spacing:.02em;vertical-align:.45em;margin-left:.4mm}
+.vg{height:3.6mm;vertical-align:-.5mm;margin-left:1.6mm}
+.hin .vg{height:3mm;margin:0 .6mm}
+.liste{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+.teller{display:none;justify-content:center;align-items:center;flex:none}
+.teller img{display:block;mix-blend-mode:multiply}
+.hw em,.leg em{display:block}
+/* Entwurf 1 · Grandhotel: weisses Papier, doppelter Goldrahmen, alles auf der Mitte */
+.e1 .seite{background:#fff;color:#000;padding:21mm 24mm 13mm}
+.e1 .seite::before,.e1 .seite::after{content:"";position:absolute;pointer-events:none;border:.35mm solid #a1884c}
+.e1 .seite::before{inset:8mm}.e1 .seite::after{inset:9.6mm;border-width:.15mm}
+.e1 .eck{position:absolute;width:9mm;height:9mm;pointer-events:none}.e1 .eck path{fill:none;stroke:#a1884c;stroke-width:.35}
+.e1 .eck.lo{left:12mm;top:12mm}.e1 .eck.ro{right:12mm;top:12mm;transform:scaleX(-1)}.e1 .eck.lu{left:12mm;bottom:12mm;transform:scaleY(-1)}.e1 .eck.ru{right:12mm;bottom:12mm;transform:scale(-1)}
+.e1 .kopf{text-align:center}.e1 .kopf img{height:12mm}
+.e1 .kopf h2{font:400 20pt/1.15 PF;letter-spacing:.14em;text-transform:uppercase;margin-top:4mm}
+.e1 .kopf p{font:italic 400 11.5pt PF;color:#808285;margin-top:1.4mm}
+.e1 .orn{display:flex;align-items:center;justify-content:center;gap:3mm;margin:5mm 0 0}.e1 .orn i{width:22mm;height:.3mm;background:#a1884c}.e1 .orn b{width:1.6mm;height:1.6mm;transform:rotate(45deg);background:#a1884c}
+.e1 .liste{text-align:center;justify-content:flex-start;padding-top:2mm}
+.e1 .g{margin-top:5mm}.e1 .gn{font:400 12.5pt/1.32 PF}.e1 .ge{font:italic 400 10.5pt/1.4 PF;color:#58595b;margin-top:.8mm}
+.e1 .gp{font:400 11pt RC;letter-spacing:.14em;color:#8a7340;margin-top:1.2mm}.e1 .pre{display:block;font-size:10pt;letter-spacing:.06em;color:#808285}
+.e1 .rub{margin-top:9mm;font:400 15pt/1.2 PF;letter-spacing:.14em;text-transform:uppercase}.e1 .rub em{display:block;font:italic 400 11pt PF;letter-spacing:0;text-transform:none;color:#808285}
+.e1 .zw{margin-top:6mm;font:400 10pt RC;letter-spacing:.24em;text-transform:uppercase;color:#8a7340}.e1 .zw em{display:block;font:italic 400 10.5pt PF;letter-spacing:0;text-transform:none;color:#808285}
+.e1 .stern{font:400 9pt RC;letter-spacing:.8em;color:#a1884c;margin-top:3.4mm}
+.e1 .mps{margin-top:7mm;padding-top:4mm;border-top:.25mm solid #a1884c}.e1 .mp{margin-top:2mm;font:400 12pt PF}.e1 .mp em{display:block;font:italic 400 10.5pt PF;color:#808285}
+.e1 .hw{font-size:11pt;color:#58595b;margin-top:5mm}.e1 .hw em{font:italic 400 10.5pt PF;color:#808285}.e1 .leg{font-size:9.5pt;line-height:1.45;color:#58595b;margin-top:5mm}.e1 .leg em{font-style:italic;color:#808285}
+.e1 .z{display:flex;align-items:baseline;gap:2mm;margin-top:2.4mm;text-align:left}.e1 .zn{font:400 11.5pt PF}.e1 .z i{flex:1;border-bottom:.25mm dotted #a1884c;transform:translateY(-1mm)}
+.e1 .zm{font-size:11pt;color:#808285;min-width:12mm;text-align:right}.e1 .zp{font:400 11pt RC;letter-spacing:.06em;min-width:14mm;text-align:right;color:#8a7340}
+.e1 .teller{margin:4mm 0 2mm}
+.e1 .fu{margin-top:4mm;display:flex;justify-content:center;gap:5mm;font:400 9pt RC;letter-spacing:.16em;text-transform:uppercase;color:#808285}
+.e1 .hin{font-size:8.5pt;line-height:1.35;color:#808285;text-align:center;margin-top:1.4mm}
+/* Deckblatt und Rückseite: Schrift, Wappen, Linien im Goldrahmen */
+.e1 .deck,.e1 .rueck{align-items:center;justify-content:space-between;text-align:center;padding:30mm 26mm 28mm}
+.e1 .deck .kl,.e1 .rueck .kl{font:400 10pt RC;letter-spacing:.32em;text-transform:uppercase;color:#58595b}
+.e1 .deck .mitte,.e1 .rueck .mitte{display:flex;flex-direction:column;align-items:center}
+.e1 .deck .mitte img.wp{height:46mm}
+.e1 .deck .die{font:400 11pt RC;letter-spacing:.5em;text-transform:uppercase;color:#8a7340;margin-top:10mm}
+.e1 .deck h1{font:400 33pt/1.1 PF;letter-spacing:.12em;text-transform:uppercase;margin-top:3mm}
+.e1 .deck .en{font:italic 400 14pt PF;color:#58595b;margin-top:4mm}
+.e1 .deck .teller{display:flex;margin-top:10mm}.e1 .deck .teller img{width:62mm}
+.e1 .deck .unten p,.e1 .rueck .unten p{font:400 10pt/1.8 RC;letter-spacing:.2em;text-transform:uppercase;color:#58595b}
+.e1 .deck .unten b{display:block;font:400 10pt RC;letter-spacing:.3em;color:#8a7340;margin-bottom:2mm}
+.e1 .rueck .mitte img.wp{height:24mm}
+.e1 .rueck .satz{font:400 28pt/1.2 PF;margin-top:12mm}
+.e1 .rueck .txt{font:300 12pt/1.6 RC;color:#58595b;max-width:120mm;margin-top:8mm}
+.e1 .rueck .teller{display:flex;margin-top:10mm}.e1 .rueck .teller img{width:56mm}
+.e1 .rueck .unten img{width:62mm;margin:0 auto 6mm;display:block}
+/* volle Seiten: nur die Abstände werden enger, der Lesetext bleibt 11 pt */
+.eng .g{margin-top:3.2mm!important;padding-top:2.6mm!important;padding-bottom:2.6mm!important}.eng .rub{margin-top:6mm!important}.eng .zw{margin-top:4mm!important}.eng .z{margin-top:1.4mm!important;padding-top:1.4mm!important;padding-bottom:1.4mm!important}.eng .kopf{margin-bottom:-1mm}
+.enger .g{margin-top:2mm!important;padding-top:1.8mm!important;padding-bottom:1.8mm!important}.enger .gn{line-height:1.24!important}.enger .ge{line-height:1.3!important}.enger .orn{margin-top:3mm!important}.enger .stern{margin-top:1.2mm!important;line-height:1}
+.enger .kopf img{height:8mm!important}.enger .kopf h2{font-size:17pt!important}.enger .mps{margin-top:4mm!important;padding-top:2.4mm!important}.enger .mp{margin-top:.8mm!important;padding-top:.8mm!important;padding-bottom:.8mm!important}.enger .rub{margin-top:5mm!important}
+.am-engsten .g{margin-top:1.2mm!important;padding-top:1.2mm!important;padding-bottom:1.2mm!important}.am-engsten .stern{display:none!important}.am-engsten .kopf img{display:none!important}.am-engsten .orn{margin-top:2mm!important}.am-engsten .mp em{display:inline!important;margin-left:2mm}.am-engsten .gn{font-size:12pt!important}.am-engsten .z{margin-top:.8mm!important;padding-top:.9mm!important;padding-bottom:.9mm!important}.am-engsten .lauf{display:none!important}.am-engsten .kopf{margin-top:0!important}
+
+/* ---------- Entwurf A «Auf der Mitte» (Robert wählt 13.11.2026): helles Creme, ein feiner Goldrahmen, alles auf der Mittelachse, ohne Fotos ---------- */
+.e1 .seite{background:#f6f1e7!important}
+.e1 .seite::after{display:none}.e1 .seite::before{inset:9mm;border-width:.3mm}.e1 .eck{display:none}
+.e1 .kopf h2{font:400 28pt/1.1 PF!important;letter-spacing:.01em!important;text-transform:none!important;margin-top:3.4mm}
+.e1 .kopf p{font-size:12.5pt}
+.e1 .rub{font:400 17pt/1.2 PF!important;letter-spacing:.01em!important;text-transform:none!important}
+.e1 .rub::after{content:"";display:block;width:34mm;height:2mm;margin:2.4mm auto 0;background:linear-gradient(#a1884c,#a1884c) 0 50%/13mm .25mm no-repeat,linear-gradient(#a1884c,#a1884c) 100% 50%/13mm .25mm no-repeat,linear-gradient(45deg,transparent 35%,#a1884c 35% 65%,transparent 65%) 50% 50%/2mm 2mm no-repeat}
+.e1 .z{justify-content:center;flex-wrap:wrap;column-gap:3mm;row-gap:0;text-align:center}.e1 .z i{display:none}
+.e1 .zm,.e1 .zp{min-width:0;text-align:center}.e1 .zm::before{content:"";display:inline-block;width:1.2mm;height:1.2mm;background:#a1884c;transform:rotate(45deg);margin:0 3mm .6mm 0}
+.e1 .deck,.e1 .rueck{padding:34mm 28mm 30mm}
+.e1 .deck h1{font:400 44pt/1.08 PF!important;letter-spacing:.005em!important;text-transform:none!important}
+.e1 .deck .die{margin-top:12mm}
+.e1 .deck .haus,.e1 .rueck .haus{font:300 12pt/1.7 RC;color:#58595b;margin-top:10mm}
+.e1 .am-engsten .kopf img{display:block!important;height:8mm!important;margin:0 auto}.e1 .enger .kopf h2{font-size:24pt!important}.e1 .am-engsten .kopf h2{font-size:22pt!important}
+.e1 .wein .liste{justify-content:flex-start}
+.e1 .wein .rub{margin-top:0!important}.e1 .wein .rub--klein{margin-top:6mm!important}.e1 .wein .wg+.wg{margin-top:8mm}.e1 .wein .wg>.rub:first-child{margin-top:0!important}
+.e1 .wein .rub--klein{font-size:14pt!important;margin-top:8mm!important}.e1 .wein .rub--klein em{font-size:10.5pt!important}.e1 .wein .rub--klein::after{width:26mm;margin-top:1.8mm}
+.e1 .wb{margin-top:4.4mm}.e1 .rub+.wb{margin-top:3.6mm}
+.e1 .wein1 .wb{margin-top:3mm}.e1 .wein1 .rub+.wb{margin-top:2.6mm}.e1 .wein1 .wg+.wg{margin-top:5.5mm}.e1 .wein1 .rub--klein{margin-top:4.5mm!important}.e1 .wein1 .w+.w{margin-top:1.6mm}.e1 .wein1 .wn{font-size:12pt;line-height:1.22}.e1 .wein1 .wp{margin-top:.2mm}.e1 .wein1 .kopf h2{font-size:25pt!important}.e1 .wein1 .rub{font-size:15pt!important}.e1 .wein1 .rub::after{margin-top:1.4mm}
+.e1 .wein2 .wb{margin-top:9mm}.e1 .wein2 .rub+.wb{margin-top:6mm}.e1 .wein2 .w+.w{margin-top:3.4mm}.e1 .wein2 .wn{font-size:13.5pt}.e1 .wein2 .wp{font-size:11pt}
+.e1 .w+.w{margin-top:2.2mm}
+.e1 .wn{font:400 12.5pt/1.3 PF}.e1 .wn sup{color:#808285}
+.e1 .wp{font:400 10.5pt RC;letter-spacing:.12em;color:#8a7340;margin-top:.6mm;display:flex;justify-content:center;align-items:center;gap:2.6mm}
+.e1 .wp i{display:inline-block;width:1.1mm;height:1.1mm;background:#a1884c;transform:rotate(45deg)}
+.e1 .getraenke .z{margin-top:.9mm!important;padding:0!important}.e1 .getraenke .rub{margin-top:4.6mm!important;font-size:15pt!important}.e1 .getraenke .rub::after{margin-top:1.2mm}.e1 .getraenke .zw{margin-top:3mm!important}.e1 .getraenke .orn{margin-top:3mm}

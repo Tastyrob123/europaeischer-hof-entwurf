@@ -1,0 +1,66 @@
+Karte catering · Luxus-Hotel-Europaeischer-Hof-Heidelberg-Catering-2021.pdf
+Wörter in den Daten: 459 · in der PDF (pdftotext -raw): 459
+Preise in den Daten: 30, Summe 880.45 · im Original: 30, Summe 880.45
+Bildtext (im Original nur als Bild, am Bild der Seite abgelesen): Außerhaus-Service · Catering · Kontakt · Materialkosten · Blumendekoration · Stundenlohn · Transportkosten
+Ergebnis: GLEICH (Wort für Wort, jedes Wort gleich oft; Zahl und Summe der Preise gleich)
+
+--- Seite 1
+  {"t": "bild", "foto": "catering-titel.webp"}
+  {"t": "ueberschrift", "de": "Außerhaus-Service", "gross": false, "schrift": "Schreibschrift"}
+  {"t": "ueberschrift", "de": "Catering", "gross": true, "schrift": ""}
+  {"t": "absatz", "de": "Kulinarische Gaumenfreuden bei Ihnen vor Ort: Das professionelle und freundliche Küchen- und Serviceteam des Europäischen Hof Heidelberg ist in der Stadt am Neckar und in der Metropolregion Rhein-Neckar gleichermaßen für sein exzellentes Catering und Gourmet-Catering bekannt. Die jahrelange Erfahrung mit In- und Outdoor-Catering macht uns zum idealen Partner für Ihre Veranstaltung. Von Fingerfood über große Buffets bis zum gesetzten Essen - wir beraten Sie gerne.", "mitte": true}
+  {"t": "ueberschrift", "de": "Kontakt", "gross": false, "schrift": ""}
+  {"t": "absatz", "de": "Unser professionelles Catering Team in Heidelberg plant Ihre Feierlichkeiten nach Ihren Wünschen und Vorstellungen. Rufen Sie uns gerne an unter +49 (0)6221 515-510/505 oder senden Sie uns eine Mail an events@europaeischerhof.com.", "mitte": true}
+--- Seite 2
+  {"t": "logo"}
+  {"t": "ueberschrift", "de": "Materialkosten", "gross": false, "schrift": ""}
+  {"t": "absatz", "de": "Die Preise für Porzellan, Silberbesteck, Gläser, Tischwäsche und sonstiges Material für einen reibungslosen, organisatorischen Ablauf beinhalten die Allgemeinkosten für das Bereitstellen, das transportbereite Verpacken, das Spülen bzw. Waschen sowie das Zurückzählen und Einlagern des Materials im Hotel.", "mitte": true}
+  {"t": "gruppe", "de": "Mobiliar:"}
+  {"t": "posten", "name": "Tisch", "preis": "€ 6,20"}
+  {"t": "posten", "name": "Stuhl", "preis": "€ 5,30"}
+  {"t": "posten", "name": "Stehtisch weiss Kunststoff 115cm hoch Platte 70cm", "preis": "€ 18,50"}
+  {"t": "gruppe", "de": "Porzellan und Silber:"}
+  {"t": "posten", "name": "Porzellan, pro Teil", "preis": "€ 0,90"}
+  {"t": "posten", "name": "Gläser, pro Stück", "preis": "€ 0,90"}
+  {"t": "posten", "name": "Silberbesteck, pro Teil", "preis": "€ 0,90"}
+  {"t": "posten", "name": "Chromaganbesteck klein, pro Teil", "preis": "€ 0,45"}
+  {"t": "posten", "name": "Kleinteile aus Silber, pro Teil", "preis": "€ 1,70"}
+  {"t": "posten", "name": "Serviertabletts rechteckig/rund 50x40", "preis": "€ 5,00"}
+  {"t": "posten", "name": "Champagnertimbale", "preis": "€ 6,10"}
+  {"t": "gruppe", "de": "Technik:"}
+  {"t": "posten", "name": "Speisen-Warmhaltebehälter inkl. Brennpasten", "preis": "€ 21,00"}
+  {"t": "posten", "name": "Kühlschrank 360l", "preis": "€ 80,00"}
+  {"t": "posten", "name": "Terrassen-Heizstrahler-Edelstahl", "preis": "€ 75,00", "zusatz": "inkl. Gasflasche und Anschlüsse"}
+  {"t": "gruppe", "de": "Tischwäsche:"}
+  {"t": "posten", "name": "Servietten, pro Stück 40x40", "preis": "€ 1,60"}
+  {"t": "posten", "name": "Cocktailservietten weiß, Pack 250 Stk.", "preis": "€ 10,50"}
+  {"t": "posten", "name": "Tischdecke, Standardgröße", "preis": "€ 8,20"}
+  {"t": "posten", "name": "Tischdecke, Sondergröße", "preis": "€ 10,90"}
+  {"t": "gruppe", "de": "Sonstiges:"}
+  {"t": "posten", "name": "Würfeleis, pro Wanne", "preis": "€ 16,50"}
+  {"t": "posten", "name": "Restmüllentsorgung pro 120l Tonne", "preis": "€ 24,00"}
+  {"t": "absatz", "de": "Der erforderliche Materialeinsatz wird vom Hotel nach einer Ortsbesichtigung ermittelt und detailliert in unserem hausinternen „Veranstaltungs-Formular“ oder anhand des erforderlichen Materialbereitstellungsschein von dem verantwortlichen Serviceleiter im Detail aufgelistet. Eine Kopie zur Prüfung und Kenntnisnahme verbleibt beim Veranstalter.", "mitte": true}
+--- Seite 3
+  {"t": "logo"}
+  {"t": "ueberschrift", "de": "Blumendekoration", "gross": false, "schrift": ""}
+  {"t": "absatz", "de": "Die Berechnung für Tischdekoration erfolgt nach Art und Umfang der vom Veranstalter gewünschten Dekoration nach Tagespreisen.", "mitte": true}
+  {"t": "ueberschrift", "de": "Stundenlohn", "gross": false, "schrift": ""}
+  {"t": "gruppe", "de": "Cateringmitarbeiter Service:"}
+  {"t": "posten", "name": "08:00 bis 18:00 Uhr :", "preis": "€ 42,00"}
+  {"t": "posten", "name": "18:00 bis 08:00 Uhr :", "preis": "€ 62,00"}
+  {"t": "gruppe", "de": "Cateringmitarbeiter Serviceleiter:"}
+  {"t": "posten", "name": "08:00 bis 18:00 Uhr :", "preis": "€ 62,00"}
+  {"t": "posten", "name": "18:00 bis 08:00 Uhr :", "preis": "€ 82,00"}
+  {"t": "gruppe", "de": "Cateringmitarbeiter Küche:"}
+  {"t": "posten", "name": "08:00 bis 18:00 Uhr :", "preis": "€ 42,00"}
+  {"t": "posten", "name": "18:00 bis 08:00 Uhr :", "preis": "€ 62,00"}
+  {"t": "gruppe", "de": "Cateringmitarbeiter Küchenchef:"}
+  {"t": "posten", "name": "08:00 bis 18:00 Uhr :", "preis": "€ 72,00"}
+  {"t": "posten", "name": "18:00 bis 08:00 Uhr :", "preis": "€ 92,00"}
+  {"t": "absatz", "de": "Die Berechnung erfolgt ab der Abfahrt bis zur Ankunft im Hotel.", "mitte": false}
+  {"t": "ueberschrift", "de": "Transportkosten", "gross": false, "schrift": ""}
+  {"t": "posten", "name": "Bei Fahrten mit den Hotelkleintransporter im Stadtgebiet für jede Fahrt hin und zurück", "preis": "€ 26,50", "zusatz": "außerhalb des Stadtgebietes zusätzlich"}
+  {"t": "posten", "name": "für jeden gefahrenen Kilometer zuzüglich", "preis": "€ 2,30"}
+  {"t": "posten", "name": "der Personalkosten für den Fahrer pro Stunde", "preis": "€ 42,00"}
+  {"t": "absatz", "de": "Ergibt sich aus dem Gesamtumfang des Auftrages die Notwendigkeit, ein Fremdfahrzeug anzumieten, berechnen wir die tatsächlich angefallenen Kosten, die uns von Dritten in Rechnung gestellt werden.", "mitte": true}
+  {"t": "absatz", "de": "Die genannten Preise sind Inklusiv Preise und beinhalten die gesetzliche Mehrwertsteuer.", "mitte": true}

@@ -1,0 +1,49 @@
+/* Drucksachen & Feed · Der Europäische Hof Heidelberg: Hausschicht nach dem Kleid (kleid/ehh.css, UMSTELLUNG.md), zuletzt geladen.
+   Der Knopf des Hauses wie auf der Website: 12 px Radius, feine Linie, Roboto Condensed in Versalien, keine Glanzkante, keine Pille.
+   Hauptweg schwarz mit weißem Knauf, Nebenweg weiß mit feiner Linie und schwarzem Knauf. Pink nur als Punkt, hier nirgends. */
+.kn,.knopf{border-radius:12px;background:#fff;color:#000;text-shadow:none;letter-spacing:.2em;font-family:'Roboto Condensed','Arial Narrow',Arial,sans-serif;font-weight:400;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.2),0 10px 22px -18px rgba(0,0,0,.45)}
+.kn::after,.knopf::after,.glanz-kn::before{display:none}
+.kn i,.knopf i{border-radius:50%;background:#000;color:#fff;box-shadow:none}
+:is(.kopf .kn,.knopf--voll,.dialog__knoepfe .knopf,.hk__nav .knopf,.hk__knoepfe--zeile .knopf,.kn.ms-kn-gold,.kn.ms-kn-neu,.start__zu,.start__nochmal .kn){
+  background:#000;color:#fff;text-shadow:none;box-shadow:inset 0 0 0 1px rgba(255,255,255,.28),0 14px 26px -16px rgba(0,0,0,.6)}
+:is(.kopf .kn,.knopf--voll,.dialog__knoepfe .knopf,.hk__nav .knopf,.hk__knoepfe--zeile .knopf,.kn.ms-kn-gold,.kn.ms-kn-neu,.start__zu,.start__nochmal .kn) i{background:#fff;color:#000;box-shadow:none}
+.kopf .knopf--gold{background:#fff;color:#000;box-shadow:inset 0 0 0 1px rgba(0,0,0,.2)}
+.kopf .knopf--gold i{background:#000;color:#fff}
+/* auf schwarzem Grund (Startbild, Kopf): der Hauptweg umgekehrt, weiß mit schwarzem Knauf */
+:is(.wo-sb,.ms-tafel,.ms-buehne) :is(.knopf--voll,.kn.glanz-kn){background:#fff;color:#000;box-shadow:0 14px 26px -16px rgba(0,0,0,.6)}
+:is(.wo-sb,.ms-tafel,.ms-buehne) :is(.knopf--voll,.kn.glanz-kn) i{background:#000;color:#fff}
+@media (hover:hover){ .kn:hover,.knopf:hover{transform:translateY(-1px)} }
+
+/* Seitenleiste: die Wege unten umbrechen sauber in Zeilen, nichts steht über den Rand */
+#start .ms-fuss .ms-wege{display:flex;flex-wrap:wrap;gap:6px 5px;max-width:100%;line-height:0}
+#start .ms-fuss .ms-wege a{flex:none;max-width:100%;white-space:nowrap}
+
+/* Titel nie fett, Etiketten in Grau wie die Website */
+.ms-titel h1,.ms-zeile h2,.wo__n b,.vk b{font-family:'Playfair Display',Georgia,serif;font-weight:400}
+
+/* Abteilungen: sechs gleich große Kacheln in drei Spalten (das Mosaik des Stamms war für zehn gebaut und ließ bei sechs ein Loch) */
+#startAbteilungen{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:clamp(200px,17vw,260px)}
+#startAbteilungen>.wo:nth-child(1),#startAbteilungen>.wo:nth-child(7){grid-column:auto;grid-row:auto}
+#startAbteilungen>.wo:nth-child(1) .wo__n b,#startAbteilungen>.wo:nth-child(7) .wo__n b{font-size:24px}
+@media (max-width:1100px){#startAbteilungen{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){#startAbteilungen{grid-template-columns:1fr}}
+
+/* Tor 09.11.: «Druckfertig speichern» saß 1 px zu hoch; die linke Spalte steht auf einer Kante mit den Reitern */
+#btnSpeichern>span{position:relative;top:1px}
+.links .tab{padding-left:26px}
+@media (max-width:1239px){.ms-suche kbd{display:none}}
+@media (max-width:1180px) and (min-width:761px){.ms-feld--klein .kn{justify-content:center;padding:0 6px;width:auto;min-width:50px;flex:none}.ms-feld--klein .kn i{flex:none;width:38px;height:38px}}
+
+/* Reiter links: der erste beginnt auf der Kante des Inhalts darunter (Tor: «Kante»), in jeder Breite */
+.links .reiter{margin-left:14px!important;padding-left:4px!important}
+.links .reiter button:first-of-type{text-align:left!important;padding-left:8px!important}
+.links .tab{padding-left:26px!important}
+
+/* Fach „Logo & Farben“ offen: der Knopf hell mit schwarzem Zeichen, gut sichtbar */
+.insel button[data-livre].an,.kopf .rund[data-livre].an{color:#000!important;background:#fff!important}
+.insel button[data-livre].an svg{stroke:#000}
+/* Knopf nur mit Pfeil (Feld „Etwas anderes?“ bei 761–1180 px): der Pfeil bleibt beim Überfahren in der Mitte (Tor: 2 px neben der Mitte durch das Verschieben beim Überfahren) */
+@media (max-width:1180px) and (min-width:761px){.ms-feld.ms-feld--klein .kn.knopf--voll:hover i{transform:none}}
+/* Kopf der Arten (Weg): das Foto ist selbst ein div und fiel unter „.weg__kopf.ms-bue>div{max-width:60%}“; am Handy füllte es so nur zwei Drittel der Bühne */
+.weg__kopf.ms-bue>.ms-bue__foto{max-width:none}

@@ -1,0 +1,618 @@
+{
+ "ziel": "kalender",
+ "art": "satz",
+ "name": "Der Kulinarische Kalender",
+ "unter": "Events 2026",
+ "gruppe": "Veranstaltungen",
+ "foto": "foodbild-2560x1440-1",
+ "format": [
+  148,
+  210
+ ],
+ "pdf": "EHH_Kulinarischer_Kalender_WEBDESING.pdf",
+ "pdf_datum": "17.11.2025",
+ "seiten": [
+  {
+   "art": "titel",
+   "foto": "kal-01.webp",
+   "bloecke": [
+    {
+     "t": "titelzeile",
+     "zeilen": [
+      "GENUSS &",
+      "KULINARIK",
+      "EVENTS"
+     ],
+     "jahr": "2026"
+    }
+   ]
+  },
+  {
+   "art": "zeiten",
+   "foto": "kal-02.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "ÖFFNUNGSZEITEN"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Frühstück"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Genießen Sie wochentags von 06:30 bis 11:00 Uhr und 6:30 bis 11:30 Uhr an Sonn- und Feiertagen unser Gourmet-Frühstück."
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Die Kurfürstenstube"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Die Kurfürstenstube bietet exquisites Fine-Dining mit regionalen Zutaten, moderner französischer Küche und erstklassigem Service in edlem Ambiente."
+    },
+    {
+     "t": "zwischen",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "t": "text",
+     "de": "Montag bis Sonntag von 12:00 bis 23:00 Uhr. Warme Küche bis 21:00 Uhr. Die Kurfürstenstube befindet sich vom 23. April bis 16. September 2026 in der Sommerpause."
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Das Sommerrestaurant"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Das Sommerrestaurant bietet auf seiner idyllischen Terrasse mediterrane Köstlichkeiten mit frischen und saisonalen Zutaten."
+    },
+    {
+     "t": "zwischen",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "t": "text",
+     "de": "Montag bis Sonntag von 12:00 bis 23:00 Uhr. Warme Küche bis 21:00 Uhr. Das Sommerrestaurant mit Terrasse hat vom 23. April bis 16. September 2026 geöffnet."
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Europa-Bar & Smokers Lounge"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Erleben Sie erlesene Drinks, feine Köstlichkeiten und ausgewählte Zigarren im perfekten Ambiente für einen genussvollen Ausklang des Abends."
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Kontakt"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Wir freuen uns auf Ihren Besuch – Ihr Gastronomieteam im Europäischen Hof Heidelberg. Sie erreichen uns telefonisch unter +49 (0) 6221 515-511 oder per E-Mail an f-b@europaeischerhof.com"
+    },
+    {
+     "t": "adresse",
+     "zeilen": [
+      "Der Europäische Hof Heidelberg · Friedrich-Ebert-Anlage 1",
+      "69117 Heidelberg · Telefon: +49 (0) 6221-515-0",
+      "Fax: +49 (0) 6221-515-506 · welcome@europaeischerhof.com",
+      "www.europaeischerhof.com"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "package",
+   "foto": "kal-03.webp",
+   "bloecke": [
+    {
+     "t": "titel",
+     "zeilen": [
+      "ÜBERNACHTUNGS-",
+      "PACKAGE",
+      "„KULINARISCHE",
+      "WEINREISE“"
+     ]
+    },
+    {
+     "t": "liste",
+     "zeilen": [
+      "Zwei Übernachtungen in einem",
+      "unserer eleganten Zimmer",
+      "Gourmet-Frühstück an beiden Tagen",
+      "Ein Glas Winzersekt zur Begrüßung an",
+      "unserer Europa Bar",
+      "Ein exquisites 5-Gang-Dinner inklusive",
+      "korrespondierenden Weinen am Anreisetag",
+      "Freie Nutzung des 600 qm PANORAMA SPA",
+      "(Indoor-Pool mit Whirlpool-Nische, Sauna,",
+      "Sanarium, Dampfbad und Sonnenterrasse)",
+      "inklusive Fitnessbereich",
+      "Bademantel und Slipper für",
+      "den Spa Bereich"
+     ]
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Ganzjährig buchbar",
+      "– ab 605 Euro pro Person"
+     ]
+    }
+   ],
+   "weiss": true
+  },
+  {
+   "art": "termine",
+   "foto": "kal-04.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "JANUAR / FEBRUAR / MÄRZ"
+    },
+    {
+     "t": "zeit",
+     "de": "23. BIS 25. JANUAR 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Forest Jewel – Trüffel-Menü"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Vom geheimnisvollen Waldboden auf die Teller der Feinschmecker. Ein Menü für Gourmets."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "6-Gang-Menü pro Person 259 Euro",
+      "Mit Weinbegleitung pro Person 369 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "14. FEBRUAR 2026 / 18:30 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "A Symphony of Love – Valentinstag"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Eine Liebeserklärung an die Liebe, den Genuss und die gemeinsame Zeit."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "4-Gang-Menü pro Person 179 Euro",
+      "5-Gang-Menü pro Person 209 Euro",
+      "6-Gang-Menü pro Person 249 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "13. MÄRZ 2026 / 18:30 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Soirée Française – Französischer Abend"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Ein exklusives Erlebnis für nur 20 Gäste: Genießen Sie ein 6-Gang-Menü inspiriert von der französischen Haute Cuisine, begleitet von erlesenen Weinraritäten und fachkundig erklärt von einem Experten, der sein Wissen teilt und zum Austausch einlädt."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "6-Gang-Menü mit Raritäten-Weinbegleitung pro Person 559 Euro"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "package",
+   "foto": "kal-05.webp",
+   "bloecke": [
+    {
+     "t": "titel",
+     "zeilen": [
+      "PACKAGE FÜR ZWEI"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Zu zweit ist alles viel schöner! Entspannen Sie über den Dächern Heidelbergs und entfliehen Sie dem Alltag. Genießen Sie den Tag im PANORAMA SPA und lassen sich anschließend in unserem RESTAURANT kulinarisch verwöhnen. Wir freuen uns darauf Ihnen ein ganz besonderes Erlebnis zu bereiten."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Ganzjährig buchbar"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Day Spa, Wellnessmassage (60 Minuten), 3-Gang-Gourmetmenü (exklusive Getränke)"
+    }
+   ],
+   "weiss": true
+  },
+  {
+   "art": "termine",
+   "foto": "kal-06.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "APRIL / MAI"
+    },
+    {
+     "t": "zeit",
+     "de": "03. BIS 06. APRIL 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Ostern kulinarisch"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Von Karfreitag bis Ostermontag laden wir zu festlichen Menüs mit saisonalen und regionalen Spezialitäten ein – ein kulinarisches Osterfest für die ganze Familie."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "3-Gang-Menü pro Person 129 Euro",
+      "4-Gang-Menü pro Person 149 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "05. APRIL 2026 / 11:30 BIS 15:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Osterbrunch"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Ostern ist Familienzeit! Unser Küchenteam überrascht Groß und Klein mit einem vielfältigen Brunchbuffet, süßen Osterleckereien und kulinarischen Köstlichkeiten, die Herzen höher schlagen lassen."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Pro Person 119 Euro",
+      "Inklusive Speisen, Aperitif, Softdrinks und Kaffee",
+      "Kinder bis 6 Jahre sind von uns eingeladen. Für Kinder von 6 – 12 Jahren berechnen wir 50 % des Preises."
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "10. MAI 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Moments for Mom – Muttertag"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Ein Tag voller Dankbarkeit: Am Muttertag widmen wir uns all den Müttern, denen wir so viel verdanken. Genießen Sie diesen besonderen Anlass mit kulinarischen Köstlichkeiten, die den Tag unvergesslich machen."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "4-Gang-Menü pro Person 179 Euro"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "package",
+   "foto": "kal-07.webp",
+   "bloecke": [
+    {
+     "t": "zeit",
+     "de": "DAS GANZE JAHR / 15:00 BIS 17:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "TEA TIME"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Genießen Sie eine klassische Teestunde in der gemütlichen Hotelhalle unseres Grand Hotels. Wir verwöhnen Sie mit süßen und herzhaften Köstlichkeiten aus unserer hauseigenen Pâtisserie. Wählen Sie dazu feine Teesorten aus dem Luxus- Teehaus Ronnefeldt oder erfreuen Sie sich an einem prickelnden Glas Winzersekt."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Pro Person 79 Euro",
+      "Unsere Tea Time ist buchbar ab zwei Personen.",
+      "Wir bitten um Tischreservierung 48 h im Voraus."
+     ]
+    }
+   ],
+   "weiss": true
+  },
+  {
+   "art": "doppel",
+   "foto": "kal-08.webp",
+   "bloecke": [
+    {
+     "t": "zeit",
+     "de": "25. MAI 2026 | 12:30 BIS 17:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "LA VIE EN ROSÉ"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Genuss am Pfingstmontag"
+    },
+    {
+     "t": "text",
+     "de": "Genießen Sie einen Feiertag voller Leichtigkeit und Lebensfreude: Erleben Sie eine exquisite Auswahl an Rosé-Weinen, Champagner und kreativen Drinks, begleitet von stimmungsvoller Musik. Dazu servieren wir feine Fisch-Spezialitäten, die das Geschmackserlebnis abrunden."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "All inclusive pro Person 159 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "19. BIS 21. JUNI 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "GREEN ELEGANCE"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Vegetarisches Fine Dining"
+    },
+    {
+     "t": "text",
+     "de": "Erleben Sie die Raffinesse der vegetarischen Haute Cuisine: Ein Menü, das die Vielfalt der Natur in exklusiven Kompositionen neu interpretiert. Feinste Zutaten, inspiriert von der Saison, verbinden sich zu einem kulinarischen Erlebnis voller Leichtigkeit und Eleganz"
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "4-Gang-Menü pro Person 149 Euro",
+      "5-Gang-Menü pro Person 179 Euro"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "termine",
+   "foto": "kal-09.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "JULI / OKTOBER"
+    },
+    {
+     "t": "zeit",
+     "de": "24. JULI 2026 / 18:00 BIS 23:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Europ-Gartenparty"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Wenn Genuss auf Sommergarten trifft – erleben Sie Haute Cuisine unter freiem Himmel. Genießen Sie erlesene Grill- und Sommer-Spezialitäten, dazu erfrischende Drinks und die Beats unseres DJs, die für die perfekte Stimmung sorgen. Ein Sommerabend voller Lebensfreude und Genuss."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Pro Person 209 Euro",
+      "Inklusive Speisen, Aperitif, Softdrinks, ausgesuchten Weinen, Bier und Kaffee"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "2. OKTOBER 2026 / 18:30 BIS 24:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Europ-Küchenparty"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Das kulinarische Happening des Jahres: Haute Cuisine trifft lockere Lebensfreude. Offene Küchenstationen werden zu Erlebnisinseln, Gäste flanieren frei durch die Räume, probieren, plaudern und genießen. Musik und kulinarische Vielfalt machen diese Party zu einem Genussabenteuer zwischen Tradition und Innovation."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "All-Inclusive-Abend pro Person 229 Euro"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "termine",
+   "foto": "kal-10.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "NOVEMBER"
+    },
+    {
+     "t": "zeit",
+     "de": "10. NOVEMBER BIS 23. DEZEMBER 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Gans privé mit Freilandgans"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Gerne liefern wir Ihnen per Taxitransfer einen knusprigen Gänsebraten, heiß und frisch mit Maronen, Schmorapfel, Rotkraut und Kartoffelklößen – oder Sie genießen ihn in unserem Restaurant „Die Kurfürstenstube“."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Selbstabholer 259 Euro (Zulieferung zzgl. Taxikosten)",
+      "Bei Verzehr im Restaurant „Die Kurfürstenstube“ 269 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "11. NOVEMBER 2026"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Martinsgans"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Wir lieben und leben Traditionen – und freuen uns jedes Jahr auf die Martinsgans. Freuen Sie sich auf ein traditionelles Gänsemenü in unserem Restaurant „Die Kurfürstenstube“."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "4-Gang-Menü pro Person 179 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "29. NOVEMBER 2026 / 11:30 BIS 15:00 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Advents-Brunch"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Der Advent ist Familienzeit: Genießen Sie festliche Klänge, liebevoll geschmückte Räumlichkeiten und eine Vielfalt an weihnachtlichen Spezialitäten. Erleben Sie mit Ihren Lieben unvergessliche Momente voller Wärme, Genuss und Vorfreude auf Weihnachten."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Pro Person 129 Euro",
+      "Inklusive Speisen, Aperitif, Softdrinks und Kaffee",
+      "Kinder bis 6 Jahre sind von uns eingeladen. Für Kinder von 6 – 12 Jahren berechnen wir 50% des Preises."
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "termine",
+   "foto": "kal-11.webp",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "WEIHNACHTEN UND SILVESTER"
+    },
+    {
+     "t": "zeit",
+     "de": "24. BIS 26. DEZEMBER 2026 / 12 BIS 15 UND 18 BIS 21 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Frohe Weihnachten!"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Weihnachten ist die Zeit für Familie, Genuss und festliche Momente. In unseren stimmungsvoll dekorierten Räumen servieren wir Ihnen exquisite Weihnachtsmenüs, die Tradition und kulinarische Raffinesse verbinden. So wird Ihr Fest zu einem unvergesslichen Erlebnis."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "3-Gang-Menü pro Person 164 Euro",
+      "4-Gang-Menü pro Person 184 Euro"
+     ]
+    },
+    {
+     "t": "zeit",
+     "de": "31. DEZEMBER / AB 18:30 UHR"
+    },
+    {
+     "t": "titel",
+     "zeilen": [
+      "Silvester"
+     ]
+    },
+    {
+     "t": "text",
+     "de": "Feiern Sie den Jahreswechsel im Glanz unseres Grand Hotels: Beginnen Sie mit einem exquisiten 6-Gang-Candlelight-Dinner und genießen Sie anschließend DJ, Tanz und glanzvolle Stimmung in unserer Grand Hotel Halle. Ein Abend voller Eleganz, Stil und unvergesslicher Momente – der perfekte Auftakt für ein neues Jahr."
+    },
+    {
+     "t": "preis",
+     "zeilen": [
+      "Exquisites 6-Gang-Menü & Tanz mit Musik",
+      "Pro Person 349 Euro"
+     ]
+    }
+   ],
+   "weiss": false
+  },
+  {
+   "art": "shop",
+   "bloecke": [
+    {
+     "t": "kopf",
+     "de": "ONLINESHOP"
+    },
+    {
+     "t": "text",
+     "zeilen": [
+      "GUTSCHEINE · KULINARISCHE EVENTS:",
+      "UNSER ONLINESHOP HAT IMMER GEÖFFNET!"
+     ]
+    },
+    {
+     "t": "adresse",
+     "de": "www.europaeischerhof.com/shop"
+    }
+   ]
+  }
+ ],
+ "quelle": "_quelle/pdf/EHH_Kulinarischer_Kalender_WEBDESING.pdf (geladen von europaeischerhof.com am 09.11.2026)"
+}

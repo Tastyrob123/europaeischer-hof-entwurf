@@ -1,0 +1,953 @@
+# Der Europäische Hof Heidelberg — was feststeht (geprüft am 03.11.2026 auf europaeischerhof.com)
+
+Alle Angaben unten sind auf der Website des Hauses belegt. Alles Weitere nur aus `_quelle/` (Seitentexte, PDFs, Bilder). Was dort nicht steht, bleibt offen und erscheint nicht.
+
+## Das Haus
+- Privat geführtes Fünf-Sterne-Superior-Grandhotel, Friedrich-Ebert-Anlage 1, 69117 Heidelberg, seit 1865 in Familienhand, heute in vierter Generation.
+- Geschäftsführende Gesellschafterin: Dr. Caroline von Kretschmann (Hotelier des Jahres 2022), vertretungsberechtigt auch Sylvia von Kretschmann. Leitsatz auf der Website: „Wir lieben, was wir tun.“
+- Eigenes Versprechen (nur im Google-Text der Website, auf der Seite selbst nirgends): „das herzlichste Luxushotel Deutschlands“ und „das persönlichste 5-Sterne-Hotel in Heidelberg“.
+- Mitglied bei Feine Privathotels und Best of Southwest Germany, Gründungsmitglied der Fair Job Hotels, GreenSign Level 4, Michelin-Auszeichnung (Logo `bilder/Michelin-2026.png`), unter den „101 besten Hotels“.
+- Website in neun Sprachen: Deutsch, Englisch, Russisch, Arabisch, Chinesisch, Französisch, Niederländisch, Hindi, Spanisch.
+
+## Gastronomie (Quelle: `seiten/startseite.md`, Restaurant-Seiten, `pdf/`)
+- Kurfürstenstube, Fine Dining, Mitte September bis Mitte April. Karte: `pdf/Kurfuerstenstube-ab-16.OKT_.26.pdf`, Weinkarte: `pdf/2025-kurfürstenstube-Weinkarte.pdf`.
+- Sommerrestaurant mit Terrasse im Innenhof, Mitte April bis Mitte September (keine Karte auf der Website gefunden).
+- Europa Bar & Smokers-Lounge. Barkarte: `pdf/Barkarte-ab-10.01.2024.pdf`, Zigarrenliste: `pdf/Zigarren-Liste-Aushang_ab-11.2026.pdf`.
+- Catering: `pdf/Luxus-Hotel-Europaeischer-Hof-Heidelberg-Catering-2021.pdf`. Kulinarischer Kalender: `pdf/EHH_Kulinarischer_Kalender_WEBDESING.pdf`.
+
+## Drucksachen des Hauses (heute alles PDF)
+Imagebroschüre ab 2026, Spa-Broschüre (zwei Fassungen), Hochzeitsbroschüre ab 2024, Tagungstechnik, Ausbildungsbroschüre, Catering 2021, Kulinarischer Kalender, Zigarrenliste als Aushang. Alle in `pdf/`. Sie sind die Vorlage für Stil und Inhalt der Drucksachen.
+
+## Kleid (aus `stil/theme-styles.css`, `logo/`)
+- Schriften der Website: Playfair Display (Überschriften), Roboto Condensed, Open Sans. Zusätzlich vorkommend: Oswald.
+- Farben: Schwarz `#000000` (Hauptfarbe), Grau `#919792`, Hellgrau `#F1F1F2`, warmes Hell `#f3efed`, Pink `#df007e` (Gutschein-Plakette, sparsam).
+- Logo: `logo/logo_black_bottom.png` (1181 × 420), weisse Fassungen `logo/logo_white_*.png`, Signet `logo/EHH-touch-Icon.png`, `logo/EHH-Logo.jpg`. Für die Drucksachen zusätzlich die echten PDFs ansehen (Schrift, Ränder, Schreibung), bevor das Stilblatt entsteht.
+- Fotografie: Thomas Haberland (leuchtende-hotelfotografie.de), Melisa Kara, dazu iStock und Unsplash (Impressum). Im Bildarchiv als Herkunft vermerken, wo der Dateiname es zeigt; sonst „Herkunft offen“.
+
+## Warum genau diese drei Werkzeuge
+- Die Website wird seit dem Frühjahr 2026 von einer Agentur betreut. An der Website wird nichts gebaut, nichts eingebunden, nichts ersetzt.
+- Karten und Drucksachen liegen nur als einzelne PDFs vor (43 auf der Website). Die drei Werkzeuge lösen genau das: Karten an einer Stelle pflegen, Drucksachen im Stil des Hauses selbst entwerfen, Marke und Bilder an einem Ort.
+- Das Haus hat bereits einen Gäste-Chat eines anderen Anbieters. La Réception, Le Bureau und Le Registre werden deshalb nicht gebaut.
+
+## Quelle: _quelle/seiten/arrangement__besinnliche-weihnachten-in-heidelberg.md
+# Weihnachten Heidelberg | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/arrangement/besinnliche-weihnachten-in-heidelberg/
+## Besinnliche Weihnachten
+ Verbringen Sie Weihnachten im malerischen Grandhotel Heidelberg und erleben Sie den bezaubernden Charme der romantischen Stadt Heidelberg in ihrer festlichsten Zeit des Jahres.
+Ob für einen Tag oder mehrere Übernachtungen – genießen Sie besinnliche Stunden voller Wärme, Genuss und festlicher Eleganz.
+ Unser Arrangement ist an den 24., 25. und 26. Dezember buchbar und verspricht unvergessliche Weihnachtstage in stilvollem Ambiente. So, wie man sie nur im Hotel Europäischer Hof Heidelberg erleben kann. 
+## Freuen Sie sich auf:
+ Eine Übernachtung in einem unserer eleganten Zimmer
+Gourmet-Frühstück 
+Eine Flasche prickelnden Champagner auf Ihrem Zimmer (0,75 l bei Buchung für 2 Personen, 0,375 l bei Buchung für 1 Person)
+Ein bezauberndes Weihnachtspräsent 
+Ein weihnachtliches 4-Gang-Dinner in unserem festlichen Ambiente
+Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich
+ Bademantel und Slipper für den Spa-Bereich 
+## Preise
+ Einzelzimmer 
+€ 486,00 pro Person
+ Doppelzimmer 
+€ 399,00 pro Person
+ Junior Suite 
+€ 482,00 pro Person
+ Executive Suite 
+€ 572,00 pro Person
+ ONLINE BUCHEN 
+ Kulinarik
+## Weihnachtliches Festessen
+ Freuen Sie sich auf ein weihnachtliches  Festessen mit 4 Gängen  im wundervollen Ambiente. Am Morgen verwöhnen wir Sie außerdem mit einem herrlichen  Gourmet-Frühstück , das keine Wünsche offen lässt.
+Kulinarik 
+ Highlights
+## Weihnachten im Hotel-Spa
+ Im Zentrum Ihres Weihnachtsarrangement steht das Thema Entspannung. Da darf ein traumhafter Spa-Bereich nicht fehlen. In unserem 600 m² großen PANORAMA SPA genießen Sie die  Sauna-Landschaft, den glitzernden Pool, den Fitnessbereich, eine entspannende Massage  und den Blick auf die Stadt Heidelberg. So kommen Sie wunderbar gelassen über die Weihnachtsfeiertage.
+PANORAMA SPA 
+ Schlafen
+## Entspannte Feiertage im gemütlichen Hotelzimmer
+ Nicht nur unser Spa-Bereich, sondern auch unsere  Hotelzimmer und Suiten  laden zum Entspannen ein. In stilvollem Ambiente erleben Sie beispielsweise in unserem Komfortzimmer mit Blick zum Innenhof eine komfortable und erholsame Nacht.
+Zimmer & Suiten 
+ Die Schöne
+## Weihnachten in Heidelberg erleben
+ Im Dezember ist der Heidelberger Weihnachtsmarkt ein beliebter Treffpunkt für einen besinnlichen Adventsspaziergang. Doch auch zwischen den Jahren können Sie durch das Heidelberger Winterwäldchen schlendern oder auf einer der schönsten Eisbahnen mit Blick auf die berühmte Schlossruine Ihre Bahnen ziehen. Gerne zeigen wir Ihnen auch die  Top 8 Sehenswürdigkeiten  , um die weihnachtlich geschmückte Stadt zu erkunden.
+Sehenswertes 
+ Auszeit
+## Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/arrangement__healthy-break-wellness-arrangement.md
+# Wellness-Arrangement | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/arrangement/healthy-break-wellness-arrangement/
+## Healthy-Break-Wellness-Special
+ Gönnen Sie sich eine wohlverdiente Auszeit und erleben Sie ein Wellnesswochenende im Grandhotel Heidelberg: eine Oase der Ruhe und Raffinesse über den Dächern der Stadt. Unsere exklusive Dachterrasse lädt zum Innehalten und Entschleunigen ein. Ein Ort, an dem Raum, Stille und Licht zu einer harmonischen Einheit verschmelzen.
+Lassen Sie sich von unserem erfahrenen Spa-Team mit viel Feingefühl verwöhnen und spüren Sie, wie Körper und Geist zur Ruhe kommen und neue Energie schöpfen.
+Ein Wochenende voller Wohlbefinden, Leichtigkeit und luxuriöser Entspannung – mitten im Herzen Heidelbergs und doch weit entfernt vom Alltag.
+## Freuen Sie sich auf:
+ Zwei Übernachtungen in einem unserer eleganten Zimmer
+Gourmet-Frühstück an beiden Tagen
+Ein 3-Gang-Vital-Menü am Anreisetag
+Eine Premium-Massage von 60 Minuten
+Eine exotische Fruchtplatte an unserer Spa-Bar
+Ein Vital-Smoothie an unserer Spa-Bar
+ Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich
+ Bademantel und Slipper für den Spa Bereich 
+## Preise
+ Einzelzimmer 
+€ 766,00 pro Person
+ Doppelzimmer 
+€ 592,00 pro Person
+ Junior Suite 
+€ 758,00 pro Person
+ Executive Suite 
+€ 938,00 pro Person
+ ONLINE BUCHEN 
+ Vital-Food
+## Gourmet-Speisen
+ Ein umfangreiches Gourmet-Frühstück erwartet Sie jeden Morgen während Ihres Wellness-Aufenthaltes im Europäischen Hof Heidelberg in Baden-Württemberg. Doch auch am Abend Ihres Anreisetags lässt das 3-Gang-Vital-Menü in unserem  Restaurant  keine Wünsche offen. Das  Fine-Dining-Restaurant „Die Kurfürstenstube“  und das  „Sommerrestaurant mit Terrasse“  sind über die Stadtgrenzen Heidelbergs bekannt für ihr hochwertiges Angebot. Hier erleben Sie kulinarisches Wellness für Körper und Seele.
+ Hotel-Spa
+## Ihr Wellness-Wochenende in Heidelberg
+ Natürlich darf bei Ihrem Wellness-Wochenende im Herzen Baden-Württembergs das Wichtigste nicht fehlen:  ein traumhafter Spa-Bereich . In unserem 600 m² großen Panorama Spa genießen Sie die vielseitige Sauna-Landschaft, den glitzernden Pool, einen Fitnessbereich und eine Sonnenterrasse mit Blick auf die Stadt Heidelberg. In Ihrem Wellness-Arrangement enthalten ist außerdem eine 60-minütige Premium-Massage, eine exotische Fruchtplatte und ein erfrischender Vital-Smoothie. Entspannung und Genuss pur!
+Kulturelle Highlights 
+ Gym
+## Fitness-Bereich zum Auspowern
+ Zu einem perfekten Wellness-Wochenende in Heidelberg gehört nicht nur körperliche Entspannung, sondern auch eine Portion  Fitness , die Geist und Körper in Einklang bringen. Bei uns trainieren Sie mit modernsten Geräten und auf Wunsch auch mit einem Personal Trainer.
+ Komfort
+## Hotelzimmer zum Träumen
+ Nicht nur unser Spa-Bereich, sondern auch unsere  Hotelzimmer und Suiten  laden zum Entspannen ein. In stilvollem Ambiente erleben Sie beispielsweise in unserem  Komfortzimmer  mit Blick zum Innenhof eine komfortable und erholsame Nacht.
+ Kulturstadt
+## Heidelberg entdecken
+ Sie haben Lust, bei Ihrem Wellness-Wochenende  die Kulturstadt  zu erleben? Dann entdecken Sie  die Top 8 Sehenswürdigkeiten Heidelbergs  – spazieren Sie durch die gemütliche Altstadt, vorbei am trubeligen Marktplatz bis zum Heidelberger Schloss und Schlossgarten.
+ Auszeit
+## Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/arrangement__heidelberg-entdecken.md
+# Kurzurlaub Baden-Württemberg | Hotel Europäischer Hof
+Quelle: https://www.europaeischerhof.com/arrangement/heidelberg-entdecken/
+## Heidelberg Special
+ Zwischen Geschichte und Kreativität erwartet Sie das Grandhotel Heidelberg, zentral gelegen und idealer Ausgangspunkt für Ihre Entdeckungen. Historische Gassen, das weltberühmte Schloss und ein einzigartiges kulturelles Lebensgefühl liegen direkt vor der Tür. Nach Ihren Erlebnissen genießen Sie im Hotel stilvolle Ruhe, herzliche Gastfreundschaft und inspirierende Atmosphäre.
+Ein Aufenthalt voller Kultur, Charme und Heidelberger Eleganz.
+## Freuen Sie sich auf:
+ Zwei Übernachtungen in einem unserer eleganten Zimmer
+Gourmet-Frühstück an beiden Tagen
+Ein Glas Winzersekt zur Begrüßung an unserer Europa Bar
+Ein köstliches 3-Gang-Dinner am Anreisetag
+Eine HeidelbergCARD für zwei Tage (ÖPNV im gesamten VRN Verbundgebiet, Einmaliger Einlass in: Kombiticket Schloss Heidelberg und Fahrt mit Bergbahn, Universitätsmuseum Heidelberg mit Studentenkarzer, Kurpfälzisches Museum Heidelberg, Völkerkundemuseum Heidelberg, Sammlung Prinzhorn, Verpackungsmuseum Heidelberg. Sowie viele weitere Vergünstigungen und Rabatte in Restaurants, bei Einzelhändlern und viele mehr!)
+Führung durch das berühmte Heidelberger Schloss
+ Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich
+ Bademantel und Slipper für den Spa Bereich
+ Garantierte Spätabreise bis 14 Uhr 
+## Preise
+ Einzelzimmer 
+€ 679,00 pro Person
+ Doppelzimmer 
+€ 505,00 pro Person
+ Junior Suite 
+€ 671,00 pro Person
+ Executive Suite 
+€ 851,00 pro Person
+ ONLINE BUCHEN 
+ Sehenswertes
+## Städtetrip nach Heidelberg
+ Wie wäre es mit einem Wochenendtrip in die Neckarstadt? Die malerische Altstadt, die älteste Universität Deutschlands, das Schloss und die Weinberge ziehen jährlich Millionen Besucher nach Heidelberg. Entdecken Sie zur Inspiration für Ihren Kurzurlaub unser Top 8 Sehenswürdigkeiten in Heidelberg!
+ Highlights
+## Kulturstadt Heidelberg
+ Heidelberg präsentiert sich seinen Besuchern heute als lebendige, junge Kulturstadt, die Sinn für Tradition mit kultureller Experimentierfreude verbindet. Über das ganze Jahr verteilt bietet Heidelberg eine Vielfalt an kulturellen Höhepunkten. Auch die Liebhaber der bildenden Künste werden von unserer Stadt begeistert sein, denn die Heidelberger Museen beherbergen umfangreiche Sammlungen und sind immer wieder Gastgeber aufsehenerregender Sonderausstellungen.
+Kulturelle Highlights 
+ Wir sind Süden
+## 5 Gründe für einen Kurzurlaub in Baden-Württemberg
+1. Abwechslungsreiche Natur 
+ Ob Schwarzwald, Schwäbische Alb, der Bodensee oder das Allgäu – die Natur Baden-Württembergs ist immer eine Reise wert.
+2. Vielseitige Sport- & Freizeitmöglichkeiten 
+ Entdecken Sie die vielen Wander- und Radwege, unternehmen Sie Wassersport oder Klettertouren. Ideal für einen Aktivurlaub!
+3. Spannende Architektur & Historie 
+ Die vielen Schlösser, Burgen und Altstädte Baden-Württembergs machen Geschichtsbücher lebendig.
+4. Preisgekrönte Kunst & Kultur 
+ Ob Ballett, Oper, Musical oder Theater – von Stuttgart bis Baden-Baden können Sie zahlreiche kulturelle Aktivitäten in Baden-Württemberg erleben.
+5. Exzellente Kulinarik 
+ Vom badischen Wein über Maultaschen bis zur Schwarzwälder Kirschtorte – gehen Sie auf eine kulinarische Entdeckungsreise im Südwesten Deutschlands.
+ Auszeit
+## Weitere Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/arrangement__jahreswechsel-in-heidelberg.md
+# Silvester in Heidelberg | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/arrangement/jahreswechsel-in-heidelberg/
+## Silvester Special
+ Feiern Sie den Jahreswechsel im festlichen Ambiente des Grandhotels Heidelberg und lassen Sie das Jahr in besonderem Glanz ausklingen.
+Freuen Sie sich auf einen Abend voller Genuss, Eleganz und festlicher Stimmung – ideal für alle, die das neue Jahr in stilvoller Gesellschaft begrüßen möchten.
+Ein Jahreswechsel, der Eleganz und Emotion vereint – so beginnt das neue Jahr im Grandhotel Heidelberg.
+## Freuen Sie sich auf:
+ Eine Übernachtung in einem unserer eleganten Zimmer
+Ein Katerfrühstück am Neujahrsmorgen inklusive Sekt
+Ein exquisites 6-Gang Candle-Light-Dinner am Silvesterabend in unserem festlichen Ambiente
+DJ, Tanz und glanzvolle Stimmung in unserer Grand Hotel Halle
+Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich 
+Bademantel und Slipper für den Spa Bereich 
+## Preise
+ Einzelzimmer 
+€ 616,00 pro Person
+ Doppelzimmer 
+€ 529,00 pro Person
+ Junior Suite 
+€ 612,00 pro Person
+ Executive Suite 
+€ 702,00 pro Person
+ ONLINE BUCHEN 
+ Auszeit
+## Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/arrangement__jubilaumsarrangement.md
+# Jubiläumsarrangement | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/arrangement/jubilaumsarrangement/
+ Ein Wochenende für Musikliebhaber und Genießer
+## 30 Jahre Heidelberger Frühling – Jubiläumsarrangement
+ Feiern Sie den Auftakt des 30-jährigen Jubiläums des Heidelberger Frühlings mit einem besonderen Kulturwochenende im Europäischen Hof Heidelberg.
+Erleben Sie zwei außergewöhnliche Konzerte: das festliche Eröffnungskonzert mit Klaus Mäkelä und dem Royal Concertgebouw Orchestra sowie die preisgekrönte Gitarristin Laura Lootens in der besonderen Atmosphäre unseres historischen Pfalzgrafensaals.
+ Zwei Übernachtungen, unser Gourmet-Frühstück und entspannte Stunden im PANORAMA SPA machen Ihr Arrangement zu einer perfekten Verbindung aus Musikgenuss, Erholung und herzlicher Gastlichkeit.
+## Das Arrangement beinhaltet:
+ Zwei Übernachtungen in einem unserer eleganten Zimmer
+Gourmet-Frühstück an beiden Tagen
+Konzertticket, Kategorie 2, für das Auftaktkonzert „30 Jahre Heidelberger Frühling“ mit Klaus Mäkelä und dem Royal Concertgebouw Orchestra am Freitag, 13. November 2026, im Wolfgang-Marguerre-Saal der Heidelberger Stadthalle
+Konzertticket für das Sonderkonzert mit Laura Lootens am Samstag, 14. November 2026, im historischen Pfalzgrafensaal des Europäischen Hof Heidelberg
+Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich
+Bademantel und Slipper für den Spa Bereich
+## Preise
+ Einzelzimmer 
+€ 678,00 pro Person
+ Doppelzimmer 
+€ 504,00 pro Person
+ Junior Suite 
+€ 670,00 pro Person
+ Executive Suite 
+€ 850,00 pro Person
+Buchen Sie Ihr Arrangement gerne persönlich unter Telefon: +49 (0)6221 515-501/-502 oder gerne auch per E-Mail an reservations@europaeischerhof.com .
+ Wir freuen uns auf Sie.
+ Freuen Sie sich auf ein unvergessliches Wochenende, das Weltklasse-Musik, Entspannung und die besondere Atmosphäre Heidelbergs auf einzigartige Weise vereint.
+ Auszeit
+## Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/arrangement__kulinarische-weinreise.md
+# Kulinarik-Wochenende | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/arrangement/kulinarische-weinreise/
+## Kulinarische Weinreise
+ Begeben Sie sich im Europäischen Hof Heidelberg auf eine sinnliche Reise durch die schönsten Weingebiete der Welt – ohne den Ort zu wechseln.
+Unser Küchenteam und Sommelier entführen Sie in eine Welt voller Geschmack, Eleganz und Leidenschaft für feine Weine und exzellente Kulinarik.
+Ein Abend, der alle Sinne berührt, geprägt von Harmonie, Raffinesse und dem unverwechselbaren Stil des Grandhotels Heidelberg.
+## Freuen Sie sich auf:
+ Zwei Übernachtungen in einem unserer eleganten Zimmer
+Gourmet-Frühstück an beiden Tagen
+Ein Glas Winzersekt zur Begrüßung an unserer Europa Bar
+Ein exquisites 5-Gang-Dinner inklusive korrespondierenden Weinen am Anreisetag
+Freie Nutzung des 600 qm PANORAMA SPA (Indoor-Pool mit Whirlpool-Nische, Sauna, Sanarium, Dampfbad und Sonnenterrasse) inklusive Fitnessbereich
+Bademantel und Slipper für den Spa Bereich 
+## Preise
+ Einzelzimmer 
+€ 779,00 pro Person
+ Doppelzimmer 
+€ 605,00 pro Person
+ Junior Suite 
+€ 771,00 pro Perso
+ Executive Suite 
+€ 951,00 pro Person
+ ONLINE BUCHEN 
+ Vital-Food
+## Gourmet-Speisen
+ Ein umfangreiches Gourmet-Frühstück erwartet Sie jeden Morgen während Ihres Wellness-Aufenthaltes im Europäischen Hof Heidelberg in Baden-Württemberg. Doch auch am Abend Ihres Anreisetags lässt das 3-Gang-Vital-Menü in unserem  Restaurant  keine Wünsche offen. Das  Fine-Dining-Restaurant „Die Kurfürstenstube“  und das  „Sommerrestaurant mit Terrasse“  sind über die Stadtgrenzen Heidelbergs bekannt für ihr hochwertiges Angebot. Hier erleben Sie kulinarisches Wellness für Körper und Seele.
+ Hotel-Spa
+## Ihr Wellness-Wochenende in Heidelberg
+ Natürlich darf bei Ihrem Wellness-Wochenende im Herzen Baden-Württembergs das Wichtigste nicht fehlen:  ein traumhafter Spa-Bereich . In unserem 600 m² großen Panorama Spa genießen Sie die vielseitige Sauna-Landschaft, den glitzernden Pool, einen Fitnessbereich und eine Sonnenterrasse mit Blick auf die Stadt Heidelberg. In Ihrem Wellness-Arrangement enthalten ist außerdem eine 60-minütige Premium-Massage, eine exotische Fruchtplatte und ein erfrischender Vital-Smoothie. Entspannung und Genuss pur!
+Kulturelle Highlights 
+ Kulturstadt
+## Heidelberg entdecken
+ Sie haben Lust, bei Ihrem Wellness-Wochenende  die Kulturstadt  zu erleben? Dann entdecken Sie  die Top 8 Sehenswürdigkeiten Heidelbergs  – spazieren Sie durch die gemütliche Altstadt, vorbei am trubeligen Marktplatz bis zum Heidelberger Schloss und Schlossgarten.
+ Auszeit
+## Specials
+ Jubiläumsarrangement
+ Silvester in Heidelberg
+ Besinnliche Weihnachten in Heidelberg feiern
+ Kulinarik Wochenende in Heidelberg
+ Healthy-Break-Wellness-Special
+ Heidelberg Special
+
+## Quelle: _quelle/seiten/gourmet-restaurant-kurfuerstenstube-heidelberg.md
+# Gourmetrestaurant in Heidelberg | Hotel Europäischer Hof
+Quelle: https://www.europaeischerhof.com/gourmet-restaurant-kurfuerstenstube-heidelberg/
+ Gourmet-Restaurant
+## Die Kurfürstenstube
+ Die Kurfürstenstube vereint kulinarische Finesse mit einem Ambiente von besonderer historischer Eleganz. Der traditionsreiche Gastraum aus dem Jahr 1866, geprägt von kunstvollen Intarsienarbeiten des 19. Jahrhunderts, bildet den stilvollen Rahmen für ein Fine-Dining-Erlebnis, das klassische Eleganz und zeitgemäße Küche harmonisch verbindet. In dieser Atmosphäre kultivierter Gastlichkeit widmet sich unser Küchenteam einer Küche, die von hochwertigen, saisonalen Produkten, handwerklicher Präzision und einem feinen Gespür für Balance und Aromen lebt.
+ Neben unserer à-la-Carte-Auswahl können Sie ein 3-, 4-, 5- oder 6-Gang-Menü wählen, dessen Gänge sorgfältig komponiert sind und sich zu einem stimmigen kulinarischen Gesamtbild entfalten. Auf Wunsch begleitet Sie unser Sommelier mit einer passend abgestimmten Weinbegleitung aus unserer erlesenen Weinkarte.
+ Ob für einen besonderen Anlass, ein stilvolles Geschäftsessen oder einen genussvollen Abend zu zweit – die Kurfürstenstube im Europäischen Hof Heidelberg steht für gehobene Küche, kultivierte Gastlichkeit und Fine Dining in Heidelberg auf höchstem Niveau.
+ Die Kurfürstenstube
+## Öffnungszeiten
+ Unser Fine-Dining-Restaurant „Die Kurfürstenstube“ hat über die Wintermonate für Sie geöffnet. In den Sommermonaten hat dafür unser Das Sommerrestaurant mit Terrasse geöffnet.
+ Montag bis Sonntag von 12 bis 23 Uhr.
+Speisenbestellung erfolgt bis 21 Uhr.
+Zum Sommerrestaurant 
+ Höchster Genuss
+## Köstliche Speisen
+ Sie haben Lust auf Fine Dining in Heidelberg? Wir freuen uns auf Sie! Zum Mittag- als auch zum Abendessen bietet Ihnen die große Speisekarte viele Köstlichkeiten. Wir sind sicher, es ist für jeden Geschmack etwas dabei. Mit klassisch französischer Küche bieten wir Ihnen ein gehobenes Speisenangebot, das Sie überzeugen wird.
+Speisekarte 
+ Gute Tropfen
+## Vollendeter Weingenuss
+ Unsere Weinkarte umfasst derzeit ca. 400 verschiedene Positionen und befindet sich im stetigen Wandel. Derzeit liegt unser Schwerpunkt auf Deutschland und Frankreich, aber auch Weine aus Italien, Österreich, Spanien und Südafrika finden in den Regalen unseres Weinkellers Platz.
+ Wir bieten einer Vielzahl junger, noch unbekannter Winzer eine Plattform und erleben immer wieder mit Freude, dass diese Weine bei unseren Gästen für einige Überraschung und genussvolles Staunen sorgen. Zudem lagern im Europäischen Hof Heidelberg viele gereifte Weine, die wir oftmals direkt aus den Kellern der Erzeuger und in kleiner Menge beziehen dürfen.
+ Von Riesling bis Pinot Noir sind wir darauf bedacht, jedem Wein die Zeit zu geben, die er braucht, um seinen optimalen Geschmack zu entfalten und unseren Gästen vollendete Genussmomente zu schenken. Gerne berät Sie unser Sommelier bei Ihrer Wahl.
+Weinkarte 
+ Nachhaltig gelungen
+## Besondere Wünsche & Qualität
+ Höchste Qualität unserer Speisen ist uns ein ebenso großes Anliegen wie  Nachhaltigkeit . Daher legen wir Wert auf überwiegend regionale Produkte zu fairen Preisen, größtenteils saisonale Lebensmittel und Fisch- und Fleischprodukte aus ethischer Tierhaltung.
+ Sollten Sie vegetarische oder vegane Speisen bevorzugen, geben wir Ihnen gerne vor Ort Empfehlungen. Besondere Allergien oder Wünsche können Sie gerne vorab mit uns abstimmen.
+ Ihr Platz
+## Tischreservierung & Kontakt
+ Für Tischreservierungen und Fragen kontaktieren Sie uns gerne direkt per
+Telefon:  +49 (0) 6221 515-511  oder per E-Mail an  f-b@europaeischerhof.com. 
+ Nutzen Sie auch unser Online-Reservierungstool und reservieren Sie sich Ihren Platz in unserem Restaurant im Herzen Heidelbergs ganz bequem.
+ Wir freuen uns auf Sie!
+Reservierung 
+ Anreise
+## Lage & Anfahrt
+ Planen Sie Ihre Anreise zu unserem Gourmet-Restaurant in Heidelberg. Hier finden Sie unsere Adresse und Tipps zur Routenplanung.
+Ihre Route mit Google-Maps 
+Anfahrt & Erreichbarkeit 
+ Unser Portfolio
+## Das könnte Ihnen auch gefallen.
+ Kulinarische Events 
+ Gutscheine Gastronomie
+
+## Quelle: _quelle/seiten/hotelbar-heidelberg-europa-bar-happy-hour.md
+# Hotelbar | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/hotelbar-heidelberg-europa-bar-happy-hour/
+ Unsere Hotelbar in Heidelberg
+## Europa Bar
+ Ob zum Aperitif, zum Digestif oder für den Night-Cap, am Bartresen oder in den bequemen lederbezogenen Sitzgruppen: In unserer Heidelberger Hotelbar werden Sie aufmerksam vom Bar-Team betreut und mit exzellenten Drinks verwöhnt. Auch ein frisches Bier vom Fass oder ein Viertel Wein servieren wir Ihnen gerne. Die Klänge des Pianospielers wehen aus der Halle herüber und lassen in der Europa Bar das Gefühl aufkommen, in einem echten Grandhotel zu sein. Manchmal wie in alten Zeiten.
+ Warum nicht hier die schönen Seiten des Lebens genießen? Auf Bestellung auch nach dem Theater- oder Konzertbesuch mit einem leichten Imbiss.
+ Grand Hotel
+## Stilvolles Ambiente
+ Dunkle Holzvertäfelung an den Wänden, lederbezogene Sitzgruppen und Cocktails wie aus den 20er Jahren – genießen Sie das stilvolle Ambiente unserer Bar im Stile eines echten Grand-Hotels. Nehmen Sie Platz in der Europa Bar im Herzen Heidelbergs!
+ Europa Bar
+## Öffnungszeiten
+ täglich ab 17:00 Uhr
+ Nationale und internationale Gäste sagen uns immer wieder, die Europa Bar wäre eine der besten Bars, die sie in Heidelberg und Umgebung kennen. Das freut uns. Wir haben täglich ab 17:00 Uhr geöffnet und bleiben offen, solange Sie Freude bei uns haben.
+ Drinks
+## Barkarte
+ Unser Barchef liebt, was er tut. Für seine Gäste kreiert er regelmäßig einen besonderen Drink. Lassen Sie sich überraschen und genießen Sie eine besondere Zeit in einer der schönsten Cocktailbars in Heidelbergs.
+ Entdecken Sie die Auswahl an Cocktails, Weinen, Whiskeys und vielem mehr in unserer
+Barkarte 
+ Special
+## Cocktail‐Empfehlung
+ Sie möchten Ihren Lieblingsdrink zuhause genießen? Hier kommen drei Rezepte unserer liebsten Cocktails zum Nachmixen:
+ Köstlicher Bremble – Zutaten 
+5 cl Bombay Sapphire Dry Gin, 2 cl Chambord Brombeerlikör, 3 cl Zitronensaft, Sirup
+ Drunk Pooh Bear – Zutaten 
+3 cl Talisker 10 Single Malt, 3 cl Glenmorangie 10 Years Single Malt, 1 cl Honigsirup, Bitters
+ Green Light (alkoholfrei) – Zutaten 
+4 cl Maracujanektar, 6 cl Ananassaft, 4 cl Bananensaft, 2 cl Monin Blue Curacao Sirup, 2 cl Monin Kokossirup, Lemonjuice, Orangensaft
+ Stilvoll & Elegant
+## Unsere Smokers-Lounge
+ Die Smokers-Lounge im Europäischen Hof Heidelberg zählt wohl zu den schönsten Orten der Stadt, um den Tag bei einer guten Zigarre oder anderen exklusiven Rauchwaren genuss- und stilvoll ausklingen zu lassen. Elegantes Parkett, gemütliche Chesterfield-Sofas und der Charme eines traditionellen Grand Hotels machen den Aufenthalt in unserer Smokers-Lounge zum einmaligen Erlebnis.
+ Smokers Lounge
+## Öffnungszeiten
+ Die Smokers-Lounge ist täglich durchgängig für Sie geöffnet.
+Wir freuen uns auf Ihren Besuch!
+ Liebhaber
+## Zigarrenkarte
+ Wir freuen uns sehr, Ihnen eine exquisite Auswahl an erlesenen Zigarren anbieten zu können.
+Wir beraten Sie gerne!
+ HIGHLIGHT 
+Nutzen Sie die Gelegenheit und mieten Sie sich ein exklusives Fach in unserem Humidor und genießen Sie bei jedem Besuch Ihre persönliche Zigarre.
+Zigarrenliste 
+ „Eating and sleeping are the only activities that should be allowed to interrupt a man’s enjoyment of his cigar.“ 
+ Mark Twain 
+ Ihr Platz
+## Tischreservierung & Kontakt
+ Für Tischreservierungen und Fragen kontaktieren Sie uns gerne direkt per Telefon:
+ +49 6221 515-511  oder per E-Mail an  f-b@europaeischerhof.com . 
+ Wir freuen uns auf Sie!
+ Anreise
+## Lage & Anfahrt
+ Planen Sie Ihre Anreise zu unserer Europa Bar in Heidelberg. Hier finden Sie unsere Adresse und Tipps zur Routenplanung.
+Ihre Route mit Google-Maps 
+Anfahrt & Erreichbarkeit 
+ Unser Portfolio
+## Das könnte Ihnen auch gefallen.
+ Kulinarische Events 
+ Gutscheine Gastronomie
+
+## Quelle: _quelle/seiten/panorama-spa.md
+# Wellnesshotel mit Pool | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/panorama-spa/
+ Reisezeitraum 
+ Anzahl der Gäste 
+ Anzahl der Gäste: 0 
+ Zimmer 
+ Erwachsene 
+ Kinder 
+ Gutschein/Rabatt 
+ Anfragen 
+ Ihre Auszeit im Panorama Spa
+## Spa- & Wellnesshotel in Heidelberg
+ Entspannen, Erleben, Eintauchen – das können Sie in unserem 5* Wellnesshotel in Heidelberg mit Schwimmbad. Beginnen Sie den Tag mit einem Workout im Fitnessraum, entspannen Sie Ihre Muskeln im Saunabereich oder bei einer Massage, lassen Sie sich mit einem Beauty-Programm verwöhnen und tauchen Sie ab in den erfrischenden Hotel-Pool unseres Premium Spas.
+ Unser Fitness- und Spa-Bereich erstreckt sich auf 600 Quadratmeter. Über den Dächern Heidelbergs haben Sie einen traumhaften Ausblick von der Sonnenterrasse unseres Wellnesshotels. Genießen Sie Ihre Auszeit mit Wohlfühlgarantie.
+ Wohlige Wärme
+## Sauna, Pool und Sonnenterrasse
+ Unser Panorama Spa begrüßt Sie mit einem vielfältigen  Saunabereich  und einem erfrischenden  Indoor-Pool . Danach können Sie den Panoramablick über Heidelberg von unserer  Sonnenterrasse  auskosten. Entspannung pur für Körper und Geist im Wellnesshotel in Heidelberg.
+Zum PANORAMA SPA 
+ Entspannung & Wohlgefühl
+## Massagen & Beauty - Behandlungen
+ Ob Hot-Stone-Massage, Sportmassage oder Ayurveda-Ganzkörpermassage – wählen Sie eine unserer Massagen und lassen Sie sich von unseren professionellen Therapeuten verwöhnen.
+ Neben wohltuenden  Massagen  können Sie Ihre Schönheit bei einer  Beautybehandlung  für Gesicht und Körper zum Strahlen bringen lassen. So individuell wie Sie – unser vielseitiges Programm enthält spezielle Behandlungen für Frauen oder Männer.
+Massagen & Beauty Behandlungen 
+ Auspowern & Abschalten
+## Fitnessbereich im Spa Hotel Heidelberg
+ Bringen Sie Ihren Körper in Bestform mit modernsten Geräten für ein intensives  Ausdauer- und Kraftsport-Training  in unserem hoteleigenen Fitnessbereich. Lassen Sie Ihren Blick und Geist über den Dächern Heidelbergs schweifen und genießen Sie Ihr Sportprogramm zu jeder Tages- und Nachtzeit. Auf Wunsch organisieren wir für Sie einen  Personal Trainer  für ein individuell auf Sie abgestimmtes Workout.
+Zum Fitnessbereich 
+ Wellness-Auszeit in der Region
+## Day Spa Hotel in Heidelberg
+ Bei uns erleben Sie die beste Aussicht der Stadt von unserem Wellnesshotel in Heidelberg mit Pool. Während Sie Ihre private Auszeit bei uns genießen, eröffnet sich Ihnen ein phänomenaler Blick auf das Heidelberger Schloss.
+Selbstverständlich heißt unser Panorama Spa in Heidelberg neben Hotelgästen auch externe Besucher willkommen. Buchen Sie hierfür einfach ein  Day-Spa-Ticket .
+Day Spa Ticket (ganzer Tag für externe Gäste) 
+ Wellness-Auszeit zu zweit
+## Package für zwei
+ Zu zweit ist alles viel schöner! Entspannen Sie über den Dächern Heidelbergs und entfliehen Sie dem Alltag. Genießen Sie den Tag im PANORAMA SPA und lassen sich anschließend in unserem RESTAURANT kulinarisch verwöhnen. Unser Package beinhaltet:
+ Day-Spa-Eintritt
+Wellness-Massage für 60 Minuten
+Ein 3-Gang-Gourmetmenü (exklusive Getränke)
+für zwei Personen 
+Jetzt buchen 
+ Erholung für alle Sinne
+## Wellness-Auszeit in Heidelberg
+ Ob persönliche Auszeit, Freundinnen-Wellness oder Pärchen-Zeit – erleben Sie Luxus für alle Sinne in unserem Wellnesshotel in Baden-Württemberg.
+ Genießen Sie einen entspannenden Kurzurlaub und sichern Sie sich unser  Healthy-Break-Wellness-Special .
+Zum Angebot 
+ Verschenken Sie Entspannung
+## Unsere Spa-Gutscheine
+ Ob für das Day Spa, unsere Massagen, Beauty-Behandlungen oder eine Auszeit zu zweit im Spa Hotel Heidelberg –  verschenken Sie einen Gutschein  für Ihre Liebsten.
+Gutscheine entdecken 
+ Alles auf einen Blick
+## Spa-Broschüre
+ Gerne beraten wir Sie bei der Auswahl der für Sie geeigneten Massage in unserem Heidelberger Spa Hotel. Werfen Sie doch schon mal einen Blick in unsere Spa-Broschüre. Wir freuen uns darauf, Sie zu verwöhnen!
+Zur Spa Broschüre 
+ Kontakt
+## Ihre Anfrage
+ Lassen Sie sich in unserem Wellnesshotel in Heidelberg verwöhnen und genießen Sie Ihre Auszeit.
+ Bei Fragen steht Ihnen unser gesamtes Spa-Team jederzeit gerne zur Verfügung. Bitte rufen Sie uns an unter  +49 6221 515-182  oder senden Sie uns eine Mail an  spa@europaeischerhof.com .
+Ihre ANFRAGE 
+ FAQ
+## Häufig gestellte Fragen
+Was bietet das Panorama Spa im Wellnesshotel in Heidelberg? 
+ Unser Panorama Spa bietet Ihnen einen Indoor-Pool, eine finnische Sauna, ein Sanarium, ein Dampfbad und moderne Fitnessgeräte. Zudem können Sie auf unserer Sonnenterrasse entspannen, den Ausblick über den Odenwald genießen und verschiedene Wellnessbehandlungen wahrnehmen.
+Welche Wellnessbehandlungen werden im Spa Hotel in Heidelberg angeboten? 
+ Wir bieten eine Vielzahl von Massagen wie Hot-Stone-Massage, Sportmassage und Ayurveda-Ganzkörpermassage sowie Beautybehandlungen für Gesicht und Körper an. Dabei gibt es spezielle Angebote für Frauen und Männer.
+Können auch externe Besucher das Spa im Wellnesshotel nutzen? 
+ Ja, wir heißen sowohl Hotelgäste als auch externe Besucher herzlich willkommen. Externe Gäste können Stunden-Tickets, Halbjahres- oder Jahres-Tickets sowie auch ein Day-Spa-Ticket buchen, um unsere Einrichtungen zu nutzen.
+Welche Ausstattung ist im Fitnessbereich vorhanden? 
+ Unser Fitnessbereich ist mit modernsten Geräten für ein intensives Ausdauer- und Kraftsport-Training ausgestattet. Auf Wunsch organisieren wir auch einen Personal Trainer für Sie.
+Kann ich im Panorama Spa auch Speisen und Getränke konsumieren? 
+ Das Mitbringen und Verzehren von Speisen ist aus hygienischen Gründen nicht gestattet. Kleine Snacks können Sie bei uns nachfragen, und unser Service-Team versorgt Sie gerne im Restaurant mit Köstlichkeiten.
+Dürfen Kinder den Spa-Bereich nutzen? 
+ Kinder sind in Begleitung ihrer Eltern oder einer berechtigten Aufsichtsperson herzlich willkommen. Kinder unter sechs Jahren haben jedoch keinen Zutritt zum Saunabereich.
+Wie ist die Handynutzung im Panorama Spa geregelt? 
+ Die Nutzung mobiler Endgeräte ist im Saunabereich, Ruhebereich und in den Umkleiden untersagt, um die Erholung und Privatsphäre der Gäste zu schützen. In anderen Bereichen dürfen Geräte mit Kopfhörern genutzt werden.
+Welche Kleidung ist im Panorama Spa erforderlich? 
+ Sie erhalten von uns Bademäntel, Badetücher und Slipper. Für den Fitnessraum bitten wir Sie, Indoor-Sportschuhe zu verwenden. Beim Saunieren und im Dampfbad sollten Sie bitte immer ein Handtuch als Unterlage verwenden.
+Wie kann ich einen Termin für eine Behandlung buchen? 
+ Rufen Sie uns gerne an unter  +49 6221 515-182  oder senden Sie uns eine Mail an  spa@europaeischerhof.com . Wir empfehlen eine rechtzeitige Behandlungsreservierung aufgrund der hohen Nachfrage. Bitte erscheinen Sie fünf Minuten vor Behandlungsbeginn im Bademantel an der Spa-Rezeption.
+Was passiert, wenn ich einen Termin absagen oder ändern muss? 
+ Eine Stornierung bis 12 Stunden vor dem Termin ist kostenlos möglich. Bei späterer Absage müssen wir 50 % der Behandlungskosten berechnen. Bei Nichterscheinen oder Verspätungen werden die vollen Kosten in Rechnung gestellt.
+ Unser Portfolio
+## Das könnte Ihnen auch gefallen
+ Kulinarische Events 
+ Gastronomie & Kulinarik
+
+## Quelle: _quelle/seiten/hochzeit-heidelberg.md
+# Hochzeitslocatin | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/hochzeit-heidelberg/
+ Reisezeitraum 
+ Anzahl der Gäste 
+ Anzahl der Gäste: 0 
+ Zimmer 
+ Erwachsene 
+ Kinder 
+ Gutschein/Rabatt 
+ Anfragen 
+ Stilvoll heiraten
+## Die perfekte Hochzeitslocation in Heidelberg
+ Sie planen eine Hochzeit in Heidelberg? Natürlich soll die Hochzeitslocation dem schönsten Tag Ihres Lebens gerecht werden. Im Europäischen Hof feiern Sie und Ihre Gäste eine Märchenhochzeit im Grand Hotel. Ob privat, im kleinen und ausgesuchten Kreis oder mit bis zu 100 Personen – unser Hotel bietet für jeden Geschmack einen exklusiven Rahmen.
+ Ihre Hochzeit
+## Hochzeitslocation inklusive – unsere Angebote
+ Brautpaare, die sich eine ausgefallene und exklusive Hochzeit in Heidelberg wünschen, treffen mit dem Europäischen Hof genau die richtige Wahl. Ihre traumhafte Hochzeitslocation in Heidelberg kann im Rahmen unserer Arrangements gebucht werden. Diese beinhalten:
+ • Die Miete Ihres Veranstaltungsraums
+• Ausgefeiltes Audio & Visual-Equipment
+• 3- bis 5-Gänge-Gourmetmenüs inklusive Aperitif und Snacks
+ Werfen Sie jetzt einen Blick auf unsere Hochzeitsangebote Bronze, Silber und Gold (je nach Wunsch und Budget). Gerne erstellen wir auch ein Angebot Ihren individuellen Wünschen entsprechend.
+zu den Hochzeit Packages 
+ Perfekte Planung
+## Ihre Wedding-Planner
+ Die komplette Planung Ihrer Hochzeit liegt in den Händen des Europäischen Hofes – Sie müssen sich um nichts Gedanken machen. Genießen Sie erlesene, zum Menü passende, alkoholische und nicht-alkoholische Getränke. Überlassen Sie auch die Gestaltung Ihrer Location gerne unseren Hochzeitsplanern. Freuen Sie sich auf eine stilvolle Dekoration mit Blumen, Kerzen oder schöner Tischwäsche, die dem romantischen Rahmen den letzten Schliff verleihen. Entsprechend des gewählten Angebots kümmern wir uns um die Gestaltung der Platzteller, Tischpläne und Menükarten. Zudem servieren wir Ihre individuell geplante Hochzeitstorte und den gewünschten Mitternachtssnack.
+ Stadt der Romantik
+## Warum eine Hochzeitslocation in Heidelberg?
+ Hochzeitslocations in Heidelberg sind sehr beliebt bei Brautpaaren – aus gutem Grund. Kaum eine Stadt in Baden-Württemberg verbindet Tradition so gekonnt mit Romantik. Sehenswürdigkeiten, Wahrzeichen und Prachtbauten treffen auf viele grüne Flecken, was Heidelberg zur perfekten Kulisse für Ihre Hochzeitsfotos macht. Zudem liegt Ihren Gästen ein vielfältiges kulturelles Rahmenprogramm zu Füßen. Das ganzjährig milde Klima der Stadt bringt Sie Ihrer Traumhochzeit bei gutem Wetter einen Schritt näher. Selbst Freiluft-Locations unter der legendären Heidelberger Sonne sind nichts Ungewöhnliches. Mit einer Hochzeit in Heidelberg entscheiden Sie sich für ein außergewöhnliches Ereignis, das allen lange in Erinnerung bleiben wird.
+ Räume & Säle
+## Für jeden Wunsch die perfekte Hochzeitslocation
+ Heiraten, wie Sie es sich wünschen: Im Europäischen Hof in Heidelberg finden wir eine maßgeschneiderte Hochzeitslocation für Sie. Von klassischem Empfang über gesetztes Dinner bis hin zur rauschenden Feier mit großer Festgesellschaft: Ganz gleich, wofür Sie sich entscheiden – unsere Räume und Säle sind für Ihre Hochzeit in Heidelberg stets erste Wahl. Dank Kombinationsmöglichkeiten der Räume und Säle können Sie bis zu 100 Gäste empfangen.
+ Zimmer Maße
+Liselottenstube 
+77 m 2 
+30 
+28 
+36 
+54 
+Kaminzimmer 
+85,00 m 2 
+— 
+20 
+24 
+20 
+Hotelrestaurant 
+130,00 m 2 
+— 
+50 
+100 
+100 
+Gartensaal 
+145,00 m 2 
+40 
+64 
+64 
+100 
+Heidelbergsaal 
+160,00 m 2 
+45 
+48 
+60 
+100 
+Pfalzgrafensaal 
+180,00 m 2 
+46 
+40 
+52 
+100 
+ Ja, ich will
+## Hochzeit Packages
+ Ein festlich dekorierter Veranstaltungsraum, persönliche Betreuung während der Feier, Getränke und ein Gourmetmenü oder -buffet sind Ihnen bei all unseren Hochzeitsangeboten sicher. Ganz besondere Highlights setzen wir durch Piano-Livemusik und Ihre individuell gestaltete Hochzeitstorte.
+## Hochzeitsspecial „Gold“
+ Ein wundervoll dekorierter Veranstaltungsraum erwartet Sie und Ihre Hochzeitsgäste. Hier genießen Sie nach dem Empfang ein 5-Gang-Gourmetmenü bzw. -buffet.
+Mehr Entdecken 
+## Hochzeitsspecial „Silber“
+ Nach dem Empfang in dem mit aufwändiger Tischdekoration geschmücktem Raum genießen Sie ein köstliches 4-Gang-Menü im Kreise Ihrer Hochzeitsgesellschaft.
+Mehr Entdecken 
+## Hochzeitsspecial „Bronze“
+ Vom Empfang über ein köstliches 3-Gang-Menü bis zur festlichen Dekoration – wir haben an alles gedacht, damit Sie den schönsten Tag im Leben im Kreise Ihrer Lieben genießen.
+Mehr Entdecken 
+ Für Immer
+## Willkommen
+ Gemeinsam mit Ihnen gestalten wir Ihren unvergesslichen Aufenthalt im exklusiven Ambiente des Europäischen Hofes in Heidelberg. Denn besondere Ereignisse bedürfen einer besonderen und individuellen Planung und Betreuung.
+ Traumhaft übernachten
+## Hochzeitssuite und Zimmer
+ Nach Ihrer Hochzeitsfeier lassen Sie den besonderen Tag in stilvoller Atmosphäre ausklingen. Für Sie und Ihre Gäste stehen 91 Einzel- und Doppelzimmer, 16 Junior Suiten, 3 Executive Suiten, 5 Serviced Apartments sowie unsere großzügige Penthouse Suite mit 200 m² zur Verfügung.
+ Zeitlose Eleganz, edle Materialien und feinste Bettwäsche sorgen in allen Zimmern und Suiten für höchsten Komfort und ein rundum angenehmes Wohngefühl.
+Zimmer und Suiten 
+ Wunderbar entspannen
+## Morgens ins Panorama Spa
+ Genießen Sie eine entspannte Auszeit nach Ihrer Hochzeitsfeier im 600 m² großen PANORAMA SPA . Unsere Wohlfühloase bietet Ihnen Saunen, Schwimmbad, Sonnenterrasse sowie moderne Fitnessgeräte an.
+PANORAMA SPA 
+ Märchenhaftes Heidelberg
+## Romantisches Rahmenprogramm in Heidelberg
+ Zwischen majestätischem Schloss, idyllischer Altstadt und dem Fluss inmitten der Berge zählt Heidelberg sicher zu einer der romantischsten Städte Deutschlands. Da liegt es nahe, nach den Feierlichkeiten die Sehenswürdigkeiten zu erkunden und auf den Spuren der Dichter und Maler der Romantik zu spazieren.
+HEIDELBERG ENTDECKEN 
+ Im Herzen Heidelbergs
+## Anfahrt & Parken zur Hochzeitslocation
+ Sie finden unsere Hochzeitslocation im Herzen Heidelbergs, unweit des Bismarckplatzes. Im Hotel stehen Ihnen 200 Tiefgaragen-Parkplätze zur Verfügung (gebührenpflichtig). Für E-Autos bieten wir drei Tesla-Ladestationen sowie eine universelle Ladestation für alle gängigen E-Modelle an.
+## Jetzt Hochzeitslocation anfragen
+ Die komplette Planung der Hochzeit liegt in den Händen des Europäischen Hofes – Sie müssen sich um nichts Gedanken machen. Konzentrieren Sie sich voll und ganz auf Ihre Hochzeit! Auch unser erfahrenes Event-Team hat stets ein offenes Ohr für Sie – damit Ihr großer Tag einzigartig schön wird und auch nach Jahrzehnten erinnerungswürdig bleibt..
+ Rufen Sie uns gerne an unter  Telefon  +49 (0)6221 515-510  oder senden Sie uns eine Mail an  events@europaeischerhof.com .
+KONTAKT AUFNEHMEN 
+ Unser Portfolio
+## Das könnte Ihnen auch gefallen
+ Catering 
+ Tagung
+
+## Quelle: _quelle/seiten/tagungshotel-heidelberg.md
+# Tagungshotel im Zentrum | Hotel Europäischer Hof Heidelberg
+Quelle: https://www.europaeischerhof.com/tagungshotel-heidelberg/
+ Reisezeitraum 
+ Anzahl der Gäste 
+ Anzahl der Gäste: 0 
+ Zimmer 
+ Erwachsene 
+ Kinder 
+ Gutschein/Rabatt 
+ Anfragen 
+## Exklusives Tagungshotel im Zentrum von Heidelberg
+ Hochkarätige Veranstaltungen haben bei uns in Heidelberg das ganze Jahr über Saison. Wir sind für unsere Kunden  Tagungshotel , Seminarhotel, Konferenzhotel und Kongresshotel. Dabei machen wir jede Veranstaltung zum echten Erlebnis. Sie tagen vor der kultivierten Kulisse eines 5 Sterne Superior Hotels und profitieren von einer ausgezeichneten Lage im Herzen Heidelbergs. Dank der jahrelangen Erfahrung unserer VeranstaltungsexpertInnen ist die Planung, Organisation und Durchführung Ihrer Veranstaltung in den besten Händen. Alles wird im Vorfeld umfassend abgesprochen, alle technischen Geräte sind auf dem neuesten Stand und wir sind natürlich jederzeit unterstützend zur Stelle. Gerne erstellen wir für Sie ein maßgeschneidertes Rahmenprogramm, so dass Ihr Event nicht nur aus geschäftlicher Perspektive überzeugt, sondern darüber hinaus lange in Erinnerung bleibt.
+ Exklusive Meetingräume
+## Executive Boardrooms
+ Die Executive Boardrooms unseres Tagungshotels in Heidelberg dienen Ihnen als exklusive Räume für Meetings und Tagungen im kleinen Kreis. In elegantem Ambiente finden Entscheider optimale Rahmenbedingungen. Unsere Executive Boardrooms im Zentrum von Heidelberg sind besonders bei Vorständen, Aufsichtsräten, Gesellschafterkreisen und Geschäftsführungen beliebt.
+ Ganz individuell
+## Unsere Tagungsräume
+ Der Europäische Hof in Heidelberg verfügt über viele verschiedene Räumlichkeiten, die sich für eine Tagung in Heidelberg eignen – ganz gleich, ob für wenige oder viele Teilnehmer. Klicken Sie auf die unten aufgeführten Raumnamen und schauen Sie sich die Räume im Detail an.
+Tagungstechnik 
+Direkt anfragen 
+ Zimmer Maße
+Salon Speyer 
+22,00 m 2 
+— 
+— 
+— 
+6 
+— 
+— 
+Salon Ladenburg 
+36,00 m 2 
+— 
+— 
+— 
+14 
+— 
+16 
+Liselottenstube 
+77,00 m 2 
+30 
+56 
+65 
+28 
+36 
+54 
+Gartensaal 
+145,00 m 2 
+40 
+100 
+120 
+64 
+64 
+100 
+Heidelbergsaal 
+160,00 m 2 
+45 
+100 
+140 
+48 
+60 
+100 
+Pfalzgrafensaal 
+180,00 m 2 
+46 
+100 
+160 
+40 
+52 
+100 
+ Raumübersicht
+## Lageplan
+## Tagungspauschalen
+Direkt anfragen 
+Tagungspauschale Komfort 
+ Persönliche Betreuung vor und während der Veranstaltung
+Tagungsraum entsprechend der Teilnehmerzahl
+Softdrinks unlimitiert im Tagungsraum
+2 Kaffeepausen nach Wahl des Küchenchefs inkl. Kaffee und Tee
+Standardtechnik: 1 Beamer mit Leinwand und 1 Flipchart
+Schreibblock, Stift und Traubenzucker für jeden Teilnehmer
+Highspeed W-LAN (Bandbreite 8 Mbit/s)
+Saisonales 3-Gang-Menü zum Mittagessen *
+Mineralwasser inklusive zum Mittagessen
+ (Gültig ab einer Gruppengröße von 15 Personen)
+ Alle Pauschalen können gegen Aufpreis um ein Abendessen ergänzt werden.
+ Ⓥ Gerne richten wir Ihre Tagung auch vegan oder vegetarisch aus.
+ Preis auf Anfrage 
+Tagungspauschale Deluxe 
+ Persönliche Betreuung vor und während der Veranstaltung
+Tagungsraum entsprechend der Teilnehmerzahl
+Begrüßungskaffee
+Softdrinks unlimitiert im Tagungsraum
+2 Kaffeepausen nach Wahl des Küchenchefs inkl. Kaffee und Tee
+Standardtechnik: 1 Beamer mit Leinwand und 1 Flipchart
+Zusätzliche Technik: 1-3 Metaplanwände
+Schreibblock, Stift und Traubenzucker für jeden Teilnehmer
+Hightspeed W-LAN (Bandbreite 8 Mbit/s)
+Saisonales 3-Gang-Menü zum Mittagessen *
+Mineralwasser inklusive zum Mittagessen
+Softgetränke inklusive zum Mittagessen
+Tasse Kaffee/Espresso nach dem Mittagessen
+ (Gültig ab einer Gruppengröße von 15 Personen)
+ Alle Pauschalen können gegen Aufpreis um ein Abendessen ergänzt werden.
+ Ⓥ Gerne richten wir Ihre Tagung auch vegan oder vegetarisch aus.
+ Preis auf Anfrage 
+Tagungspauschale SMART 
+ Persönliche Betreuung vor und während der Veranstaltung
+Tagungsraum entsprechend der Teilnehmerzahl
+Softdrinks unlimitiert im Tagungsraum
+2 Kaffeepausen nach Wahl des Küchenchefs inkl. Kaffee und Tee
+Standardtechnik: 1 Beamer mit Leinwand und 1 Flipchart
+Schreibblock, Stift und Traubenzucker für jeden Teilnehmer
+Hightspeed W-LAN (Bandbreite 8 Mbit/s)
+Saisonales 3-Gang-Menü zum Mittagessen *
+Mineralwasser inklusive zum Mittagessen
+ (Gültig ab einer Gruppengröße von 6 bis 14 Personen)
+ Ⓥ Gerne richten wir Ihre Tagung auch vegan oder vegetarisch aus.
+ Preis auf Anfrage 
+## Rund um Ihre Tagung
+ Brainfood
+## Erstklassige Kulinarik
+ Wie sagte schon Winston Churchill: „Man soll dem Leib etwas Gutes bieten, damit die Seele Lust hat, darin zu wohnen“. Gemäß diesem Motto verwöhnen wir Sie im Fine-Dining-Restaurant  Die Kurfürstenstube  oder im luftigen  Sommerrestaurant  unseres Tagungshotels. Das perfekte Ambiente nach einem langen Arbeitstag wartet sowohl in unserer  Europa Bar  als auch in der  Smokers Lounge .
+Kulinarik 
+ 5 Sterne Superior Komfort
+## Mehrtägige Events
+ Genießen Sie höchsten Übernachtungskomfort, wenn Sie eine längere Veranstaltung in unserem Tagungshotel in Heidelberg besuchen. Auf Sie und Ihre TeilnehmerInnen warten 94 Einzel- und Doppelzimmer, 16 Junior Suiten, 3 Executive Suiten, 5 Serviced Apartments und 1 Penthouse Suite.
+Zimmer und Suiten 
+ Lebendig
+## Heidelberg erleben
+ Ob Ihre Event-Gäste nun das private Wochenende dranhängen oder den Konferenz-Tag locker ausklingen lassen möchten – die Stadt Heidelberg bietet zahllose Möglichkeiten. Auch für Incentives finden sich in der historischen Stadt am Neckar und in ihrer Umgebung eine Menge Möglichkeiten.
+Heidelberg erleben 
+## Anreise ins Tagungshotel
+ Nah
+## Anreise mit dem Auto
+Ihre Route mit Google-Maps 
+Anfahrt & Erreichbarkeit 
+ Fern
+## Anreise mit dem Flugzeug
+ Gleich vier Flughäfen sind von unserem Tagungshotel aus in weniger als zwei Stunden zu erreichen:
+ Frankfurt Airport ca. 83 km | 1 Stunde
+Flughafen Stuttgart ca. 113 km | 100 Minuten
+Frankfurt-Hahn Airport ca. 137 km | 110 Minuten
+City Airport Mannheim ca. 19 km | 25 Minuten
+ Komfortabel
+## Limousinen - Service
+ Um Ihnen Ihre Anreise so angenehm wie möglich zu gestalten, bieten wir Ihnen gerne auch unseren Limousinen-Service an. Bitte geben Sie uns bei Ihrer Buchung Bescheid, falls Sie für Ihre Tagungsgäste einen persönlichen Limousine-Service benötigen.
+Kontakt 
+## Anfrage
+ Veranstaltungen sind so unterschiedlich wie die individuellen Wünsche der ausrichtenden Personen oder Firmen und ihre Anforderungen an eine Eventlocation und einen Veranstaltungsraum in Heidelberg. Gerne erstellen wir Ihnen ein maßgeschneidertes Angebot nach Ihren Budgetvorstellungen.
+Rufen Sie uns gerne an unter  Telefon +49 (0)6221 515-510  oder senden Sie uns eine Mail an  Telefon events@europaeischerhof.com .
+ANFRAGE 
+Informationen 
+ Unser Portfolio
+## Das könnte Ihnen auch gefallen.
+ Sehenswürdigkeiten 
+ Übernachtung
+
+## Kulinarischer Kalender 2026
+GENUSS &
+KULINARIK
+EVENTS 2026
+ ÖFFNUNGSZEITEN
+Frühstück
+Genießen Sie wochentags von 06:30 bis 11:00 Uhr
+und 6:30 bis 11:30 Uhr an Sonn- und Feiertagen unser
+Gourmet-Frühstück.
+Die Kurfürstenstube
+Die Kurfürstenstube bietet exquisites Fine-Dining mit
+regionalen Zutaten, moderner französischer Küche und
+erstklassigem Service in edlem Ambiente.
+Öffnungszeiten
+Montag bis Sonntag von 12:00 bis 23:00 Uhr.
+Warme Küche bis 21:00 Uhr.
+Die Kurfürstenstube befindet sich vom 23. April
+bis 16. September 2026 in der Sommerpause.
+Das Sommerrestaurant
+Das Sommerrestaurant bietet auf seiner idyllischen
+Terrasse mediterrane Köstlichkeiten mit frischen und
+saisonalen Zutaten.
+Öffnungszeiten
+Montag bis Sonntag von 12:00 bis 23:00 Uhr.
+Warme Küche bis 21:00 Uhr.
+Das Sommerrestaurant mit Terrasse hat vom
+23. April bis 16. September 2026 geöffnet.
+Europa-Bar & Smokers Lounge
+Erleben Sie erlesene Drinks, feine Köstlichkeiten und
+ausgewählte Zigarren im perfekten Ambiente für einen
+genussvollen Ausklang des Abends.
+Kontakt
+Wir freuen uns auf Ihren Besuch – Ihr Gastronomieteam
+im Europäischen Hof Heidelberg.
+Sie erreichen uns telefonisch unter
++49 (0) 6221 515-511 oder per E-Mail an
+f-b@europaeischerhof.com
+Der Europäische Hof Heidelberg · Friedrich-Ebert-Anlage 1
+69117 Heidelberg · Telefon: +49 (0) 6221-515-0
+Fax: +49 (0) 6221-515-506 · welcome@europaeischerhof.com
+www.europaeischerhof.com
+ÜBERNACHTUNGS-
+ PACKAGE
+ „KULINARISCHE
+ WEINREISE“
+ Zwei Übernachtungen in einem
+ unserer eleganten Zimmer
+ Gourmet-Frühstück an beiden Tagen
+ Ein Glas Winzersekt zur Begrüßung an
+ unserer Europa Bar
+ Ein exquisites 5-Gang-Dinner inklusive
+ korrespondierenden Weinen am Anreisetag
+Freie Nutzung des 600 qm PANORAMA SPA
+ (Indoor-Pool mit Whirlpool-Nische, Sauna,
+ Sanarium, Dampfbad und Sonnenterrasse)
+ inklusive Fitnessbereich
+ Bademantel und Slipper für
+ den Spa Bereich
+ Ganzjährig buchbar
+ – ab 605 Euro pro Person
+ JANUAR / FEBRUAR / MÄRZ
+ 23. BIS 25. JANUAR 2026
+ Forest Jewel – Trüffel-Menü
+ Vom geheimnisvollen Waldboden auf die Teller der Feinschmecker.
+ Ein Menü für Gourmets.
+ 6-Gang-Menü pro Person 259 Euro
+ Mit Weinbegleitung pro Person 369 Euro
+ 14. FEBRUAR 2026 / 18:30 UHR
+ A Symphony of Love – Valentinstag
+ Eine Liebeserklärung an die Liebe, den Genuss und die gemeinsame Zeit.
+ 4-Gang-Menü pro Person 179 Euro
+ 5-Gang-Menü pro Person 209 Euro
+ 6-Gang-Menü pro Person 249 Euro
+ 13. MÄRZ 2026 / 18:30 UHR
+ Soirée Française – Französischer Abend
+ Ein exklusives Erlebnis für nur 20 Gäste: Genießen Sie ein 6-Gang-Menü
+inspiriert von der französischen Haute Cuisine, begleitet von erlesenen Weinraritäten und fachkundig erklärt
+ von einem Experten, der sein Wissen teilt und zum Austausch einlädt.
+ 6-Gang-Menü mit Raritäten-Weinbegleitung pro Person 559 Euro
+ PACKAGE FÜR ZWEI
+ Zu zweit ist alles viel schöner!
+ Entspannen Sie über den Dächern Heidelbergs
+ und entfliehen Sie dem Alltag.
+ Genießen Sie den Tag im PANORAMA SPA
+ und lassen sich anschließend in unserem
+ RESTAURANT kulinarisch verwöhnen.
+Wir freuen uns darauf Ihnen ein ganz besonderes
+ Erlebnis zu bereiten.
+ Ganzjährig buchbar
+ Day Spa, Wellnessmassage (60 Minuten),
+ 3-Gang-Gourmetmenü (exklusive Getränke)
+ APRIL / MAI
+ 03. BIS 06. APRIL 2026
+ Ostern kulinarisch
+ Von Karfreitag bis Ostermontag laden wir zu festlichen Menüs mit saisonalen und regionalen Spezialitäten ein –
+ ein kulinarisches Osterfest für die ganze Familie.
+ 3-Gang-Menü pro Person 129 Euro
+ 4-Gang-Menü pro Person 149 Euro
+ 05. APRIL 2026 / 11:30 BIS 15:00 UHR
+ Osterbrunch
+Ostern ist Familienzeit! Unser Küchenteam überrascht Groß und Klein mit einem vielfältigen Brunchbuffet, süßen Osterleckereien
+ und kulinarischen Köstlichkeiten, die Herzen höher schlagen lassen.
+ Pro Person 119 Euro
+ Inklusive Speisen, Aperitif, Softdrinks und Kaffee
+ Kinder bis 6 Jahre sind von uns eingeladen. Für Kinder von 6 – 12 Jahren berechnen wir 50 % des Preises.
+ 10. MAI 2026
+ Moments for Mom – Muttertag
+ Ein Tag voller Dankbarkeit: Am Muttertag widmen wir uns all den Müttern, denen wir so viel verdanken.
+ Genießen Sie diesen besonderen Anlass mit kulinarischen Köstlichkeiten, die den Tag unvergesslich machen.
+ 4-Gang-Menü pro Person 179 Euro
+ DAS GANZE JAHR / 15:00 BIS 17:00 UHR
+ TEA TIME
+ Genießen Sie eine klassische Teestunde in der
+ gemütlichen Hotelhalle unseres Grand Hotels.
+ Wir verwöhnen Sie mit süßen und herzhaften
+Köstlichkeiten aus unserer hauseigenen Pâtisserie.
+ Wählen Sie dazu feine Teesorten aus dem Luxus-
+Teehaus Ronnefeldt oder erfreuen Sie sich an einem
+ prickelnden Glas Winzersekt.
+ Pro Person 79 Euro
+ Unsere Tea Time ist buchbar ab zwei Personen.
+ Wir bitten um Tischreservierung 48 h im Voraus.
+ 25. MAI 2026 | 12:30 BIS 17:00 UHR
+ LA VIE EN ROSÉ
+ Genuss am Pfingstmontag
+ Genießen Sie einen Feiertag voller Leichtigkeit
+ und Lebensfreude: Erleben Sie eine exquisite
+ Auswahl an Rosé-Weinen, Champagner und
+kreativen Drinks, begleitet von stimmungsvoller
+ Musik. Dazu servieren wir feine Fisch-Speziali-
+ täten, die das Geschmackserlebnis abrunden.
+ All inclusive pro Person 159 Euro
+ 19. BIS 21. JUNI 2026
+ GREEN ELEGANCE
+ Vegetarisches Fine Dining
+ Erleben Sie die Raffinesse der vegetarischen
+ Haute Cuisine: Ein Menü, das die Vielfalt der
+Natur in exklusiven Kompositionen neu interpre-
+tiert. Feinste Zutaten, inspiriert von der Saison,
+ verbinden sich zu einem kulinarischen Erlebnis
+ voller Leichtigkeit und Eleganz
+ 4-Gang-Menü pro Person 149 Euro
+ 5-Gang-Menü pro Person 179 Euro
+ JULI / OKTOBER
+ 24. JULI 2026 / 18:00 BIS 23:00 UHR
+ Europ-Gartenparty
+Wenn Genuss auf Sommergarten trifft – erleben Sie Haute Cuisine unter freiem Himmel.
+ Genießen Sie erlesene Grill- und Sommer-Spezialitäten, dazu erfrischende Drinks
+ und die Beats unseres DJs, die für die perfekte Stimmung sorgen.
+ Ein Sommerabend voller Lebensfreude und Genuss.
+ Pro Person 209 Euro
+ Inklusive Speisen, Aperitif, Softdrinks, ausgesuchten Weinen, Bier und Kaffee
+ 2. OKTOBER 2026 / 18:30 BIS 24:00 UHR
+ Europ-Küchenparty
+ Das kulinarische Happening des Jahres: Haute Cuisine trifft lockere Lebensfreude.
+Offene Küchenstationen werden zu Erlebnisinseln, Gäste flanieren frei durch die Räume,
+ probieren, plaudern und genießen. Musik und kulinarische Vielfalt machen diese
+ Party zu einem Genussabenteuer zwischen Tradition und Innovation.
+ All-Inclusive-Abend pro Person 229 Euro
+ NOVEMBER
+ 10. NOVEMBER BIS 23. DEZEMBER 2026
+ Gans privé mit Freilandgans
+ Gerne liefern wir Ihnen per Taxitransfer einen knusprigen Gänsebraten, heiß und frisch mit Maronen,
+ Schmorapfel, Rotkraut und Kartoffelklößen – oder Sie genießen ihn in unserem Restaurant „Die Kurfürstenstube“.
+ Selbstabholer 259 Euro (Zulieferung zzgl. Taxikosten)
+ Bei Verzehr im Restaurant „Die Kurfürstenstube“ 269 Euro
+ 11. NOVEMBER 2026
+ Martinsgans
+ Wir lieben und leben Traditionen – und freuen uns jedes Jahr auf die Martinsgans.
+ Freuen Sie sich auf ein traditionelles Gänsemenü in unserem Restaurant „Die Kurfürstenstube“.
+ 4-Gang-Menü pro Person 179 Euro
+ 29. NOVEMBER 2026 / 11:30 BIS 15:00 UHR
+ Advents-Brunch
+Der Advent ist Familienzeit: Genießen Sie festliche Klänge, liebevoll geschmückte Räumlichkeiten und eine Vielfalt an weihnachtlichen
+ Spezialitäten. Erleben Sie mit Ihren Lieben unvergessliche Momente voller Wärme, Genuss und Vorfreude auf Weihnachten.
+ Pro Person 129 Euro
+ Inklusive Speisen, Aperitif, Softdrinks und Kaffee
+ Kinder bis 6 Jahre sind von uns eingeladen. Für Kinder von 6 – 12 Jahren berechnen wir 50% des Preises.
+ WEIHNACHTEN UND SILVESTER
+ 24. BIS 26. DEZEMBER 2026 / 12 BIS 15 UND 18 BIS 21 UHR
+ Frohe Weihnachten!
+ Weihnachten ist die Zeit für Familie, Genuss und festliche Momente.
+ In unseren stimmungsvoll dekorierten Räumen servieren wir Ihnen exquisite Weihnachtsmenüs,
+die Tradition und kulinarische Raffinesse verbinden. So wird Ihr Fest zu einem unvergesslichen Erlebnis.
+ 3-Gang-Menü pro Person 164 Euro
+ 4-Gang-Menü pro Person 184 Euro
+ 31. DEZEMBER / AB 18:30 UHR
+ Silvester
+ Feiern Sie den Jahreswechsel im Glanz unseres Grand Hotels:
+ Beginnen Sie mit einem exquisiten 6-Gang-Candlelight-Dinner
+ und genießen Sie anschließend DJ, Tanz und glanzvolle Stimmung in unserer Grand Hotel Halle.
+ Ein Abend voller Eleganz, Stil und unvergesslicher Momente –
+ der perfekte Auftakt für ein neues Jahr.
+ Exquisites 6-Gang-Menü & Tanz mit Musik
+ Pro Person 349 Euro
+ONLINESHOP
+ GUTSCHEINE · KULINARISCHE EVENTS:
+ UNSER ONLINESHOP HAT IMMER GEÖFFNET!
+ www.europaeischerhof.com/shop

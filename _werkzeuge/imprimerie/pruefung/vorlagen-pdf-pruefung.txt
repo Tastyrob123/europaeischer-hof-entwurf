@@ -1,0 +1,83 @@
+karte-001 q210 Degustations-Menü ok 
+karte-002 q210 Kalte Vorspeisen ok 
+karte-003 q210 Warme Vorspeisen und Suppen ok 
+karte-004 q210 Hauptgänge ok 
+karte-005 q210 Käse und Desserts ok 
+karte-006 a5h Degustations-Menü · A5 ok 
+karte-007 dlh Kalte Vorspeisen · DL hoch ok 
+getraenke-001 q210 Aperitif ok 
+getraenke-002 q210 Offene Weine ok 
+getraenke-003 dlh Bartenders Choice ok 
+getraenke-004 dlh Zum Aperitif ok 
+getraenke-005 a5h Cocktail-Empfehlung zum Nachmixen ok 
+getraenke-006 a4h Zigarren · Fach 1 bis 8 ok 
+getraenke-007 a4h Zigarren · Fach 9 bis 16 ok 
+getraenke-008 a4h Zigarren · Fach 17 bis 24 ok 
+getraenke-009 dlh Bartenders Choice · Weiß ok 
+aushang-001 a5h Gourmet-Frühstück ok 
+aushang-002 a5h Europa Bar · täglich ab 17 Uhr ok 
+aushang-003 a5h Tischreservierung ok 
+aushang-004 a6h Vegetarisch und vegan ok 
+aushang-005 a6h Tea Time · Reservierung ok 
+aushang-006 a4h Geschlossene Gesellschaft ok 
+aushang-007 a6h Smokers Lounge · durchgängig geöffnet ok 
+aushang-008 a5h Öffnungszeiten PANORAMA SPA ok 
+aushang-009 a5h Eintritt PANORAMA SPA ok 
+aushang-010 a4h Öffnungszeiten der Restaurants ok 
+broschuere-001 b170 Titelblatt · Eintreten. Wohlfühlen. 
+   gelb: Foto „hotel-europaeischer-hof-heidelberg-5-sterne-hotel-aussen-eingang-treppenaufgang-02“ hat 185 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+broschuere-002 b170 Willkommen in Heidelberg ok 
+broschuere-003 b170 Im Lauf der Zeit 
+   gelb: Foto „hotel-europaeischer-hof-heidelberg-5-sterne-treppenaufgang-03“ hat 201 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+broschuere-004 b170 Das Team 
+   gelb: Foto „eh2025101-koeche216-preview-scaled-1“ hat 192 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+broschuere-005 b170 Heidelberg, die Schöne ok 
+broschuere-006 a5q Lernen mit fünf Sternen ok 
+broschuere-007 b170 Das Sommerrestaurant · Broschürenseite ok 
+broschuere-008 a5h Rückseite mit Adresse ok 
+broschuere-009 b170 Die perfekte Hochzeitslocation 
+   gelb: Foto „cover-hochzeit-e1719922508899“ hat 157 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+broschuere-010 b170 Ihre Tagung, ganz persönlich ok 
+arrangement-001 a5h Besinnliche Weihnachten ok 
+arrangement-002 a5h Silvester Special ok 
+arrangement-003 a5h Healthy-Break-Wellness-Special ok 
+arrangement-004 a5h Heidelberg Special ok 
+arrangement-005 a5h Kulinarische Weinreise ok 
+arrangement-006 a5h 30 Jahre Heidelberger Frühling ok 
+arrangement-007 a5h Besinnliche Weihnachten · mit Foto ok 
+arrangement-008 a5h Kulinarische Weinreise · mit Foto 
+   gelb: Foto „romantische-weinreise-website-i-scaled-e1719923467171-min“ hat 161 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+arrangement-009 a5h Package für zwei ok 
+arrangement-010 a5h Day Spa in Heidelberg ok 
+einladung-001 q148 Einladung zur Hochzeit ok 
+einladung-002 q148 Hochzeit · Warmes Hell ok 
+einladung-003 a5q Save the Date ok 
+einladung-004 a5q Einladung zur Tagung ok 
+einladung-005 a5q Einladung zur Tagung · Schwarz ok 
+einladung-006 q148 Advents-Brunch · Einladung ok 
+abend-001 a5h Martinsgans 
+   gelb: Foto „kurfuerstenstube-raum-2026“ hat 178 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+abend-002 a4h Martinsgans · Aushang ok 
+abend-003 a5h Gans privé ok 
+abend-004 a4h Gans privé · Aushang ok 
+abend-005 a5h Advents-Brunch ok 
+abend-006 a4h Advents-Brunch · Aushang ok 
+abend-007 a5h Frohe Weihnachten ok 
+abend-008 a4h Frohe Weihnachten · Aushang ok 
+abend-009 a5h Silvester 
+   gelb: Foto „luxus-hotel-europaeischer-hof-heidelberg-silvester-arrangement-in-heidelberg-e1719924679348“ hat 158 dpi: für Plakate aus Abstand gut, für Karten aus der Nähe knapp 
+abend-010 a4h Silvester · Aushang ok 
+abend-011 a5h Tea Time ok 
+abend-012 a4h Tea Time · Aushang ok 
+abend-013 a5h Frohe Weihnachten · Menüpreise ok 
+abend-014 a5h Gans privé · Preise ok 
+programm-001 a5h Die nächsten Termine ok 
+programm-002 a5h Die nächsten Termine · Schwarz ok 
+tischkarte-001 a7q Tischnummer ok 
+tischkarte-002 a7q Reserviert ok 
+tischkarte-003 a7q Platzkarte ok 
+tischkarte-004 a7q Willkommen ok 
+gutschein-001 dlq Gutschein ok 
+gutschein-002 dlq Gutschein · Tea Time ok 
+gutschein-003 dlq Gutschein · Day Spa ok 
+--- 

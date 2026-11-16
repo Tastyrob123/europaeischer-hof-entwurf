@@ -1,0 +1,413 @@
+{
+ "haus": "ehh",
+ "stand": "2026-11-09",
+ "quelle": "Die echten Drucksachen des Hauses in _quelle/pdf/, mit PyMuPDF gemessen (Schrift, Grad, Farbe, linker Rand je Seite) und als Bild angesehen: Imagebroschüre ab 2026 und Hochzeitsbroschüre ab 2024 (170 × 280 mm), Spa-Broschüre (A5 quer), Ausbildungsbroschüre (A5 quer), Kulinarischer Kalender 2026 (A5 hoch), Karte der Kurfürstenstube ab 16.10.26 (Quadrat 210 mm), Barkarte (159 × 297 mm), Zigarrenliste-Aushang (A4), Catering 2021 (A4), Tagungstechnik.",
+ "messung": {
+  "imagebroschuere": "Lauftext Oswald Light 9,5 pt in #58595b und #808285; Titel Playfair Display Regular 28 pt, Untertitel Playfair 12,4 pt, große Titel 40–50 pt in Weiß auf Foto; linker Satzrand 20,7 pt (7,3 mm); Titel linksbündig",
+  "spa_broschuere": "Lauftext Oswald Light 9,5 pt #000000/#6e6e6e; Zwischentitel Playfair 17–18 pt; Gold #a1884c (Flächen und Versal-Etiketten), Petrol als zweite Fläche; Rand 14,7 pt",
+  "kulinarischer_kalender": "Lauftext Oswald Light 8,5 pt #121719, Termine Playfair 12–17 pt, Monatsbänder in Versalien; Satz mittig",
+  "kurfuerstenstube": "Book Antiqua 11 pt (Gericht), kursiv 11 pt (englische Zeile), Titel 18 pt, Gold #806000 / #948a54, Preis «€ 39,-»; Satz mittig; Trenner « | » zwischen den Sprachen",
+  "barkarte": "Calibri Light 10 pt, Preise «23,50» in einer Euro-Spalte, Rubriken in Versalien",
+  "zigarrenliste": "Tahoma 11 pt #59595b, Tabelle Fach · Zigarren · Preis pro Stück «1,20 €», «Stand November 2026»"
+ },
+ "masseinheit": "u = kurze Seite des Formats in mm; Schriftgrad gr in mm",
+ "rollen": {
+  "titel": {
+   "rolle": [
+    "titel"
+   ],
+   "schrift": [
+    "Playfair Display",
+    "DS-titel"
+   ],
+   "versalien": false,
+   "kursiv": false,
+   "fett": false,
+   "quelle": "Playfair Display Regular in jeder Broschüre und im Kalender"
+  },
+  "kursiv": {
+   "rolle": [
+    "kursiv"
+   ],
+   "schrift": [
+    "Playfair Display Italic",
+    "DS-kursiv"
+   ],
+   "versalien": false,
+   "kursiv": true,
+   "quelle": "Kurfürstenstube setzt die zweite Sprache kursiv"
+  },
+  "text": {
+   "rolle": [
+    "text"
+   ],
+   "schrift": [
+    "Roboto Condensed Light",
+    "DS-text"
+   ],
+   "versalien": false,
+   "ersatz": "In den Drucksachen Oswald Light; Oswald liegt dem Haus nicht als Datei vor, nächste Hausschrift ist Roboto Condensed Light (schmal, hell, ruhig)."
+  },
+  "etikett": {
+   "rolle": [
+    "mono",
+    "kapitale"
+   ],
+   "schrift": [
+    "Roboto Condensed",
+    "DS-mono",
+    "DS-kapitale"
+   ],
+   "versalien": true,
+   "sperr": [
+    0.04,
+    0.1
+   ],
+   "ziffern": "tabular-nums",
+   "quelle": "Versal-Etiketten der Spa-Broschüre und Monatsbänder des Kalenders; Knöpfe der Website Roboto Condensed in Versalien"
+  }
+ },
+ "verboten": {
+  "versalien_in_rolle": [
+   "titel",
+   "kursiv"
+  ],
+  "sperr_max": 0.1,
+  "rollen_fremd": "jede Rolle außer titel, kursiv, text, mono, kapitale",
+  "schriften_fremd": "nur Playfair Display, Roboto Condensed (für Oswald) und Open Sans (Bildschirm); Book Antiqua, Calibri und Tahoma der Karten werden durch Playfair Display und Roboto Condensed ersetzt"
+ },
+ "trenner": {
+  "menue": " | ",
+  "karte": " | ",
+  "ort": " · ",
+  "preis_karte": "€ 39,-",
+  "preis_arrangement": "€ 399,00 pro Person",
+  "preis_kalender": "179 Euro",
+  "preis_bar": "23,50",
+  "umbruch": "nur zwischen Gliedern, Trenner am Zeilenende entfällt"
+ },
+ "achse": {
+  "regel": "Karten, Kalender, Aushänge, Einladungen und Arrangements mittig (Kurfürstenstube, Kalender); Broschürenseiten mit Bild und Text linksbündig (Image- und Hochzeitsbroschüre)",
+  "mittig_toleranz_mm": 0.8,
+  "ausnahmen_aufbau": [
+   "ansicht",
+   "geteilt",
+   "gutschein",
+   "gutscheinrueck",
+   "kartengruss",
+   "programm"
+  ],
+  "ausnahmen_quer": [
+   "fenster",
+   "geteilt",
+   "einladung",
+   "rueckseite",
+   "deckel",
+   "gutschein"
+  ],
+  "zweispaltig_quer": {
+   "aufbauten": [
+    "einladung",
+    "rueckseite",
+    "deckel",
+    "gutschein"
+   ],
+   "formate": [
+    "a6q",
+    "dlq",
+    "a5q"
+   ],
+   "regel": "zwei Spalten, jede mit eigener Mittelachse: links Zeichen, Etikett, Titel, Linie (Spaltenmitte bei 7 % u + 23 % der Innenbreite), rechts Datum, Ort, Satz, Instagram; beide Gruppen auf derselben optischen Mitte; Etiketten beider Spalten gleich gross",
+   "grund": "wenig Höhe und wenig Inhalt: zweispaltig größer statt einspaltig klein (Robert «wenig Inhalt = größer», Entscheid Oberchef 30.10.2026)",
+   "pruefung": "jeder Text steht mittig auf einer der zwei Spaltenachsen (Toleranz mittig_toleranz_mm); die Achsen sind die Mitten der linken und der rechten Textgruppe"
+  }
+ },
+ "komposition": {
+  "optische_mitte": "Gruppenmitte 4 % der freien Hoehe ueber der geometrischen Mitte zwischen Kopf- und Fußzeile",
+  "toleranz_mitte_anteil": 0.06,
+  "fuellung_min": 0.45,
+  "fuellung_max": 0.78,
+  "kopf_fuss_gleich_toleranz_mm": 1.0,
+  "zeichen_in_gruppe": "Abstand Zeichen zur naechsten Zeile hoechstens 0.6 x Zeichenbreite; Zeichen nie naeher als 8 % u am Rahmen ohne Nachbar",
+  "loch_max_textzeilen": 2.5,
+  "fuellung_max_aufbau": {
+   "menue": 0.92,
+   "karte": 0.92,
+   "grund": "Karten verteilen die Gänge über die Höhe"
+  }
+ },
+ "groessen_anteil_u": {
+  "aushang": {
+   "formate": [
+    "a3h",
+    "a4h",
+    "a5h"
+   ],
+   "titel": 0.105,
+   "text": 0.038,
+   "etikett": 0.0165,
+   "zeichen": 0.13
+  },
+  "karte": {
+   "formate": [
+    "a6h",
+    "dlh"
+   ],
+   "titel": 0.118,
+   "text": 0.047,
+   "etikett": 0.02,
+   "zeichen": 0.15
+  },
+  "quer": {
+   "formate": [
+    "a7q",
+    "a6q"
+   ],
+   "titel": 0.14,
+   "text": 0.055,
+   "etikett": 0.022,
+   "zeichen": 0.13
+  },
+  "drucksache_gross": {
+   "formate": [
+    "q210",
+    "b170"
+   ],
+   "titel": 0.068,
+   "text": 0.02,
+   "etikett": 0.011,
+   "zeichen": 0.085,
+   "grund": "Kurfürstenstube 210 mm: Gericht 11 pt; Broschüre 170 mm: Lauftext 9,5 pt, Titel 28 pt"
+  }
+ },
+ "mindestgrade_mm": {
+  "a3h": {
+   "titel": 15,
+   "text": 6,
+   "etikett": 2.6
+  },
+  "a4h": {
+   "titel": 13,
+   "text": 3.9,
+   "etikett": 2.2
+  },
+  "a5h": {
+   "titel": 9,
+   "text": 3.2,
+   "etikett": 2.0
+  },
+  "a5q": {
+   "titel": 9,
+   "text": 3.2,
+   "etikett": 2.0
+  },
+  "a6h": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "a6q": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "dlh": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "dlq": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "q148": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "q210": {
+   "titel": 8,
+   "text": 2.85,
+   "etikett": 1.8
+  },
+  "b170": {
+   "titel": 9,
+   "text": 2.85,
+   "etikett": 1.8
+  },
+  "a7q": {
+   "titel": 5,
+   "text": 2.85,
+   "etikett": 1.5
+  },
+  "_grund": "Gemessen: Aushang A4 der Smokers Lounge 11 pt (3,9 mm), Kalender A5 8,5 pt, Broschüren 9,5 pt, Kurfürstenstube 11 pt. Kein Lesetext unter 8 pt (2,85 mm). A3 bleibt Aushang für die Halle (2–3 m)."
+ },
+ "mindestgrade_zweck": {
+  "tisch": {
+   "aufbau": [
+    "menue"
+   ],
+   "wie": "dlh",
+   "grund": "Menükarten liegen am Platz und werden aus Armlänge gelesen"
+  }
+ },
+ "farben": {
+  "hell": {
+   "grund": [
+    "weiss"
+   ],
+   "titel": [
+    "tanne"
+   ],
+   "text": [
+    "tinte"
+   ],
+   "etikett": [
+    "taupe"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "zeichen": [
+    "tanne"
+   ]
+  },
+  "creme": {
+   "grund": [
+    "papier"
+   ],
+   "titel": [
+    "tanne"
+   ],
+   "text": [
+    "tinte"
+   ],
+   "etikett": [
+    "taupe"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "zeichen": [
+    "tanne"
+   ]
+  },
+  "dunkel": {
+   "grund": [
+    "navy"
+   ],
+   "titel": [
+    "weiss"
+   ],
+   "text": [
+    "papier"
+   ],
+   "etikett": [
+    "gold"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "zeichen": [
+    "weiss"
+   ]
+  },
+  "gold": {
+   "grund": [
+    "gold"
+   ],
+   "titel": [
+    "weiss"
+   ],
+   "text": [
+    "weiss"
+   ],
+   "etikett": [
+    "weiss"
+   ],
+   "linie": [
+    "weiss"
+   ],
+   "zeichen": [
+    "weiss"
+   ],
+   "quelle": "Goldseiten der Spa-Broschüre (Package für zwei, Tickets)"
+  },
+  "werte": {
+   "schwarz": "#000000",
+   "titel": "#1d1d1b",
+   "lauftext": "#58595b",
+   "lauftext_leise": "#808285",
+   "warmes_hell": "#f3efed",
+   "hellgrau": "#f1f1f2",
+   "gold": "#a1884c",
+   "gold_tief": "#977e4a",
+   "grau_website": "#919792"
+  },
+  "regel": "Schwarz, Weiß und das warme Hell tragen; Gold als feine Linie, als Etikett oder als eine ganze Fläche (nie zwei Goldflächen nebeneinander); Pink der Website nie in Drucksachen"
+ },
+ "linien": {
+  "rahmen": {
+   "abstand_anteil_u": 0.045,
+   "abstand_min_mm": 4.5,
+   "staerke_anteil_u": 0.0018,
+   "staerke_min_mm": 0.25,
+   "ecke_anteil_u": 0.011
+  },
+  "titellinie": {
+   "laenge_anteil_u": [
+    0.08,
+    0.1
+   ],
+   "staerke_anteil_u": 0.0024,
+   "staerke_min_mm": 0.3
+  },
+  "zwischen_posten": "keine groben Linien; nur Luft oder kurzer feiner Strich in Kupfer 6-8 mm, Staerke 0.25 mm"
+ },
+ "raender_anteil_u": {
+  "rahmen": 0.045,
+  "satz_innen": [
+   0.08,
+   0.09
+  ],
+  "kopf_fuss_innen": 0.055,
+  "lesetext_max_breite": 0.74,
+  "broschuere_rand_mm": 7.3
+ },
+ "marke": {
+  "wortmarke_je_seite_max": 1,
+  "zeichen_und_wortmarke_zusammen": false,
+  "wortmarke": "Das ganze Logo nur als Original-PNG (logo_black_bottom / logo_white_bottom); das Zeichen ist das gravierte Wappen mit Krone"
+ },
+ "bilder": {
+  "verzerren": false,
+  "druck_dpi_min": 150
+ },
+ "umbruch": {
+  "einzelwort_letzte_zeile": false,
+  "ausnahme": "Titel aus einem Wort"
+ },
+ "schmuck": {
+  "zeichen_je_haus": "Das Wappen mit Krone",
+  "zierzeichen_verboten": [
+   "x",
+   "×",
+   "*",
+   "◆",
+   "♦",
+   "•",
+   "✕",
+   "***"
+  ],
+  "ausnahme": "«&» in Namen («Europa Bar & Smokers Lounge»)",
+  "akzent_voll_max": 1
+ },
+ "schreibung": {
+  "anrede": "Sie",
+  "anfuehrung": "„…“",
+  "datum_kalender": "11. November 2026 (Kalender in Versalien: 11. NOVEMBER 2026)",
+  "uhrzeit": "18:30 Uhr, 12 bis 23 Uhr",
+  "name": "Der Europäische Hof Heidelberg; im Satz: im Europäischen Hof"
+ }
+}

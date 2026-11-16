@@ -1,0 +1,895 @@
+{
+ "art": "satz",
+ "ziel": "zigarren",
+ "name": "Die Zigarrenliste",
+ "unter": "Smokers Lounge",
+ "gruppe": "Europa Bar & Smokers Lounge",
+ "quelle": "_quelle/pdf/Zigarren-Liste-Aushang_ab-11.2026.pdf (geladen von europaeischerhof.com am 09.11.2026)",
+ "foto": "smokers-lounge",
+ "pdf": "Zigarren-Liste-Aushang_ab-11.2026.pdf",
+ "pdf_datum": "04.11.2026",
+ "schema": 1,
+ "format": [
+  210,
+  297
+ ],
+ "kopf": "<!doctype html><html lang=\"de\"><head><meta charset=\"utf-8\"><title>Die Zigarrenliste · Der Europäische Hof Heidelberg</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+ "fuss": "</body></html>",
+ "seiten": [
+  {
+   "fn": "seite",
+   "a": [
+    " data-max=\"1\" class=\"blatt eh eh-zigarren\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+    {
+     "fn": "el",
+     "a": [
+      "img",
+      " class=\"sb-grund\" src=\"bild/zigarren-grund.webp\" alt=\"\""
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"inhalt\"",
+      {
+       "fn": "el",
+       "a": [
+        "img",
+        " class=\"sb-logo\" src=\"bild/logo.png\" alt=\"\""
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"sb-tafel\"",
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-tk\"",
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-tk0\"",
+            {
+             "fn": "el",
+             "a": [
+              "span",
+              " class=\"sb-de\"",
+              "Fach"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "em",
+              " class=\"sb-en\"",
+              "Compartment"
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-tk1\"",
+            {
+             "fn": "el",
+             "a": [
+              "span",
+              " class=\"sb-de\"",
+              "Zigarren"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "em",
+              " class=\"sb-en\"",
+              "Cigars"
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-tk2\"",
+            {
+             "fn": "el",
+             "a": [
+              "span",
+              " class=\"sb-de\"",
+              "Preis pro Stück"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "em",
+              " class=\"sb-en\"",
+              "Price per piece"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "1"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Partagas Chicos | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "1,20 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "2"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Cohiba Club | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "1,15 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "3"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Montecristo Club | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "0,95 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "4"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Montecristo No 5 | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "12,20 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "5"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Cuaba Divinos | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "10,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "6"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Montecristo Maltes | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "65,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "7"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Trinidad Edición Limitada | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "110,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "8"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Partagas Rito | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "90,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "9"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            {
+             "fn": "roh",
+             "a": [
+              "Qual d'Orsay Especial 50 Años | Cuba"
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "50,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "10"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Cohiba Robusto | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "78,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "11"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Cohiba Magicos | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "83,30 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "12"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Rocky Patel Year of Horse Churchill | Nicaragua"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "27,50 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "13"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Patargas Year of the snake | Cuba"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "70,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "14"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Skelton relax Robusto | Nicaragua"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "9,90 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "15"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Rocky Patel Year of the Horse | Nicaragua"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "27,50 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "16"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Arturo Fuente Magnum R | Dom. Republik"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "15,90 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "17"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Arturo Fuentes Don Carlos Presidente Dom. Republik"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "24,90 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "18"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Davidoff Escurio Robusto | Brasil"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "19,50 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "19"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Davidoff Late Hour Churchill Dom. Republik"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "33,50 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "20"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Davidoff Royal Release Robusto Dom. Republik"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "120,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "21"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Davidoff Grand Cru Robusto | Dom. Republik"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "24,20 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "22"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Oliva Melanio Gran Reserva Limitada | Nicaragua"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "27,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "23"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Oliva Serie V Belicoso | Nicaragua"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "12,70 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-m sb-zig\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-fach\"",
+            "24"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-n\"",
+            "Flor de Selva Robusto | Honduras"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"sb-mp\"",
+            "11,00 €"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"sb-stand\"",
+          "Stand November 2026"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "footer",
+      " class=\"ufuss\""
+     ]
+    }
+   ]
+  }
+ ],
+ "teile": []
+}

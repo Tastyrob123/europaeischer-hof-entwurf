@@ -1,0 +1,80 @@
+ok   Start: Kurfürstenstube mit Liste
+ok   Rand: sechs Karten als Fotokacheln
+ok   Klick links: Eintrag gewählt
+ok   Klick links: rechts blinkt
+ok   Klick rechts: Liste springt hin
+ok   Preis in Schreibweise der Karte («41» → «€ 41,-»)
+ok   Leiste: Entwurf mit Änderung
+ok   Quittung mit Rückgängig
+ok   Speichern → neu laden → noch da
+ok   Vorher, nachher zeigt die Stelle
+ok   Ausblenden: nicht mehr in der Karte
+ok   Wieder zeigen
+ok   Verschieben nach oben
+ok   Kopieren: neuer Eintrag im selben Format
+ok   Neue Rubrik
+ok   Entfernen
+ok   Rückgängig holt den Eintrag zurück
+ok   Ansicht Original: Seiten der PDF des Hauses
+ok   Probe-PDF gedruckt
+ok   PDF sichern: gedruckt, Wort für Wort geprüft, gesichert
+ok   Gesicherte PDF abrufbar
+ok   Frühere Fassungen mit Ursprünglichem Stand
+ok   Ursprünglicher Stand in den Entwurf geholt
+ok   Entwurf verwerfen
+ok   Fortgeschritten: Knopf «Daten der Karte»
+ok   Fortgeschritten: Element gewählt, Gestalten offen
+ok   Gestalten: Farbe gesetzt, wartet gelb
+ok   ⌘Z nimmt zurück
+ok   Daten als Text: Ungültiges abgewiesen
+ok   Karte weinkarte: Liste und Vorschau · 849 Zeilen · 32 SEITEN, WIE IN DER PDF
+ok   Karte barkarte: Liste und Vorschau · 180 Zeilen · 6 SEITEN, WIE IN DER PDF
+ok   Karte zigarren: Liste und Vorschau · 25 Zeilen · 1 SEITE, WIE IN DER PDF
+ok   Karte catering: Liste und Vorschau · 54 Zeilen · 3 SEITEN, WIE IN DER PDF
+ok   Karte kalender: Liste und Vorschau · 44 Zeilen · 12 SEITEN, WIE IN DER PDF
+ok   Prüfseite läuft
+ok   Export: alle Daten in einer Datei
+ok   Anleitung erreichbar
+ok   Fehlermelder nimmt Meldung an
+ok   Fremde Herkunft abgewiesen (403)
+ok   Keine Fehler in Konsole und Netz
+
+40 von 40 bestanden (1440 px)
+ok   Start: Kurfürstenstube mit Liste
+ok   Rand: sechs Karten als Fotokacheln
+ok   Klick links: Eintrag gewählt
+ok   Klick links: rechts blinkt
+ok   Preis in Schreibweise der Karte («41» → «€ 41,-»)
+ok   Leiste: Entwurf mit Änderung
+ok   Quittung mit Rückgängig
+ok   Speichern → neu laden → noch da
+ok   Vorher, nachher zeigt die Stelle
+ok   Ausblenden: nicht mehr in der Karte
+ok   Wieder zeigen
+ok   Verschieben nach oben
+ok   Kopieren: neuer Eintrag im selben Format
+ok   Neue Rubrik
+ok   Entfernen
+ok   Rückgängig holt den Eintrag zurück
+ok   Ansicht Original: Seiten der PDF des Hauses
+ok   Probe-PDF gedruckt
+ok   PDF sichern: gedruckt, Wort für Wort geprüft, gesichert
+ok   Gesicherte PDF abrufbar
+ok   Frühere Fassungen mit Ursprünglichem Stand
+ok   Ursprünglicher Stand in den Entwurf geholt
+ok   Entwurf verwerfen
+ok   Fortgeschritten: Knopf «Daten der Karte»
+ok   Daten als Text: Ungültiges abgewiesen
+ok   Karte weinkarte: Liste und Vorschau · 849 Zeilen · 32 SEITEN, WIE IN DER PDF
+ok   Karte barkarte: Liste und Vorschau · 180 Zeilen · 6 SEITEN, WIE IN DER PDF
+ok   Karte zigarren: Liste und Vorschau · 25 Zeilen · 1 SEITE, WIE IN DER PDF
+ok   Karte catering: Liste und Vorschau · 54 Zeilen · 3 SEITEN, WIE IN DER PDF
+ok   Karte kalender: Liste und Vorschau · 44 Zeilen · 12 SEITEN, WIE IN DER PDF
+ok   Prüfseite läuft
+ok   Export: alle Daten in einer Datei
+ok   Anleitung erreichbar
+ok   Fehlermelder nimmt Meldung an
+ok   Fremde Herkunft abgewiesen (403)
+ok   Keine Fehler in Konsole und Netz
+
+36 von 36 bestanden (390 px)

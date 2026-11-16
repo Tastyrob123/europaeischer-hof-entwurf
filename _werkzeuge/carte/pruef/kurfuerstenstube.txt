@@ -1,0 +1,87 @@
+Karte kurfuerstenstube · Kurfuerstenstube-ab-16.OKT_.26.pdf
+Wörter in den Daten: 1280 · in der PDF (pdftotext -raw): 1279
+Preise in den Daten: 48, Summe 2540.50 · im Original: 48, Summe 2540.50
+Ergebnis: GLEICH (Wort für Wort, jedes Wort gleich oft; Zahl und Summe der Preise gleich)
+
+--- Seite 1
+  {"t": "kopf", "de": "Die Kurfürstenstube"}
+  {"t": "rubrik", "de": "Aperitif", "en": "Aperitif"}
+  {"t": "getraenk", "name": [["Privat Cuvée Brut | Weinhaus Fitz Ritter", "o)"]], "zusatz": "", "preise": [["0,1 l", "9,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Billecart-Salmon brut", "o)"]], "zusatz": "", "preise": [["0,1 l", "21,00"]], "neu": false}
+  {"t": "getraenk", "name": [["Jean Michel Rosé extra brut", "o)"]], "zusatz": "", "preise": [["0,1 l", "23,50"]], "neu": false}
+  {"t": "getraenk", "name": [["Bratbirne | Weingut Geiger -alkoholfrei-", ""]], "zusatz": "", "preise": [["0,1 l", "11,50"]], "neu": false}
+  {"t": "getraenk", "name": [["Oolong Orange | Chazánte -Schaumtee alkoholfrei-", ""]], "zusatz": "", "preise": [["0,1l", "9,50"]], "neu": false}
+  {"t": "rubrik", "de": "Offene Weine", "en": "Wines by the glass"}
+  {"t": "zwischen", "de": "Weißweine", "en": "White wines"}
+  {"t": "getraenk", "name": [["Louis Michel | Chablis", ""]], "zusatz": "", "preise": [["0,1 l", "18,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Chablis 1er Cru Montmain", "o)"]], "zusatz": "", "preise": [["0,75l", "104,00"]], "neu": false}
+  {"t": "getraenk", "name": [["Weingut Wegeler | Rheingau", ""]], "zusatz": "", "preise": [["0,1l", "16,00"]], "neu": true}
+  {"t": "getraenk", "name": [["Jesuitengarten Riesling GG", "o)"]], "zusatz": "", "preise": [["0,75l", "89,00"]], "neu": false}
+  {"t": "getraenk", "name": [["Weingut Balthasar Ress | Rheingau", ""]], "zusatz": "", "preise": [["0,1l", "13,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Weissburgunder Reserve", "o)"]], "zusatz": "", "preise": [["0,75l", "72,00"]], "neu": false}
+  {"t": "zwischen", "de": "Roséwein", "en": "Rosé wine"}
+  {"t": "getraenk", "name": [["Domaine Ott | Côte de Provence, Frankreich", ""]], "zusatz": "", "preise": [["0,1l", "19,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Clos Mireille Rosé", "o)"]], "zusatz": "", "preise": [["0,75l", "119,00"]], "neu": false}
+  {"t": "zwischen", "de": "Rotweine", "en": "Red wines"}
+  {"t": "getraenk", "name": [["Weingut Münzberg| Pfalz", ""]], "zusatz": "", "preise": [["0,1l", "17,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Schlangenpfiff Spätburgunder GG", "o)"]], "zusatz": "", "preise": [["0,75l", "98,00"]], "neu": false}
+  {"t": "getraenk", "name": [["Château Fombrauge | Saint-Émilion, Frankreich", ""]], "zusatz": "", "preise": [["0,1l", "18,00"]], "neu": true}
+  {"t": "getraenk", "name": [["Grand Cru Classé", "o)"]], "zusatz": "", "preise": [["0,75l", "102,00"]], "neu": false}
+--- Seite 2
+  {"t": "kopf", "de": "Degustations-Menü", "en": "Menu Degustation"}
+  {"t": "gericht", "de": "Amuse-Bouche", "en": "", "alg": "", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Zweierlei von der Odenwälder Lachsforelle mit Kräutersud, eingelegten Radieschen, Kumquat, pochierter Nashi-Birne und Dill", "en": "Duo of regional salmon trout with herb broth, pickled radishes, kumquat, poached Nashi pear and dill", "alg": "a) c) d) f) g) j)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Essenz von Steinpilzen mit eigenen Agnolotti, geräucherter Entenbrust und Liebstöckel", "en": "Porcini mushroom essence with house-made agnolotti, smoked duck breast and lovage", "alg": "a) c) g)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Confierte Tiefsee-Garnele mit Krustentier-Dashi, asiatischem Spitzkohlsalat, Aromen von Yuzu, eingelegtem Apfel und Wasabi", "en": "Confit deep-sea prawn with crustacean dashi, Asian pointed cabbage salad, flavors of yuzu, pickled apple and wasabi", "alg": "b) c) d) j)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Gebratenes Ibérico-Presa mit weißem Pfefferschaum, confiertem Hokkaido-Kürbis, Guanciale, mariniertem Radicchio und gerösteten Kürbiskernen", "en": "Seared Ibérico presa with white pepper foam, confit Hokkaido pumpkin, guanciale, marinated radicchio and roasted pumpkin seeds", "alg": "c) g) i) j) o)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Rosa gebratenes Dry-Aged-Rinderfilet mit Kampot-Pfeffer-Rahmjus, gebratenem Kalbsbries, Variation von Topinambur, sautierten Maitake, gesalzener Feige und Pommes Croquettes", "en": "Pink-roasted dry-aged beef fillet with Kampot pepper cream jus, veal sweetbread, Jerusalem artichoke variation, sautéed maitake mushrooms, salted fig and pommes croquettes", "alg": "a) g) h) i) o)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "stern"}
+  {"t": "gericht", "de": "Unser Zwetschgenröster mit Rumsahne, Tahiti-Vanille-Mousse, gebrannten Mandeln, eingelegten Rosinen und Mandeleis", "en": "Our plum compote with rum cream, Tahitian vanilla mousse, caramelized almonds, soaked raisins and almond ice cream", "alg": "a) c) g) h) o)", "preis": "", "preis_en": "", "vegan": false}
+  {"t": "menuepreis", "de": "6-Gang Menü € 235,-", "en": "6-course menu € 235,-"}
+  {"t": "menuepreis", "de": "5-Gang Menü (ohne Ibérico) € 191,-", "en": "5-course menu (without Ibérico) € 191,-"}
+  {"t": "menuepreis", "de": "4-Gang Menü (ohne Ibérico und Garnele) € 147,-", "en": "4-course menu (without Ibérico and prawn) € 147,-"}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "vegan": "= vegan bestellbar", "seite": "Seite 2"}
+--- Seite 3
+  {"t": "kopf", "de": "Kalte Vorspeisen", "en": "Cold Starters"}
+  {"t": "gericht", "de": "Tatar vom irischen Weiderind mit Sud von geschmorter Roter Bete, Schnittlauch, Röstzwiebeln, Butter-Brioche und Kaviar von der Manufaktur PURMANO", "en": "Tartare of Irish grass-fed beef with braised beetroot broth, chives, crispy onions, butter brioche and caviar from PURMANO Manufaktur", "alg": "a) c) g) j)", "preis": "€ 39,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Zweierlei von der Odenwälder Lachsforelle mit Kräutersud, eingelegten Radieschen, Kumquat, pochierter Nashi-Birne und Dill", "en": "Duo of regional salmon trout with herb broth, pickled radishes, kumquat, poached Nashi pear and dill", "alg": "a) c) d) f) g) j)", "preis": "€ 39,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Variation von bunten Karotten mit Ziegenkäseeis, eingelegtem Myoga, Cranberry, Mandel, Schwarzwald-Miso und kleiner Zwiebel-Tarte-Tatin", "en": "Variation of colorful carrots with goat’s cheese ice cream, pickled myoga, cranberry, almond, Black Forest miso and small onion tarte tatin", "alg": "a) c) f) g) h)", "preis": "€ 32,-", "preis_en": "", "vegan": true}
+  {"t": "gericht", "de": "Heimischer Feldsalat mit steirischer Kürbiskernöl-Vinaigrette, knusprigen Speckwürfeln und gerösteten Kürbiskernen", "en": "Local lamb’s lettuce with Styrian pumpkin seed oil vinaigrette, crispy bacon and roasted pumpkin seeds", "alg": "j)", "preis": "€ 18,-", "preis_en": "", "vegan": true}
+  {"t": "zwischen", "de": "Wahlweise mit…", "en": "optional with…"}
+  {"t": "gericht", "de": "½ Avocado, mariniert", "en": "½ Avocado, marinated", "alg": "g)", "preis": "€ 7,-", "preis_en": "", "vegan": true}
+  {"t": "gericht", "de": "Gegrillten Riesengarnelen 3 Stück", "en": "Grilled king prawns 3 pieces", "alg": "b) g)", "preis": "€ 18,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "130g Kalbsfiletstreifen", "en": "130g stripes of veal fillet", "alg": "g)", "preis": "€ 18,-", "preis_en": "", "vegan": false}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "vegan": "= vegan bestellbar", "seite": "Seite 3"}
+--- Seite 4
+  {"t": "kopf", "de": "Warme Vorspeisen", "en": "Warm Starters"}
+  {"t": "gericht", "de": "Gebratenes Ibérico-Presa mit weißem Pfefferschaum, confiertem Hokkaido-Kürbis, Guanciale, mariniertem Radicchio und gerösteten Kürbiskernen", "en": "Seared Ibérico presa with white pepper foam, confit Hokkaido pumpkin, guanciale, marinated radicchio and roasted pumpkin seeds", "alg": "c) g) i) j) o)", "preis": "€ 44,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Confierte Tiefsee-Garnele mit Krustentier-Dashi, asiatischem Spitzkohlsalat, Aromen von Yuzu, eingelegtem Apfel und Wasabi", "en": "Confit deep-sea prawn with crustacean dashi, Asian pointed cabbage salad, flavors of yuzu, pickled apple and wasabi", "alg": "b) c) d) j)", "preis": "€ 44,-", "preis_en": "", "vegan": false}
+  {"t": "rubrik", "de": "Suppen", "en": "Soups"}
+  {"t": "gericht", "de": "Essenz von Steinpilzen mit eigenen Agnolotti, geräucherter Entenbrust und Liebstöckel", "en": "Porcini mushroom essence with house-made agnolotti, smoked duck breast and lovage", "alg": "a) c) g)", "preis": "€ 24,-", "preis_en": "", "vegan": true}
+  {"t": "gericht", "de": "Cremesuppe von Pfälzer Kartoffeln mit geschmortem Lauch und gebratener Jakobsmuschel", "en": "Creamy Palatinate Potato Soup with braised leek and seared scallop", "alg": "g) i) n)", "preis": "€ 24,-", "preis_en": "", "vegan": false}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "vegan": "= vegan bestellbar", "seite": "Seite 4"}
+--- Seite 5
+  {"t": "kopf", "de": "Hauptgänge", "en": "Main courses"}
+  {"t": "gericht", "de": "Rosa gebratenes Dry-Aged-Rinderfilet mit Kampot-Pfeffer-Rahmjus, gebratenem Kalbsbries, Variation von Topinambur, sautierten Maitake, gesalzener Feige und Pommes Croquettes", "en": "Pink-roasted dry-aged beef fillet with Kampot pepper cream jus, veal sweetbread, Jerusalem artichoke variation, sautéed maitake mushrooms, salted fig and pommes croquettes", "alg": "a) g) h) i) o)", "preis": "€ 60,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Gebratene Brust und geschmorte Keule von der Label-Rouge-Ente mit Hoisin-Jus, Süßkartoffelcreme, sautiertem Pak Choi, eingelegten Buchenpilzen und asiatischem Bao-Bun", "en": "Seared breast and braised leg of Label Rouge duck with hoisin jus, sweet potato cream, sautéed pak choi, pickled shimeji mushrooms and Asian bao bun", "alg": "a) c) d) f) g) i) o)", "preis": "€ 58,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Filet vom Bretonischen Steinbutt mit eigener Velouté, geräucherten Nordseekrabben, Bouchot-Muscheln, Rahm-Fenchel, Sanddorn und lauwarmem Blumenkohl-Salat", "en": "Fillet of Breton Turbot with its own velouté, smoked North Sea shrimp, Bouchot mussels, creamed fennel, sea buckthorn and a lukewarm cauliflower salad", "alg": "b) d) g) i) j) n)o)", "preis": "€ 58,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "In Miso geschmorter Sellerie mit veganer Jus, wildem Brokkoli, gerösteten Piemonteser Haselnüssen, sautierten Maitake-Pilzen, hausgemachten Sellerie-Trüffel-Ravioli und Friséespitzen", "en": "Miso-braised celeriac with vegan jus, wild broccoli, roasted Piedmontese hazelnuts, sautéed maitake mushrooms, homemade celeriac and truffle ravioli, and frisée tips", "alg": "a) c) g) h) i) o)", "preis": "€ 45,-", "preis_en": "", "vegan": true}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "vegan": "= vegan bestellbar", "seite": "Seite 5"}
+--- Seite 6
+  {"t": "kopf", "de": "Käse", "en": "Cheese"}
+  {"t": "gericht", "de": "Auswahl an gereiften Rohmilchkäsen von Maître Affineur Waltmann aus Erlangen", "en": "Selection of matured raw milk cheese from maître Affineur Waltmann", "alg": "a) c) e) f) g) h) i) j)", "preis": "4 Stück € 26,-", "preis_en": "4 Piece € 26,-", "vegan": false}
+  {"t": "rubrik", "de": "Desserts", "en": "Desserts"}
+  {"t": "gericht", "de": "Unser Zwetschgenröster mit Rumsahne, Tahiti-Vanille-Mousse, gebrannten Mandeln, eingelegten Rosinen und Mandeleis", "en": "Our plum compote with rum cream, Tahitian vanilla mousse, caramelized almonds, soaked raisins and almond ice cream", "alg": "a) c) g) h) o)", "preis": "€ 24,-", "preis_en": "", "vegan": false}
+  {"t": "gericht", "de": "Mousse von der Valrhona Opalys Kuvertüre mit Aromen von Kaffee, Kumquat-Creme, Kardamom, Pekannuss-Crumble und Yuzu-Sorbet", "en": "Mousse of Valrhona Opalys white chocolate with aromas of coffee, kumquat cream, cardamom, pecan crumble and yuzu sorbet", "alg": "a) c) f) g) h)", "preis": "€ 24,-", "preis_en": "", "vegan": false}
+  {"t": "hinweis", "de": "Sollten Sie vegetarische oder vegane Speisen wünschen, stehen Ihnen unsere Servicekollegen für Empfehlungen gerne zur Verfügung.", "en": "", "grau": false}
+  {"t": "hinweis", "de": "Our staff will recommend you more vegetarian or vegan dishes.", "en": "", "grau": true}
+  {"t": "hinweis", "de": "Wir beziehen unsere Produkte überwiegend aus regionalem Anbau.", "en": "", "grau": false}
+  {"t": "hinweis", "de": "We obtain our products mainly from regional farming.", "en": "", "grau": true}
+  {"t": "legende", "de": "a) glutenhaltiges Getreide b) Krebstiere c) Eier d) Fisch e) Erdnüsse f) Soja g) Milch h) Schalenfrüchte i) Sellerie j) Senf k) Sesam m) Lupine n) Weichtiere o) Sulfite", "en": "", "grau": false}
+  {"t": "legende", "de": "a) containing gluten b) crustaceans c) eggs d) fish e) peanuts f) soy g) milk h) nutfruits i) celery j) mustard k) sesame m) lupines n) molluscs o) sulfites", "en": "", "grau": true}
+  {"t": "fuss", "zeilen": [], "seite": "Seite 6"}

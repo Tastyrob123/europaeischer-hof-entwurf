@@ -1,0 +1,106 @@
+{
+ "seiten": {
+  "image-titel": {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 1,
+   "satz": "Imagebroschüre ab 2026, Umschlag",
+   "w": 900,
+   "h": 1483
+  },
+  "image-willkommen": {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 2,
+   "satz": "Imagebroschüre, Seite „Willkommen in Heidelberg“",
+   "w": 900,
+   "h": 1483
+  },
+  "image-zimmer": {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 3,
+   "satz": "Imagebroschüre, Doppelseite „Alles Unikate“",
+   "w": 1400,
+   "h": 1153
+  },
+  "hochzeit-titel": {
+   "datei": "EHH_Hochzeitsbroschüre_ab-2024.pdf",
+   "seite": 1,
+   "satz": "Hochzeitsbroschüre ab 2024, Umschlag",
+   "w": 900,
+   "h": 1483
+  },
+  "kalender-titel": {
+   "datei": "EHH_Kulinarischer_Kalender_WEBDESING.pdf",
+   "seite": 1,
+   "satz": "Kulinarischer Kalender 2026, Umschlag",
+   "w": 900,
+   "h": 1278
+  },
+  "spa-titel": {
+   "datei": "EHH_Spa_Broschuere_DINA5quer_RZ_web_260327.pdf",
+   "seite": 1,
+   "satz": "Spa-Broschüre, Umschlag",
+   "w": 1200,
+   "h": 846
+  },
+  "karte-kurfuerstenstube": {
+   "datei": "Kurfuerstenstube-ab-16.OKT_.26.pdf",
+   "seite": 2,
+   "satz": "Karte der Kurfürstenstube ab 16. Oktober 2026, Degustations-Menü",
+   "w": 900,
+   "h": 900
+  },
+  "zigarren": {
+   "datei": "Zigarren-Liste-Aushang_ab-11.2026.pdf",
+   "seite": 1,
+   "satz": "Zigarrenliste, Aushang ab November 2026",
+   "w": 900,
+   "h": 1273
+  },
+  "ausbildung": {
+   "datei": "EHH_Ausbildungsbroschure_RZ_260312_web.pdf",
+   "seite": 2,
+   "satz": "Ausbildungsbroschüre, „Lernen mit 5 Sternen“",
+   "w": 1200,
+   "h": 846
+  },
+  "logo-lage": {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 2,
+   "satz": "Imagebroschüre: das Logo oben auf der Seite",
+   "w": 901,
+   "h": 652
+  }
+ },
+ "lage": [
+  {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 2,
+   "seite_mm": 170.0,
+   "logo_b_mm": 44.3,
+   "logo_h_mm": 34.4,
+   "oben_mm": 13.1,
+   "ueber_bildrand_mm": -73.5,
+   "mitte_abw_mm": 0.0
+  },
+  {
+   "datei": "EHH_Imagebroschuere-ab-2026.pdf",
+   "seite": 1,
+   "seite_mm": 170.0,
+   "logo_b_mm": 41.4,
+   "logo_h_mm": 32.2,
+   "oben_mm": 9.6,
+   "ueber_bildrand_mm": 3.1,
+   "mitte_abw_mm": 0.5
+  },
+  {
+   "datei": "EHH_Kulinarischer_Kalender_WEBDESING.pdf",
+   "seite": 1,
+   "seite_mm": 148.0,
+   "logo_b_mm": 45.8,
+   "logo_h_mm": 35.7,
+   "oben_mm": 8.3,
+   "ueber_bildrand_mm": 3.0,
+   "mitte_abw_mm": 0.0
+  }
+ ]
+}

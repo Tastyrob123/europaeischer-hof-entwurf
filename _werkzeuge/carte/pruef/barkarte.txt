@@ -1,0 +1,203 @@
+Karte barkarte · Barkarte-ab-10.01.2024.pdf
+Wörter in den Daten: 1817 · in der PDF (pdftotext -raw): 1815
+Preise in den Daten: 177, Summe 2942.01 · im Original: 177, Summe 2942.01
+Ergebnis: GLEICH (Wort für Wort, jedes Wort gleich oft; Zahl und Summe der Preise gleich)
+
+--- Seite 1
+  {"t": "kopf", "de": "BAR MENÜ"}
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "BARTENDERS CHOICE", "en": ""}
+  {"t": "getraenk", "name": [["Mezcal Mule", ""]], "zusatz": "Mezcal San Cosme, Lime juice, Passion fruit sirup, Ginger Beer", "preise": [["", "23,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Take a fizz of my Hazelnut", ""]], "zusatz": "Scheibel Haselnuss Edles Fass, Lemon juice, Vanilla sirup, Bitters, Cream", "preise": [["", "23,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Paper Plane", ""]], "zusatz": "Bulleit Bourbon, Aperol Amaro, Averna Amaro, Lemon juice", "preise": [["", "15,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Corpse Reviver No.2", ""]], "zusatz": "Beefeater Dry Gin, Cointreau, Lillet Blanc, Lemon juice, Absinth", "preise": [["", "15,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "rubrik", "de": "CHAMPAGNER UND SEKT", "en": "CHAMPAGNE AND SPARKLING WINE"}
+  {"t": "getraenk", "name": [["Privat Cuvee “Der Europäische Hof“ Riesling Sekt Brut", "o)"]], "zusatz": "", "preise": [["0,1l", "9,50"], ["0,75l", "55,00"]]}
+  {"t": "getraenk", "name": [["Champagner Billecart-Salmon Rosé Brut", "o)"]], "zusatz": "", "preise": [["0,1l", "23,50"], ["0,75l", "139,00"]]}
+  {"t": "getraenk", "name": [["Champagner Billecart-Salmon Brut", "o)"]], "zusatz": "", "preise": [["0,1l", "21,00"], ["0,75l", "119,00"]]}
+  {"t": "hinweis", "zeilen": ["Für spezielle Wünsche empfehlen wir unsere große Weinkarte.", "For further wishes we recommend our detailed wine list."], "g": 10.0, "rot": false}
+  {"t": "rubrik", "de": "APERITIF EMPFEHLUNGEN", "en": "APERITIF RECOMMENDATIONS"}
+  {"t": "getraenk", "name": [["Taylors Tawny Portwein 20 Jahre", "o)"]], "zusatz": "", "preise": [["5cl", "25,50"]]}
+  {"t": "getraenk", "name": [["Tio Pepe Palomino Fino Sherry Dry", "o) 5)"]], "zusatz": "", "preise": [["5cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Campari Soda/Orange", "1) 5)"]], "zusatz": "", "preise": [["4cl", "13,50"]]}
+  {"t": "getraenk", "name": [["Belzasar Vermouth White", "5)"]], "zusatz": "", "preise": [["5cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Belzasar Vermouth Red", "5)"]], "zusatz": "", "preise": [["5cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Noilly Prat Vermouth Dry", "5)"]], "zusatz": "", "preise": [["5cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Sandeman Pedro Ximinez Sherry Medium", "o) 5)"]], "zusatz": "", "preise": [["5cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Hugo", ""]], "zusatz": "Elderflower Sirup, Lime juice, Mint, Privat Cuvee, Soda", "preise": [["", "15,50"]], "neu": true, "zusatz_alg": "o)"}
+  {"t": "getraenk", "name": [["Negroni", ""]], "zusatz": "Tanqueray Dry Gin, Campari, Belzasar Red, Bitters", "preise": [["", "15,50"]], "zusatz_alg": "o) 1) 5)"}
+  {"t": "getraenk", "name": [["Aperol Spritz", ""]], "zusatz": "Aperol Amaro, Soda, Privat Cuvee", "preise": [["", "14,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Lemon Spritz", ""]], "zusatz": "Don Pasquale Limoncello, Goldberg bitter Lemon, Lemon juice, Privat cuvee", "preise": [["", "14,50"]], "zusatz_alg": "o) 3) 10)"}
+  {"t": "getraenk", "name": [["Dubonnet Cassis", ""]], "zusatz": "Dubonnet, Lemon juice, Crème de Cassis, Soda water", "preise": [["", "13,50"]], "zusatz_alg": "o) 1) 5)"}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "seite": "Seite 1"}
+--- Seite 2
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "WEIN", "en": "WINE"}
+  {"t": "zwischen", "de": "Weißwein", "en": "White wine"}
+  {"t": "getraenk", "name": [["Weingut Andreas Laible | Baden", ""]], "zusatz": "", "preise": [["0,1l", "11,50"], ["0,25l", "22,00"], ["0,75l", "62,00"]], "name2": [["Riesling Achat | Durbacher Plauelrain", "o)"]]}
+  {"t": "getraenk", "name": [["Weingut von Winning | Pfalz", ""]], "zusatz": "", "preise": [["0,1l", "9,50"], ["0,25l", "17,50"], ["0,75l", "46,00"]], "neu": true, "name2": [["Sauvignon Blanc II", "o)"]]}
+  {"t": "getraenk", "name": [["Weinhaus Heger | Baden", ""]], "zusatz": "", "preise": [["0,1l", "9,00"], ["0,25l", "17,00"], ["0,75l", "45,00"]], "neu": true, "name2": [["Grauburgunder Oktav", "o)"]]}
+  {"t": "zwischen", "de": "Roséwein", "en": "Rosé wine"}
+  {"t": "getraenk", "name": [["Weingut Korell | Bad Kreuznach", ""]], "zusatz": "", "preise": [["0,1l", "10,00"], ["0,25l", "18,50"], ["0,75l", "52,00"]], "name2": [["Rosé Little Lion", "o)"]]}
+  {"t": "zwischen", "de": "Rotwein", "en": "Red wine"}
+  {"t": "getraenk", "name": [["Weingut Kopp | Sinzheim", ""]], "zusatz": "", "preise": [["0,1l", "15,50"], ["0,25l", "29,50"], ["0,75l", "85,00"]], "name2": [["Spätburgunder Sommerhalde", "o)"]]}
+  {"t": "getraenk", "name": [["Weingut Karl Wegner | Pfalz", ""]], "zusatz": "", "preise": [["0,1l", "13,00"], ["0,25l", "24,00"], ["0,75l", "68,00"]], "neu": true, "name2": [["Cabernet Sauvignon", "o)"]]}
+  {"t": "getraenk", "name": [["Code Valdemar | Rioja", ""]], "zusatz": "", "preise": [["0,1l", "8,50"], ["0,25l", "16,50"], ["0,75l", "44,00"]], "neu": true, "name2": [["Tempranillo Crianza", "o)"]]}
+  {"t": "hinweis", "zeilen": ["Für spezielle Wünsche empfehlen wir unsere große Weinkarte.", "For further wishes we recommend our detailed wine list."], "g": 10.0, "rot": false}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "seite": "Seite 2"}
+--- Seite 3
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "DRINKS", "en": "DRINKS"}
+  {"t": "zwischen", "de": "Sours", "en": ""}
+  {"t": "getraenk", "name": [["Bramble", ""]], "zusatz": "Bombay Sapphire Dry Gin, Lemon juice, Sirup, Chambord", "preise": [["", "17,50"]], "zusatz_alg": "o) 11)"}
+  {"t": "getraenk", "name": [["Amaretto Sour", ""]], "zusatz": "Amaretto, Carlos I Brandy, Lemon juice, Sirup", "preise": [["", "16,50"]], "zusatz_alg": "o) 1) 5)"}
+  {"t": "getraenk", "name": [["Whiskey Sour", ""]], "zusatz": "Bulleit Bourbon, Lemon juice, Sirup", "preise": [["", "16,50"]], "zusatz_alg": "o) 1) 10)"}
+  {"t": "getraenk", "name": [["Gin Basil Smash", ""]], "zusatz": "Beefeater Dry Gin, Lemon juice, Sirup, Basil", "preise": [["", "16,50"]], "zusatz_alg": "o) 11)"}
+  {"t": "getraenk", "name": [["Aperol Sour", ""]], "zusatz": "Aperol Amaro, Lemon juice, Orange juice, Sirup", "preise": [["", "15,50"]], "zusatz_alg": "o) 1) 5)"}
+  {"t": "zwischen", "de": "Highballs", "en": ""}
+  {"t": "getraenk", "name": [["Cenetario", ""]], "zusatz": "White Rum, Dark Rum, Grenadine sirup, Lime juice, Cherry Brandy, Cointreau", "preise": [["", "23,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Irish Slap", ""]], "zusatz": "Bushmills 10 Year Irish Whiskey, Lime juice, Apple juice, Maple sirup, Mint", "preise": [["", "19,50"]], "zusatz_alg": "1) 2)"}
+  {"t": "getraenk", "name": [["Red Needle", ""]], "zusatz": "Topanito Blanco Tequila, Lemon juice, Cranberry juice", "preise": [["", "15,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Horse`s Neck", ""]], "zusatz": "Bulleit Bourbon, Bitters, Ginger Ale", "preise": [["", "14,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "zwischen", "de": "After-Dinner", "en": ""}
+  {"t": "getraenk", "name": [["Sentimental Gentleman", ""]], "zusatz": "Johnnie Walker Black Label Blended Scotch, DOM Benedictine, Frangelico hazelnut liquer", "preise": [["", "16,50"]], "zusatz_alg": "o) 1)"}
+  {"t": "getraenk", "name": [["Gods Child", ""]], "zusatz": "Ketel One Vodka, Amaretto, Cream, Cinnamon sirup", "preise": [["", "14,50"]], "zusatz_alg": "o) g) 1) 2)"}
+  {"t": "getraenk", "name": [["Brandy Crusta", ""]], "zusatz": "Carlos I Brandy, Luxardo Maraschino, Lemon juice, Sirup", "preise": [["", "14,50"]], "zusatz_alg": "o) 1) 11)"}
+  {"t": "getraenk", "name": [["Exotic Passion", ""]], "zusatz": "Ketel One Vodka, Lime juice, Apricot Brandy, Passionfruit juice, Pineapple juice", "preise": [["", "15,50"]], "zusatz_alg": "o) 11)"}
+  {"t": "zwischen", "de": "Non-alcoholic", "en": ""}
+  {"t": "getraenk", "name": [["Nojito", ""]], "zusatz": "Goldberg Ginger Ale, Lime juice, Sirup, Mint", "preise": [["", "12,50"]], "zusatz_alg": "1) 11)"}
+  {"t": "getraenk", "name": [["Ipanema", ""]], "zusatz": "Goldberg Ginger Ale, Lime, Sirup", "preise": [["", "11,50"]], "zusatz_alg": "1) 11)"}
+  {"t": "getraenk", "name": [["Solero Sling", ""]], "zusatz": "Passionfruit juice, Pineapple juice, Orange juice, Vanilla sirup", "preise": [["", "11,50"]], "zusatz_alg": "2)"}
+  {"t": "getraenk", "name": [["Devils Day Off", ""]], "zusatz": "Sanbitter, Grapefruit juice, Cinnamon Sirup", "preise": [["", "11,50"]], "zusatz_alg": "1)"}
+  {"t": "getraenk", "name": [["Green Light", ""]], "zusatz": "Orange juice, Passionfruit juice, Pineapple juice, Banana juice, Lemon juice Blue Curacao sirup, Coconut sirup", "preise": [["", "11,50"]], "zusatz_alg": "1) 11)"}
+  {"t": "hinweis", "zeilen": ["Wir verwenden ausschließlich frisch gepressten Zitronen- und Limettensaft", "We only use freshly squeezed lemon and lime juice"], "g": 10.0, "rot": false}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "seite": "Seite 3"}
+--- Seite 4
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "WHISKEY UND WHISKY", "en": "WHISKEY AND WHISKY"}
+  {"t": "zwischen", "de": "Single Malt Scotch", "en": ""}
+  {"t": "gruppe", "de": "Islay"}
+  {"t": "getraenk", "name": [["Lagavulin 16 Yr. – 43%vol", "1)"]], "zusatz": "", "preise": [["4cl", "20,50"]]}
+  {"t": "getraenk", "name": [["Laphroaig 10 Yr. – 40%vol", "1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Ardbeg 10 Yr. – 46%vol", ""]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "gruppe", "de": "Speyside"}
+  {"t": "getraenk", "name": [["Macallan 12 Yr. Triple Wood – 40%vol", ""]], "zusatz": "", "preise": [["4cl", "29,50"]]}
+  {"t": "getraenk", "name": [["Mossburn 2007 10 Yr. – 46%vol", ""]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Cardhu 12 Yr. – 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Glenfiddich 12 Yr. – 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "gruppe", "de": "Highlands"}
+  {"t": "getraenk", "name": [["Oban 14 Yr. – 43%vol", "1)"]], "zusatz": "", "preise": [["4cl", "23,50"]]}
+  {"t": "getraenk", "name": [["Dalwhinnie 15 Yr. – 43%vol", "1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Talisker 10 Yr. – 45,8%vol", "1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "zwischen", "de": "Single Grain Scotch", "en": ""}
+  {"t": "gruppe", "de": "Lowland"}
+  {"t": "getraenk", "name": [["Mossburn 2003 15 Yr. – 46%vol", ""]], "zusatz": "", "preise": [["4cl", "16,50"]]}
+  {"t": "zwischen", "de": "Blended Whisky", "en": ""}
+  {"t": "getraenk", "name": [["Johnnie Walker Blue Label – 40%vol", "1)"]], "zusatz": "", "preise": [["4cl", "44,50"]]}
+  {"t": "getraenk", "name": [["Johnnie Walker Black Label – 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Chivas Regal 12 Yr. – 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "zwischen", "de": "Irish Whiskey", "en": ""}
+  {"t": "getraenk", "name": [["Redbreast 12 Yr. – 40%vol", "1)"]], "zusatz": "", "preise": [["4cl", "15,50"]]}
+  {"t": "getraenk", "name": [["Writers Tears – 40%vol", ""]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "zwischen", "de": "German Whisky", "en": ""}
+  {"t": "getraenk", "name": [["EMIL Kraftwerk – 58,7%vol", ""]], "zusatz": "", "preise": [["4cl", "25,50"]]}
+  {"t": "getraenk", "name": [["Slyrs PX Sherry Edition – 46%vol", ""]], "zusatz": "", "preise": [["", "19,50"]]}
+  {"t": "zwischen", "de": "Japanese Whisky", "en": ""}
+  {"t": "getraenk", "name": [["Hakushu Suntory Single Malt 12 Yr. – 43%vol", "1)"]], "zusatz": "", "preise": [["4cl", "31,50"]]}
+  {"t": "getraenk", "name": [["Hibiki Suntory Japanese Harmony – 43%vol", "1)"]], "zusatz": "", "preise": [["", "27,50"]]}
+  {"t": "zwischen", "de": "Bourbon Whisky", "en": ""}
+  {"t": "getraenk", "name": [["Elijah Craig Small Batch – 47%vol", ""]], "zusatz": "", "preise": [["4cl", "15,50"]]}
+  {"t": "getraenk", "name": [["Bulleit – 45%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Makers Mark – 45%vol", ""]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "zwischen", "de": "Rye Whisky", "en": ""}
+  {"t": "getraenk", "name": [["Bulleit Rye – 45%vol", "1)"]], "zusatz": "", "preise": [["4cl", "15,50"]]}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "seite": "Seite 4"}
+--- Seite 5
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "WODKA", "en": "VODKA"}
+  {"t": "getraenk", "name": [["Beluga Noble – Russia | 40%vol", ""]], "zusatz": "", "preise": [["4cl", "16,50"]]}
+  {"t": "getraenk", "name": [["Belvedere – Poland | 40%vol", ""]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Grey Goose – France | 40%vol", ""]], "zusatz": "", "preise": [["", "14,50"]]}
+  {"t": "getraenk", "name": [["Ketel One – Netherlands | 40%vol", ""]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "rubrik", "de": "GIN", "en": "GIN"}
+  {"t": "getraenk", "name": [["Hendricks – Scotland | 44%vol", "o)"]], "zusatz": "", "preise": [["4cl", "14,50"]]}
+  {"t": "getraenk", "name": [["The Botanist – Scotland | 46%vol", "o)"]], "zusatz": "", "preise": [["", "14,50"]]}
+  {"t": "getraenk", "name": [["Bombay Sapphire – England | 40%vol", "o)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Tanqueray Ten – England | 47,3%vol", "o)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Schrödingers Katzen Gin – Heidelberg, Germany | 44%vol", "o)"]], "zusatz": "", "preise": [["", "22,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Monkey 47 – Germany | 47%vol", "o)"]], "zusatz": "", "preise": [["", "16,50"]]}
+  {"t": "getraenk", "name": [["The Illusionist – Germany | 45%vol", "o)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Needle Masterpiece – Germany | 45%vol", "o)"]], "zusatz": "", "preise": [["", "14,50"]]}
+  {"t": "getraenk", "name": [["Roku – Japan | 47%vol", "o)"]], "zusatz": "", "preise": [["", "13,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Citadelle – France | 44%vol", "o)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "rubrik", "de": "TEQUILA UND MEZCAL", "en": "TEQUILA AND MEZCAL"}
+  {"t": "getraenk", "name": [["Patron Blanco – Mexico | 40%vol", "o)"]], "zusatz": "", "preise": [["4cl", "15,50"]]}
+  {"t": "getraenk", "name": [["Patron Reposado – Mexico | 40%vol", "o)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Topanito Blanco – Mexico | 40%vol", "o)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["San Cosme – Mexico | 40%vol", "o)"]], "zusatz": "", "preise": [["", "15,50"]], "neu": true}
+  {"t": "rubrik", "de": "RUM", "en": "RUM"}
+  {"t": "getraenk", "name": [["Ron Zacapa XO – Guatemala | 40%vol", "1)"]], "zusatz": "", "preise": [["4cl", "28,50"]]}
+  {"t": "getraenk", "name": [["Ron Zacapa Systema Solera 23 – Guatemala | 40%vol", "1)"]], "zusatz": "", "preise": [["", "17,50"]]}
+  {"t": "getraenk", "name": [["Botucal Reserva Exclusiva – Venezuela | 40%vol", "1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Don Papa Baroko – Philippines | 40%vol", "1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Mount Gay Black Barrel – Barbados | 43%vol", ""]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Bacardi 8 Yr. – Puerto Rico | 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Plantation Original Dark Rum – Barbados/Jamaica | 40%vol", "1)"]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Plantation 3 Star White Rum – Jamaica/Barbados/Trinidad | 41,2%vol", ""]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "getraenk", "name": [["Havanna Club 7 Yr. – Cuba | 40%vol", "1)"]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "rubrik", "de": "WEINBRAND / COGNAC / ARMAGNAC", "en": "BRANDY / COGNAC / ARMAGNAC"}
+  {"t": "getraenk", "name": [["Carlos I – Spain | 40%vol", "o) 1)"]], "zusatz": "", "preise": [["4cl", "12,50"]]}
+  {"t": "getraenk", "name": [["Asbach Uralt 8 Yr. – Germany | 40%vol", "o)"]], "zusatz": "", "preise": [["4cl", "12,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Hennessey XO – France | 40%vol", "o)"]], "zusatz": "", "preise": [["", "48,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Remy Martin XO – France | 40%vol", "o) 1)"]], "zusatz": "", "preise": [["", "40,50"]]}
+  {"t": "getraenk", "name": [["Remy Martin VSOP – France | 40%vol", "o) 1)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Courvoiser VSOP – France | 40%vol", "o)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "getraenk", "name": [["Samalens XO – France | 40%vol", "o) 1)"]], "zusatz": "", "preise": [["4cl", "22,50"]], "neu": true}
+  {"t": "getraenk", "name": [["Samalens VSOP – France | 40%vol", "o) 1)"]], "zusatz": "", "preise": [["", "14,50"]]}
+  {"t": "fuss", "zeilen": ["…) Hinweise über Allergene und Inhaltsstoffe finden Sie auf Seite 6", "…) Indications of allergens and ingredients you will find on page 6"], "seite": "Seite 5"}
+--- Seite 6
+  {"t": "spaltenkopf", "de": "EURO"}
+  {"t": "rubrik", "de": "GRAPPA", "en": "GRAPPA"}
+  {"t": "getraenk", "name": [["Nonino Il Merlot – 41%vol", "o)"], ["/ Nonino Lo Chardonnay – 41%vol", "o)"]], "zusatz": "", "preise": [["4cl", "15,50"]]}
+  {"t": "rubrik", "de": "OBSTBRÄNDE", "en": "FRUIT BRANDIES"}
+  {"t": "gruppe", "de": "Michael Scheibel"}
+  {"t": "getraenk", "name": [["Wild Himbeer – 41%vol", "o)"]], "zusatz": "", "preise": [["4cl", "29,50"]]}
+  {"t": "getraenk", "name": [["Nancy Mirabelle – 44%vol", "o)"]], "zusatz": "", "preise": [["", "25,50"]]}
+  {"t": "getraenk", "name": [["Aacher Kirsch – 56%vol", "o)"]], "zusatz": "", "preise": [["", "24,50"]]}
+  {"t": "getraenk", "name": [["Zibärtle – 44%vol", "o)"]], "zusatz": "", "preise": [["", "22,50"]]}
+  {"t": "getraenk", "name": [["Edel Williams – 40%vol", "o)"]], "zusatz": "", "preise": [["", "22,50"]]}
+  {"t": "getraenk", "name": [["Edles Fass Haselnuss – 40%vol", "o)"]], "zusatz": "", "preise": [["", "15,50"]]}
+  {"t": "gruppe", "de": "Nussbaumer"}
+  {"t": "getraenk", "name": [["Poire Williams – 43%vol", "o)"], ["/ Framboise – 45%vol", "o)"]], "zusatz": "", "preise": [["4cl", "13,50"]]}
+  {"t": "rubrik", "de": "LIKÖRE UND BITTERS", "en": "LIQUEURS AND BITTERS"}
+  {"t": "getraenk", "name": [["Malteser Aquavit", "o)"], ["/ Jubiläums Akvavit", "o)"], ["/ Grand Marnier", "5)"]], "zusatz": "", "preise": [["4cl", "13,50"]]}
+  {"t": "getraenk", "name": [["DOM Benedictine", "1)"], ["/ Fernet Branca", ""]], "zusatz": "", "preise": [["", "13,50"]]}
+  {"t": "getraenk", "name": [["Linie Aquavit", "o)"], ["/ Cointreau", "5)"], ["/ Jägermeister / Baileys Irish Cream", "g) 5)"]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "getraenk", "name": [["Campari", "1) 5)"], ["/ Ramazzotti / Averna / Sambuca", "1)"]], "zusatz": "", "preise": [["", "12,50"]]}
+  {"t": "getraenk", "name": [["Amaretto Disaronno", "1)"], ["/ Cynar", "1) 10)"]], "zusatz": "", "preise": [["", "11,50"]]}
+  {"t": "rubrik", "de": "BIER", "en": "BEER"}
+  {"t": "getraenk", "name": [["Fürstenberg Pils, Fass-Bier", "a)"]], "zusatz": "", "preise": [["0,3l", "5,00"], ["0,5l", "7,00"]]}
+  {"t": "getraenk", "name": [["Fürstenberg Radler", "a)"]], "zusatz": "", "preise": [["0,33l", "5,00"]]}
+  {"t": "getraenk", "name": [["Fürstenberg Alkoholfrei", "a)"]], "zusatz": "", "preise": [["0,33l", "5,00"]]}
+  {"t": "getraenk", "name": [["Weizenbier Hell / Alkoholfrei", "a)"]], "zusatz": "", "preise": [["0,5l", "6,00"]]}
+  {"t": "rubrik", "de": "ALKOHOLFREIE GETRÄNKE", "en": "SOFT DRINKS"}
+  {"t": "getraenk", "name": [["Teinacher Medium / Still", ""]], "zusatz": "", "preise": [["0,25l", "4,90"], ["0,75l", "10,50"]]}
+  {"t": "getraenk", "name": [["Granini Säfte Orange / Maracuja / Ananas / Apfel / Cranberry", ""]], "name2": [["Johannisbeere / Banane / Tomate", ""]], "zusatz": "", "preise": [["0,3l", "5,20"]], "neu": false}
+  {"t": "getraenk", "name": [["Frisch gepresster Saft Apfel-Ingwer-Karotte / Ananas", ""]], "zusatz": "", "preise": [["0,25l", "10,50"]]}
+  {"t": "getraenk", "name": [["Orange / Grapefruit / Karotte", ""]], "zusatz": "", "preise": [["0,25l", "8,50"]]}
+  {"t": "getraenk", "name": [["VIO Apfelsaftschorle naturtrüb", ""]], "zusatz": "", "preise": [["0,3l", "4,90"]]}
+  {"t": "getraenk", "name": [["Coca Cola / Coca Cola Light / Coca Cola Zero", "1) 3) 9) 10)"], ["/ Sprite", "1) 3)"], ["/ Fanta", "1) 3)"]], "zusatz": "", "preise": [["0,2l", "4,90"]]}
+  {"t": "getraenk", "name": [["Fevertree Indian Tonic", "10)"]], "zusatz": "", "preise": [["0,2l", "4,90"]]}
+  {"t": "getraenk", "name": [["Goldberg Tonic", "10)"]], "zusatz": "", "preise": [["0,2l", "4,90"]]}
+  {"t": "getraenk", "name": [["Goldberg Ginger Ale", "1)"], ["/ Bitter Lemon", "3) 10)"], ["/ Ginger Beer", ""]], "zusatz": "", "preise": [["0,2l", "4,90"]]}
+  {"t": "getraenk", "name": [["Schweppes Soda Water / Dry Tonic", "10)"], ["/ Herbal Tonic", "10)"]], "zusatz": "", "preise": [["0,2l", "4,90"]]}
+  {"t": "rubrik", "de": "HEIßE GETRÄNKE", "en": "HOT BEVERAGES"}
+  {"t": "getraenk", "name": [["Espresso / Kaffee", "9)"]], "zusatz": "", "preise": [["Tasse", "3,90"]]}
+  {"t": "getraenk", "name": [["Espresso doppelt", "9)"]], "zusatz": "", "preise": [["", "5,00"]]}
+  {"t": "getraenk", "name": [["Cappuccino", "g) 9)"]], "zusatz": "", "preise": [["", "4,70"]]}
+  {"t": "getraenk", "name": [["Latte Macchiato", "g) 9)"]], "zusatz": "", "preise": [["", "5,20"]]}
+  {"t": "getraenk", "name": [["Tee verschiedene Sorte aus dem Hause Ronnefeldt", "9)"]], "zusatz": "", "preise": [["Kännchen", "7,80"]]}
+  {"t": "hinweis", "zeilen": ["Wir beziehen unsere Produkte überwiegend aus regionalem Anbau.", "We obtain our products mainly from regional farming."], "g": 9.0, "rot": false}
+  {"t": "hinweis", "zeilen": ["Alle Preise inklusive Mehrwertsteuer!", "All prices inclusive VAT!"], "g": 8.0, "rot": false}
+  {"t": "hinweis", "zeilen": ["a) glutenhaltiges Getreide b) Krebstiere c) Eier d) Fisch e) Erdnüsse f) Soja g) Milch h) Schalenfrüchte", "i) Sellerie j) Senf k) Sesam m) Lupine n) Weichtiere o) Sulfite"], "g": 7.0, "rot": true}
+  {"t": "fuss", "zeilen": ["1) mit Farbstoff 2) mit Konservierungsstoff 3) mit Antioxidationsmittel 4) mit Geschmacksverstärker 5) mit Schwefeldioxide 6)", "mit Schwärzungsmittel 7) mit Phosphat 8) mit Milcheiweiß 9) koffeinhaltig 10) chininhaltig 11) mit Süßungsmittel", "12) enthält eine Phenylalaninquelle 13) gewachst 14) enthält Taurin 15) mit Nitritpökelsalz"], "seite": "Seite 6"}
