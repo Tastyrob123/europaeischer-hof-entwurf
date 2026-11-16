@@ -1,0 +1,176 @@
+/* kleid/ehh.css · Der Europäische Hof Heidelberg · Grandhotel in Schwarz und warmem Hell (Oberchef 09.11.2026).
+   Werte aus der Website des Hauses (_quelle/stil/theme-styles.css), nicht erfunden:
+   Schwarz #000000 als Hauptfarbe (Kopf, Bühne, Hauptknopf), Grau #919792 für Etiketten und feine Linien, Hellgrau #F1F1F2, warmes Hell #f3efed als Raum,
+   Pink #df007e nur als Punkt (die Gutschein-Plakette der Website), nie als Fläche.
+   Schrift wie die Website: Titel Playfair Display 400 (Hervorhebung kursiv), Etiketten und Knöpfe Roboto Condensed in Versalien mit weitem Sperrabstand (.2em wie .button der Website),
+   Lauf Open Sans 400. Form der Website: Knöpfe mit 12 px Radius und feiner Linie, Platten 15 px. Ruhig, keine Ornamente ausser dem Wappen. Rahmen: Die Bühne. */
+@font-face{font-family:'Playfair Display';font-weight:400;font-style:normal;font-display:swap;src:url('../../schrift/playfair-display-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-weight:400;font-style:italic;font-display:swap;src:url('../../schrift/playfair-display-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-weight:500;font-style:normal;font-display:swap;src:url('../../schrift/playfair-display-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:300;font-display:swap;src:url('../../schrift/roboto-condensed-latin-300-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:400;font-display:swap;src:url('../../schrift/roboto-condensed-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:500;font-display:swap;src:url('../../schrift/roboto-condensed-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:700;font-display:swap;src:url('../../schrift/roboto-condensed-latin-700-normal.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:400;font-style:normal;font-display:swap;src:url('../../schrift/open-sans-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:400;font-style:italic;font-display:swap;src:url('../../schrift/open-sans-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:600;font-style:normal;font-display:swap;src:url('../../schrift/open-sans-latin-600-normal.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:700;font-style:normal;font-display:swap;src:url('../../schrift/open-sans-latin-700-normal.woff2') format('woff2')}
+:root{
+  --wo-sans:'Open Sans','Helvetica Neue',Arial,system-ui,sans-serif;
+  --wo-mono:'Roboto Condensed','Arial Narrow',Arial,sans-serif;
+  --wo-etikett:'Roboto Condensed','Arial Narrow',Arial,sans-serif;
+  --wo-e1:cubic-bezier(.22,.68,.26,1); --wo-e2:cubic-bezier(.2,.62,.24,1);
+  --wo-tief:#000000; --wo-nacht:#0b0b0b; --wo-nacht2:#1a1a1a;
+  --wo-g1:#ffffff; --wo-g2:#F1F1F2; --wo-g3:#dcdcdc;
+  --wo-gold:#c8c9c6; --wo-akzent:#5d625e; --wo-kerze:#919792; --wo-grau:#919792; --wo-hellgrau:#F1F1F2;
+  --wo-rot:#df007e; --wo-punkt:#df007e; --wo-pink:#df007e; --wo-dc:#5d625e; --wo-dj:#5d625e;
+  --wo-papier:#f3efed; --wo-papier2:#e8e2de; --wo-blatt:#fbfaf9; --wo-weiss:#ffffff;
+  --wo-tinte:#000000; --wo-leise:#5f625f; --wo-linie:rgba(0,0,0,.12); --wo-linie-d:rgba(255,255,255,.22);
+  --wo-gut:#3f6b4c;
+  --wo-titel:'Playfair Display',Georgia,'Times New Roman',serif; --wo-titel-g:400; --wo-titel-ls:0;
+  --wo-r1:15px; --wo-r2:12px; --wo-r3:12px; --wo-rk:12px;
+  --wo-tapete:#000000; --wo-tapete-fein:#000000;
+}
+body.wo-app,.wo-app{background:var(--wo-papier);color:var(--wo-tinte);font-family:var(--wo-sans)}
+
+/* ================= Europäischer Hof ================= */
+/* Titel in Playfair Display wie die Website: eine Stärke; Hervorhebung kursiv (wie «Wir lieben, was wir tun.» im Satz der Website), nie fett */
+.wo-sb__h,.wo-zw{font-family:var(--wo-titel);font-weight:400;letter-spacing:0}
+.wo-zw em{font-style:italic;color:var(--wo-tinte)}
+.wo-sb .wo-sb__h em,[data-wo-rahmen] .wo-sb .wo-sb__h em,#ansicht .wo-sb .wo-sb__h em,body .wo-sb .wo-sb__h em{font-style:italic;color:#f3efed;font-weight:400}
+.wo-rudi{font-family:var(--wo-etikett);font-weight:400;text-transform:uppercase;letter-spacing:.2em}
+.wo-bk__t small,.wo-mk,.wo-sb__zier span{font-family:var(--wo-etikett);font-weight:400;letter-spacing:.2em;text-transform:uppercase}
+.wo-zahl{font-family:var(--wo-mono);font-variant-numeric:tabular-nums lining-nums}
+
+/* Platten wie die Kacheln der Website: weiss, feine Linie, weicher Schatten */
+.wo-lage,.wo-ag,.wo-det__kopf{box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),0 18px 40px -28px rgba(0,0,0,.35)}
+[data-wo-rahmen="buehne"] .wo-kopf{background:#000;border-bottom:1px solid rgba(255,255,255,.14)}
+[data-wo-rahmen="buehne"] .wo-sb{background:#000;border-bottom:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),0 40px 60px -40px rgba(0,0,0,.6)}
+/* Über den Abschnittstiteln eine kurze graue Haarlinie, sonst kein Schmuck */
+.wo-zw::before{content:'';display:block;width:48px;height:1px;margin-bottom:14px;background:var(--wo-grau)}
+.cu-x{font-family:var(--wo-titel);font-style:italic;font-weight:400;letter-spacing:0;text-transform:none;color:var(--wo-grau)}
+.wo-sb__foto::after{background:linear-gradient(0deg,rgba(0,0,0,.45),transparent 55%)}
+.wo-lg__z,.wo-ag__z{border-radius:12px}
+.wo-bk__t small,.wo-mk{color:var(--wo-akzent)}
+.wo-re.wo-an,.wo-re[aria-current="true"],.wo-re[aria-current="page"]{background:#000;box-shadow:none}
+.wo-re.wo-an,.wo-re[aria-current="true"],.wo-re[aria-current="page"],.wo-re.wo-an *,.wo-re[aria-current] *{color:#fff}
+.wo-re.wo-an .wo-zahl,.wo-re[aria-current="true"] .wo-zahl,.wo-re[aria-current="page"] .wo-zahl{color:#000;background:#fff}
+
+/* Knöpfe wie .button der Website: Versalien, Roboto Condensed, weiter Sperrabstand, 12 px Radius, feine Linie.
+   Hauptweg schwarz mit weissem Knauf; Nebenweg (dunkel) mit Linie; hell = weiss mit grauer Linie. */
+.wo-kn{font-family:var(--wo-etikett);font-weight:400;letter-spacing:.2em;text-transform:uppercase}
+.wo-kn:not(.wo-kn--rund){border-radius:12px}
+.wo-kn--gold{color:#fff;text-shadow:none;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.38),0 14px 26px -16px rgba(0,0,0,.6)}
+.wo-kn--gold i{background:#fff;color:#000;box-shadow:none}
+.wo-kn--dunkel{color:#000;background:transparent;box-shadow:inset 0 0 0 1px #000}
+.wo-kn--dunkel i{background:#000;color:#fff;box-shadow:none}
+.wo-kn--hell{color:#000;background:#fff;box-shadow:inset 0 0 0 1px rgba(0,0,0,.18),0 10px 22px -16px rgba(0,0,0,.4)}
+.wo-kn--hell i{background:#000;color:#fff;box-shadow:none}
+.wo-kn--glas{color:#fff;background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+.wo-kn--glas i{background:rgba(255,255,255,.12);color:#fff;box-shadow:none}
+.wo-kn--rund{color:#fff;background:transparent;box-shadow:inset 0 0 0 1px rgba(255,255,255,.32);border-radius:50%}
+/* auf dunkler Fläche bleibt der Nebenweg sichtbar: weisse Linie, weisse Schrift */
+:is(.wo-kopf,.wo-sb,.wo-leiste) .wo-kn--dunkel{color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.55)}
+:is(.wo-kopf,.wo-sb,.wo-leiste) .wo-kn--dunkel i{background:#fff;color:#000}
+/* im Startbild ist der Hauptweg weiss (die Bühne ist schwarz) */
+.wo-sb .wo-kn--gold{color:#000;background:#fff;box-shadow:0 14px 26px -16px rgba(0,0,0,.6)}
+.wo-sb .wo-kn--gold i{background:#000;color:#fff}
+[data-wo-rahmen="buehne"] .wo-leiste{border-radius:15px;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),0 26px 40px -16px rgba(0,0,0,.55)}
+.wo-leiste .wo-kn--gold{color:#000;background:#fff;box-shadow:none}
+.wo-leiste .wo-kn--gold i{background:#000;color:#fff}
+
+/* Ecke oben links in allen Werkzeugen gleich (M24): das Wappen des Hauses hell auf Schwarz, daneben Werkzeug · Haus */
+.wo-marke-w{position:relative;padding-left:46px!important;min-height:46px}
+.wo-marke-w .wo-zeichen{position:absolute;left:4px;top:50%;width:28px;height:46px;max-width:none;margin-top:-23px;color:#fff}
+.wo-marke-w b{font-family:var(--wo-titel);font-weight:400}
+.wo-marke-w small{color:#c8c9c6!important;font-family:var(--wo-etikett);letter-spacing:.2em}
+.wo-sb__zier .wo-zeichen{color:#fff;opacity:.9}
+
+/* Auftritt der Bühne: Foto zoomt ruhig ein, Zier, Titel, Satz und Knöpfe steigen gestaffelt; nur transform, deckend */
+@keyframes woAufFoto{from{translate:0 40px;scale:1.06}}
+@keyframes woZoom{from{scale:1.1}}
+@keyframes woHoch{from{translate:0 34px}}
+@media screen and (prefers-reduced-motion:no-preference){
+  html:not(.still) .wo-sb__foto{animation:woAufFoto 1.1s cubic-bezier(.19,1,.22,1) both;overflow:hidden}
+  html:not(.still) .wo-sb__foto img{animation:woZoom 2.4s cubic-bezier(.19,1,.22,1) both}
+  html:not(.still) :is(.wo-sb__zier,.wo-sb__h,.wo-sb__satz,.wo-sb__kn){animation:woHoch 1.1s cubic-bezier(.19,1,.22,1) both}
+  html:not(.still) .wo-sb__zier{animation-delay:.1s}
+  html:not(.still) .wo-sb__h{animation-delay:.18s}
+  html:not(.still) .wo-sb__satz{animation-delay:.3s}
+  html:not(.still) .wo-sb__kn{animation-delay:.42s}
+  html:not(.still) .wo-sb__h.wo-zl{animation:none}
+  html:not(.still) .wo-sb__h.wo-zl .wo-w{display:inline-block;animation:woHoch 1.1s cubic-bezier(.19,1,.22,1) both;animation-delay:calc(.18s + var(--z,0) * .11s)}
+  @supports (animation-timeline:view()){
+    @keyframes woZug{from{translate:0 -6%}to{translate:0 0}}
+    html:not(.still) .wo-sb__foto img{height:112%;animation:woZoom 2.4s cubic-bezier(.19,1,.22,1) both,woZug linear both;animation-timeline:auto,view();animation-range:normal,exit 0% exit 100%}
+  }
+  :is(.wo-kn,.wo-rund,.wo-ag,.wo-bk,.kn,button):active{scale:.975;transition:scale .12s ease-out}
+}
+
+.wo-leiste__t b{white-space:nowrap}
+@media (min-width:901px){
+  .wo-kopf{grid-template-columns:auto minmax(0,1fr) auto}
+  .wo-kopf__mitte{min-width:0;max-width:100%}
+  .wo-kopf__mitte b,.wo-kopf__mitte small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+}
+@media (min-width:901px) and (max-width:1240px){
+  .wo-kopf__mitte b{font-size:18px}
+  .wo-kopf .wo-kn--gold.wo-kn--klein>span{position:absolute;left:50%;top:50%;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;font-size:1px;line-height:1px;letter-spacing:0;color:transparent;text-box:none}
+  .wo-kopf .wo-kn--gold.wo-kn--klein{padding:0;gap:0;width:42px;height:42px;min-height:0;min-width:0;border-radius:50%;justify-content:center;align-items:center}
+}
+.wo-sb__zier{min-width:0;max-width:100%}
+.wo-sb__zier span{min-width:0;white-space:normal;overflow:visible;line-height:1.6;color:#c8c9c6}
+.wo-sb__zier i{background:rgba(255,255,255,.3)}
+@media (max-width:1240px){.wo-sb__zier i{display:none}}
+.wo-sb{margin-bottom:34px}
+@media (max-width:760px){.wo-sb{margin-bottom:24px}}
+
+/* auf jeder dunklen Fläche ist die Schrift hell */
+.wo-kopf,.wo-kopf a,.wo-sb,.wo-sb a:not(.wo-kn){color:#fff}
+.wo-kopf__mitte small{color:#c8c9c6}
+
+/* Stamm-Bausteine Brief und Blatt: Hervorhebung über Kursiv in Playfair, nie fett */
+.wo-bl__rub span,.wo-bl__g span,.wo-bl__h{font-family:var(--wo-titel);font-weight:400}
+.wo-brief mark{background:none;color:var(--wo-akzent)}
+.wo-lu{font-style:normal;background:linear-gradient(180deg,transparent 55%,rgba(145,151,146,.32) 55%)}
+.wo-bl__g b{font-family:var(--wo-titel);font-weight:400;letter-spacing:.01em}
+b,strong{font-weight:600}
+
+/* Schrift optisch mittig in Knöpfen und Pillen (Messlauf-Regel text-mitte) */
+.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{text-box:trim-both cap alphabetic}
+.wo-re .wo-zahl{display:block;height:auto;padding:7px;line-height:1;text-align:center;text-box:trim-both cap alphabetic}
+@supports not (text-box:trim-both cap alphabetic){.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{position:relative;top:.05em}}
+
+h1,h2,h3,h4,figcaption{text-wrap:balance}
+.rdg-karte h3,.wo-zw,.wo-sb__h{text-wrap:balance}
+@media (min-width:901px) and (max-width:1365px){.wo-ber .wo-bk__t b{min-height:2.4em}}
+
+/* Handy: Knopf «Bereiche» im schwarzen Kopf mit weisser Linie wie die Knöpfe der Website */
+@media (max-width:900px){
+  [data-wo-rahmen] .wo-kopf__ber{border-radius:12px;font-family:var(--wo-etikett);font-weight:400;color:#fff;background:transparent;box-shadow:inset 0 0 0 1px rgba(255,255,255,.55)}
+  [data-wo-rahmen] .wo-kopf__ber .wo-ic{color:#fff}
+  .wo-leiste .wo-kn--gold{background:#fff;box-shadow:none}
+  .wo-leiste .wo-kn--gold i{background:#000;color:#fff;width:30px;height:30px}
+}
+.wo-kopf__mitte b{line-height:1.42}
+.wo-kopf__mitte small{margin-top:0}
+
+/* Sperrabstand optisch mittig (Messlauf «text-mitte»): Chromium hängt den Sperrabstand auch hinter dem letzten Buchstaben an */
+:root{--wo-sperr:.2em}
+.wo-kn,.wo-kopf__ber,.wo-marke{--wo-sperr:.2em}
+.wo-sp{--wo-sperr:.08em}
+.wo-an__st em{--wo-sperr:.12em}
+.rdg-karte .rdg-zu{--wo-sperr:.14em}
+@supports (interpolate-size:allow-keywords){
+  .wo-kn>span,.wo-kopf__ber>span{margin-right:calc(-1 * var(--wo-sperr))}
+  .wo-marke,.wo-sp,.wo-an__st em,.rdg-karte .rdg-zu,.wo-sperr-mitte{text-indent:var(--wo-sperr)}
+  :is(.wo-marke,.wo-sp,.wo-an__st em,.wo-sperr-mitte) :is(i,svg,img){text-indent:0}
+}
+/* Der Punkt in Pink: nur für «neu» oder eine einzige Markierung, nie als Fläche */
+.wo-punkt{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--wo-pink);vertical-align:middle}
+
+/* Startbild zwischen 901 und 1279 px (Fund Markenbuch 09.11.2026): das Foto nimmt die Hälfte, die Maske läuft länger aus, der Titel steht nie auf dem Foto */
+@media (min-width:901px) and (max-width:1279px){
+  [data-wo-rahmen="buehne"] .wo-sb__foto{width:50%;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 62%);mask-image:linear-gradient(90deg,transparent 0,#000 62%)}
+  [data-wo-rahmen="buehne"] .wo-sb__text{max-width:60%}
+}
