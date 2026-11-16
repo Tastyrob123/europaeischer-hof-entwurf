@@ -1,0 +1,74 @@
+{
+ "stand": "9. November 2026",
+ "werkzeuge": [
+  {
+   "k": "kartenmappe",
+   "teil": "karten",
+   "art": "Karten",
+   "url": "/_werkzeuge/carte/",
+   "satz": "Kurfürstenstube, Weinkarte, Barkarte, Zigarrenliste, Catering und Kulinarischer Kalender an einer Stelle pflegen. Jede Karte ist aus der PDF des Hauses gelesen, Wort für Wort geprüft und steht da wie gedruckt.",
+   "zahlen": [
+    [
+     6,
+     "Karten des Hauses"
+    ],
+    [
+     60,
+     "Seiten wie das Original"
+    ],
+    [
+     2,
+     "Sprachen je Gericht"
+    ]
+   ],
+   "stand": "Geprüft am 9. November 2026 in vier Breiten",
+   "alt": "die Karte der Kurfürstenstube, links die Einträge, rechts die Seite wie gedruckt"
+  },
+  {
+   "k": "markenbuch",
+   "teil": "marke",
+   "art": "Marke",
+   "url": "/_werkzeuge/livre/",
+   "satz": "Wappen, Logo, Fotos, Farben und Schriften des Hauses an einem Ort. Jedes Foto mit Herkunft und in den Größen, die eine Agentur oder das Team braucht, dazu das Markenbuch zum Nachlesen.",
+   "zahlen": [
+    [
+     348,
+     "Fotos mit Herkunft"
+    ],
+    [
+     12,
+     "Auszeichnungen im Original"
+    ],
+    [
+     9,
+     "Kapitel im Markenbuch"
+    ]
+   ],
+   "stand": "Geprüft am 9. November 2026 · ohne Fund",
+   "alt": "das Bildarchiv mit Suche, Bereichen und Fotos des Hauses"
+  },
+  {
+   "k": "hausdruckerei",
+   "teil": "druck",
+   "art": "Drucksachen",
+   "url": "/_werkzeuge/imprimerie/",
+   "satz": "Karten, Aushänge, Broschürenseiten, Arrangements und Einladungen im Stil der Drucksachen des Hauses selbst entwerfen, mit den Fotos und Angaben des Hauses, druckfertig als PDF.",
+   "zahlen": [
+    [
+     75,
+     "Vorlagen im Stil des Hauses"
+    ],
+    [
+     10,
+     "Arten von Drucksachen"
+    ],
+    [
+     6,
+     "Abteilungen"
+    ]
+   ],
+   "stand": "Geprüft am 9. November 2026 · ohne Fund",
+   "alt": "die Einladung zur Hochzeit im Editor"
+  }
+ ]
+}

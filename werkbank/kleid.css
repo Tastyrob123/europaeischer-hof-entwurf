@@ -1,0 +1,142 @@
+/* kleid.css · Das Kleid des Europäischen Hofs über der Werkbank des Culinarium (Stamm werkbank.css + kapitel.css, unverändert übernommen;
+   ihre festen Farbwerte stellt bau.py auf Grau und warmes Hell um). Werte aus HAUS.md und kleid/ehh.css:
+   Schwarz #000000, Grau #919792, Hellgrau #F1F1F2, warmes Hell #f3efed, Pink #df007e nur als Punkt. Titel Playfair Display 400 (Hervorhebung kursiv),
+   Etiketten und Knöpfe Roboto Condensed in Versalien (.2em wie .button der Website), Lauf Open Sans. Zeichen: das Wappen aus dem Logo, als Maske. */
+@font-face{font-family:'Playfair Display';font-weight:400;font-style:normal;font-display:block;src:url('fonts/playfair-display-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-weight:400;font-style:italic;font-display:block;src:url('fonts/playfair-display-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-weight:500;font-style:normal;font-display:block;src:url('fonts/playfair-display-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:300;font-display:block;src:url('fonts/roboto-condensed-latin-300-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:400;font-display:block;src:url('fonts/roboto-condensed-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Roboto Condensed';font-weight:500;font-display:block;src:url('fonts/roboto-condensed-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:400;font-style:normal;font-display:block;src:url('fonts/open-sans-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:400;font-style:italic;font-display:block;src:url('fonts/open-sans-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Open Sans';font-weight:600;font-style:normal;font-display:block;src:url('fonts/open-sans-latin-600-normal.woff2') format('woff2')}
+:root{
+  --nacht:#000000; --tief:#0d0d0d; --navy:#151515; --blau:#262626; --papier:#f3efed; --creme:#F1F1F2; --weiss:#ffffff;
+  --gold:#bfc3bf; --messing:#5f625f; --taupe:#919792; --tinte:#000000; --punkt:#df007e; --rot:#df007e;
+  --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+  --sans:'Open Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'Roboto Condensed','Arial Narrow',sans-serif;
+  --muster:url('img/tapete-dunkel.png'); --musterb:224px;
+}
+/* Titel wie die Website: Playfair 400, Hervorhebung kursiv statt Farbe allein */
+.zt,.t1,.t2,.t3,.wfen__t,.ins-t h3,.rgw .wfa__texte h3,.sbf-text h3,.hs2-ww+small{font-weight:400!important;font-variation-settings:normal}
+.zt em,.t1 em,.t2 em,.wfen__t em{font-style:italic}
+.mono,.kap,.kap span,.kap small{letter-spacing:.2em}
+/* Das Zeichen: Wappen aus logo_white_top.png als Maske, färbt sich über color (wie kleid/ehh.js › zeichen) */
+.ehz{display:block;aspect-ratio:369/600;height:auto;background-color:currentColor;-webkit-mask:url('img/wappen-maske.png') 50% 50%/contain no-repeat;mask:url('img/wappen-maske.png') 50% 50%/contain no-repeat}
+.kap__z.ehz{width:clamp(30px,3vw,46px)!important}
+.kap--k .kap__z.ehz{margin:12px auto 10px}
+.insel__m .ehz{width:15px;flex:none}
+.wfen__z.ehz{width:clamp(32px,3.2vw,50px)}
+.hs2-tafel .hs2-zz.ehz{width:clamp(46px,4.4vw,66px)}
+.hs2-butzen .ehz{width:26%}
+.gb-z .ehz{width:60%;margin:0 auto;color:#5f625f}
+.fbs__zeichen.ehz{width:18px}
+/* Name des Hauses als Original-PNG (logo_white_bottom.png), nie nachgesetzt */
+.hs2-tafel .hs2-logo{width:min(380px,80%);height:auto}
+.insel__m b{font-family:var(--serif);font-weight:400;letter-spacing:.02em;text-transform:none;font-size:15px}
+/* Pink nur als Punkt: der Stand-Punkt im Prüfbericht und der Stempel */
+.gb-st{color:#df007e!important}
+/* Knöpfe wie .button der Website: Versalien, Roboto Condensed, .2em gesperrt */
+.kn,.glanz,.kn--klein{font-family:var(--mono);letter-spacing:.2em}
+.bf-name span,.rh-gruss__n span{letter-spacing:.2em}
+.bf-name{gap:6px}
+/* Nachprüfung Oberchef 09.11.2026: helle Drucksachen-Kacheln in warmem Hell statt Mittelgrau (Kontrast), Blätter füllen die Bildfläche,
+   Herkunft der Farben in drei Spalten für drei Stücke, keine Tapete des Stamms */
+.pk--hell{background:var(--papier)!important}
+.pk--hell p{color:rgba(0,0,0,.78)!important}
+.pk__b{aspect-ratio:1/.6!important}
+.hs2-her{grid-template-columns:repeat(3,1fr)!important}
+@media (max-width:700px){.hs2-her{grid-template-columns:1fr!important}}
+/* Tapete (Robert 11.11.2026): das Wappen des Hauses klein im feinen Raster, dunkel auf Schwarz, grau auf warmem Hell */
+.tapete-hell{background-image:url('img/tapete-hell.png')!important;background-size:224px auto!important;background-position:50% 0!important}
+/* Zwischenbilder: Foto gedämpft, damit die weiße Schrift auf hellen Räumen lesbar bleibt (Nachprüfung 09.11.2026) */
+.wfen__f img{filter:brightness(.52)}
+.wfen__t,.wfen__k{text-shadow:0 2px 24px rgba(0,0,0,.45)}
+
+/* ---------- Prüfung am Mac 09.11.2026 (oberflaeche_pruefen.js, neue Punkte 15 und 17) ---------- */
+/* 17: keine Schrift unter 13 px (Robert 09.11.2026: «solchen kleinen Schriften … mit denen keiner was anfangen kann») */
+.blattk span,.blattk span b,.insel__m span,.insel .glanz,.kn .tm,.ins-t__r,.ins-r small,.ins-m,.hs2-gr p,.hs2-schrift small,.hs2-etik span,.hs2-chip small,
+dl dt,figcaption,figcaption small,.gb-f figcaption,.ublatt figcaption,footer span,.mn-ende span,.mn-kopf p,.mn-haus,.mn-gang span,
+.bf-name span,.rh-gruss__n span,.kap span,.kap small,.kap__nr,.sag-reg a span,header>p,button .tm{font-size:13px!important;letter-spacing:.1em!important}
+/* 15: alle sechs Karten als Blätter im Fächer (Muster Schäfli mit sieben, Schlössli mit fünf; hier zwei Reihen zu drei) */
+@media(min-width:900px){.faecher--6{aspect-ratio:1/1.48;align-self:center}.faecher--6 .blattk{width:38%}
+  .faecher--6 .blattk--1{left:0;top:0;z-index:1}.faecher--6 .blattk--2{left:31%;top:2%;z-index:2}.faecher--6 .blattk--3{left:62%;top:0;z-index:3}
+  .faecher--6 .blattk--4{left:1%;top:53%;z-index:4}.faecher--6 .blattk--5{left:32%;top:51%;z-index:5}.faecher--6 .blattk--6{left:61%;top:54%;z-index:6}}
+@media(max-width:899px){.faecher--6{aspect-ratio:1/2.6;margin-bottom:24px}.faecher--6 .blattk{width:47%}
+  .faecher--6 .blattk--1{left:1%;top:0;z-index:1}.faecher--6 .blattk--2{left:52%;top:1%;z-index:2}.faecher--6 .blattk--3{left:1%;top:35%;z-index:3}
+  .faecher--6 .blattk--4{left:52%;top:36%;z-index:4}.faecher--6 .blattk--5{left:1%;top:69%;z-index:5}.faecher--6 .blattk--6{left:52%;top:70%;z-index:6}}
+.faecher--6 .blattk{transition-delay:calc(var(--j)*60ms)}
+.da .faecher--6 .blattk--5,.faecher--6.da .blattk--5{transform:rotate(-4deg)}.faecher--6.da .blattk--5:hover{transform:rotate(-4deg) translateY(-4px);transition-delay:0s}
+.da .faecher--6 .blattk--6,.faecher--6.da .blattk--6{transform:rotate(5deg)}.faecher--6.da .blattk--6:hover{transform:rotate(5deg) translateY(-4px);transition-delay:0s}
+/* 18: kein Leerraum über 380 px nach dem Kapitel Schulung (Namenzug zählt nicht als Inhalt) */
+#schulung{padding-bottom:clamp(30px,3vw,56px)!important}#schulung .namenzug{margin-bottom:0!important}
+@media(max-width:899px){.faecher--6 .blattk span{white-space:normal;line-height:1.3}.faecher--6 .blattk span b{display:none}}
+
+/* Prüfpunkt 21 (11.11.2026): Schatten der Schluss-Überschrift nicht am Zeilenrahmen kappen, Schatten feiner, Lage bleibt gleich */
+.schluss .zt{text-shadow:0 1px 2px rgba(7,7,7,.9),0 2px 6px rgba(7,7,7,.8)}
+
+/* Prüfung 13.11.2026: Überschrift mit Nummer, Zeilen berühren sich am Handy nicht */
+.sag-h{line-height:1.22;flex-wrap:wrap;row-gap:4px}
+.sag-h span{line-height:1.4}
+.sag-reg a{line-height:1.6;white-space:nowrap}
+
+/* ---------- Robert 13.11.2026 ---------- */
+/* Brief: Unterschrift rechtsbündig mit Name und Ort (Vorlage Carlton/Uncle Hung) */
+.bf-fuss__reihe--rechts{display:flex!important;justify-content:flex-end}
+.bf-fuss__reihe--rechts .bf-name{margin:0 0 0 auto!important;align-items:flex-end;text-align:right;gap:4px}
+.bf-name .bf-sig{margin-bottom:2px}
+.bf-name small{font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe,#7a7a7a)}
+.bf-name span{color:var(--tinte,#111)!important}
+/* Werkzeuge: Reiter mittig über dem Laptop, Pfeile bleiben rechts */
+@media(min-width:900px){.ins-leiste{position:relative;justify-content:center}.ins-reiter{justify-content:center}.ins-pf{position:absolute;right:0;top:50%;transform:translateY(-50%)}}
+/* Drucksachen: vier Kacheln nebeneinander in einer Reihe (Robert 13.11.2026; Regel seit 09.11.2026 «vier Kacheln in einer Reihe am Rechner») */
+@media(min-width:1200px){.papier{grid-template-columns:repeat(4,minmax(0,1fr))!important}.papier .pk h3{font-size:clamp(1.45rem,1.75vw,2rem);overflow-wrap:anywhere;hyphens:auto}.papier .pk .kn{max-width:100%;font-size:13px;letter-spacing:.07em;padding-left:16px;gap:8px}.papier .pk__b{aspect-ratio:1/1!important}.papier .pk{padding-left:22px!important;padding-right:22px!important}.papier .pk p{font-size:16px;line-height:1.55}}
+@media(min-width:1000px) and (max-width:1199px){.papier{grid-template-columns:1fr 1fr!important}}
+.papier .pk p{flex:1 1 auto}
+
+@media(max-width:999px){.papier .pk__b{aspect-ratio:1/.95!important}}
+/* Prüfpunkt 21 bei 390 px: Blätter der ersten Kachel (Drucksachen) kreuzen beim Einflug den Titel nicht */
+@media(max-width:999px){.papier .pk:first-child .pk__b{aspect-ratio:1/1.08!important}}
+
+/* Kartenseite (Robert 13.11.2026, 17:41): Heute und Entwurf beschriftet mit Seite und Format; ohne Gegenstück eine ruhige Tafel statt einer fremden Seite */
+.ublatt figcaption{display:block!important;font-size:13px!important;letter-spacing:.12em!important;color:rgba(255,255,255,.86)!important}
+.ublatt__leer{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px;padding:12%;background:#f3efed;outline:1px solid rgba(161,136,76,.55);outline-offset:-14px}
+.ublatt__leer i{width:44px;height:1px;background:#a1884c}
+.ublatt__leer b{font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,2.4vw,2.2rem);line-height:1.1;color:#000;margin-top:6px}
+.ublatt__leer span{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.4vw,1.3rem);color:#58595b}
+.ublatt__leer small{font-family:var(--sans);font-size:15px;line-height:1.55;color:#58595b;max-width:30ch;margin-top:8px}
+
+/* Tapete im Rhythmus wie die Vorlage (_Werkbank-Kit/werkbank.css, Ende; Robert 14.11.2026: «ich will in jedem dritten Abschnitt eine Tapete haben»):
+   Auftakt, jeder dritte Abschnitt und der Fuss tragen das Wappenmuster, dazwischen zwei bis drei glatte Flächen in ihrem Ton (Prüfpunkt 26).
+   Reihenfolge hier: Auftakt · Brief · Worum · Inhalt (T) · Marke · Karten · Fenster · Werkzeuge (T) · Drucksachen · Instagram · Dateien (T) · Geprüft · Fenster · Übergabe (T) · Schluss · Fuss (T).
+   Unterseiten: Kopf (.sk) mit Muster, die Abschnitte darunter glatt. */
+.tapete,.tapete-leicht,.tapete-hell{background-image:none!important}
+#register.tapete-leicht{background-image:linear-gradient(var(--tl),var(--tl)),var(--muster)!important;background-size:auto,var(--musterb) auto!important;background-position:0 0,50% 0!important}
+#k3.tapete{background-image:var(--muster)!important;background-size:var(--musterb) auto!important;background-position:50% 0!important}
+#material.tapete-hell{background-image:url('img/tapete-hell.png')!important;background-size:224px auto!important;background-position:50% 0!important}
+#k7.tapete-leicht{background-image:linear-gradient(var(--tl),var(--tl)),var(--muster)!important;background-size:auto,var(--musterb) auto!important;background-position:0 0,50% 0!important}
+.gpk,.dazu__gross,.tapetenband{background-image:none!important}
+
+/* Fenster lesbar (Robert 13.11.2026: «in den Fenstern kann man die Texte nach wie vor nicht wirklich gut lesen»): Foto dunkler, dazu ein weicher dunkler
+   Verlauf, der hinter dem Text am dichtesten ist; zweite Zeile warm hell statt Grau; kein Schatten an der Schrift (Memory feedback-hintergrundbild-zum-thema) */
+.wfen__f img{filter:brightness(.46)!important}
+.wfen__in::before{content:"";position:absolute;left:50%;top:50%;width:min(1180px,100vw);height:200%;transform:translate(-50%,-50%);z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(0,0,0,.72) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.22) 78%,rgba(0,0,0,0) 100%)}
+.wfen__t,.wfen__k{text-shadow:none!important}
+.wfen__t em{color:#efe5cc!important}
+.wfen__k{color:#ffffff!important}
+.wfen__z{color:#efe5cc!important}
+
+/* Schluss wie die Vorlage (Carlton): Porträt, Gruss, Unterschrift, Name und Ort (Robert 13.11.2026: «unten … steht auch nicht meine Unterschrift und den Briefkopf, den wir normalerweise haben») */
+.termine__n{margin:clamp(16px,1.8vw,24px) auto 0;max-width:62ch;text-align:center;color:rgba(255,255,255,.8)}
+.termine__n .mail{color:#efe5cc;white-space:nowrap}
+.gruss-u{margin-top:34px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px}
+.gruss-u__b{flex:none;width:clamp(96px,8vw,124px);aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:0 0 0 1px rgba(161,136,76,.7),0 0 0 5px rgba(0,0,0,.5),0 14px 22px -10px rgba(0,0,0,.8);margin-bottom:8px}
+.gruss-u__b img{display:block;width:100%;height:100%;object-fit:cover}
+.gruss-u__g{font-family:var(--sans);font-size:clamp(1rem,1.1vw,1.1rem);color:rgba(255,255,255,.82)}
+.gruss-u__sig{display:block;width:clamp(130px,10.5vw,168px);margin:2px 0 0;transform:rotate(-5deg)}
+.gruss-u__sig img{display:block;width:100%;height:auto;filter:invert(1) sepia(.25) brightness(.96)}
+.gruss-u b{font-family:var(--serif);font-weight:400;font-size:clamp(1.7rem,2.5vw,2.6rem);line-height:1.05;color:#fff}
+.gruss-u small{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#c9b27a}

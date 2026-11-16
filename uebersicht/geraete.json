@@ -1,0 +1,32 @@
+[
+ {
+  "k": "kartenmappe",
+  "url": "/_werkzeuge/carte/#kurfuerstenstube",
+  "localStorage": {
+   "rundgang-ehh-carte": "1",
+   "lc-modus": "einfach"
+  },
+  "warte": 3000,
+  "js": "(() => { const a = document.querySelector('#arbeit'); window.scrollTo(0, a.getBoundingClientRect().top + scrollY - 92); })()"
+ },
+ {
+  "k": "markenbuch",
+  "url": "/_werkzeuge/livre/#bilder",
+  "localStorage": {
+   "rundgang-ehh-livre": "1"
+  },
+  "warte": 2500
+ },
+ {
+  "k": "hausdruckerei",
+  "url": "/_werkzeuge/imprimerie/",
+  "localStorage": {
+   "ds-ehh-willkommen": "1"
+  },
+  "warte": 2500,
+  "klicks": [
+   "text=Hochzeiten & Tagungen",
+   "[data-kv=\"0\"]"
+  ]
+ }
+]

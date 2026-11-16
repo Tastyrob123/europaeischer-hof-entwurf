@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="de" class="warte">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=1,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>KI im Alltag des Hauses · Der Europäische Hof Heidelberg</title>
+<meta name="robots" content="noindex, nofollow">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preload" href="../assets/schrift/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/playfair-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/roboto-condensed-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/bild/hotelhalle-2026-1200.webp" as="image" fetchpriority="high">
+<link rel="icon" href="../assets/logo/EHH-touch-Icon.png">
+<link rel="stylesheet" href="seite.css?v=7">
+<script>
+/* Erster Blick komplett: Schrift und Foto des ersten Bildes erscheinen zusammen (höchstens 2,5 s warten) */
+(function () {
+  var H = document.documentElement, fertig = false;
+  function zeigen() { if (fertig) return; fertig = true; H.classList.remove('warte'); }
+  setTimeout(zeigen, 2500);
+  window.addEventListener('DOMContentLoaded', function () {
+    var bild = document.querySelector('.auftakt img'), logo = document.querySelector('.kopf .logo');
+    var warten = [document.fonts ? document.fonts.ready : Promise.resolve()];
+    [bild, logo].forEach(function (i) { if (i && !i.complete) warten.push(new Promise(function (r) { i.onload = i.onerror = r; })); });
+    Promise.all(warten).then(zeigen, zeigen);
+  });
+})();
+</script>
+</head>
+<body>
+
+<header class="kopf">
+  <div class="innen">
+    <img class="logo" src="../assets/logo/logo_black_bottom.png" width="1181" height="420" alt="Der Europäische Hof Heidelberg · Privathotel seit 1865">
+    <span class="et">Entwurf · 12. November 2026</span>
+  </div>
+</header>
+
+<section class="auftakt">
+  <div class="innen">
+    <div>
+      <span class="et">Schulungsentwurf für das Team</span>
+      <h1>KI im Alltag <em>des Hauses</em></h1>
+      <p class="unter">Ein Workshop, in dem Ihr Team lernt, KI bei der täglichen Schreibarbeit einzusetzen: an der Rezeption, bei Anfragen, Bewertungen, Karten und Stellenanzeigen. Jedes Beispiel stammt aus dem, was der Europäische Hof selbst veröffentlicht.</p>
+      <div class="adressat"><img src="../assets/logo/wappen-maske-dunkel.png" alt="" style="filter:brightness(0)"><span>Für Frau Dr. Caroline von Kretschmann</span></div>
+    </div>
+    <figure><img src="../assets/bild/hotelhalle-2026-1200.webp" srcset="../assets/bild/hotelhalle-2026-480.webp 480w, ../assets/bild/hotelhalle-2026-1200.webp 1200w" sizes="(max-width:760px) 100vw, 46vw" width="1200" height="1200" alt="Die Hotelhalle des Europäischen Hofs mit Kronleuchtern und roten Sesseln" fetchpriority="high"></figure>
+  </div>
+</section>
+
+<section class="brief">
+  <div class="innen">
+    <div><span class="et">Vorab</span></div>
+    <div class="text">
+      <p>Sehr geehrte Frau Dr. von Kretschmann,</p>
+      <p>dieser Entwurf beschreibt einen Workshop für Ihr Team. Er zeigt, wie KI Entwürfe schreibt, übersetzt und ordnet, damit Ihre Kolleginnen und Kollegen schneller bei dem Gast sind, der gerade vor ihnen steht oder schreibt.</p>
+      <p>Auf Ihrer Website steht ein Satz, an dem sich der ganze Workshop ausrichtet:</p>
+      <blockquote class="zitat">„Die Zufriedenheit unserer Gäste beginnt mit der Zufriedenheit unserer Mitarbeitenden.“<small>Website des Hauses, Seite Karriere</small></blockquote>
+      <p>Wer eine Antwort nicht mehr vor einer leeren Seite beginnt, hat mehr Zeit für das, was nur ein Mensch kann. Jeder Text, der das Haus verlässt, wird weiterhin von jemandem aus Ihrem Team gelesen, geprüft und verantwortet.</p>
+      <p>Die Module folgen den Bereichen, die Ihre Website zeigt. Welche Abteilungen beginnen und in welcher Reihenfolge, entscheiden Sie.</p>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt dunkel" id="grundsaetze">
+  <div class="innen">
+    <div class="abschnitt__kopf auf">
+      <span class="et">Grundsätze</span>
+      <h2>Was feststeht, bevor jemand eine <em>KI öffnet</em></h2>
+      <p>Vier Regeln gelten in jedem Modul und an jedem Arbeitsplatz. Sie stehen am Ende auf einer Seite, die jede Abteilung behält.</p>
+    </div>
+    <div class="saetze">
+      <div class="satz auf"><b>01</b><h3>Gästedaten bleiben im Haus</h3><p>Namen, Zimmernummern, Buchungs- und Zahlungsdaten gehören in keine KI, die das Haus nicht ausdrücklich freigegeben hat.</p></div>
+      <div class="satz auf v1"><b>02</b><h3>Ein Mensch schickt ab</h3><p>Die KI schreibt Entwürfe. Absenden, zusagen und Preise nennen bleibt bei der zuständigen Kollegin oder dem zuständigen Kollegen.</p></div>
+      <div class="satz auf v2"><b>03</b><h3>Der Ton bleibt der des Hauses</h3><p>Herzlich, persönlich, in der Sie-Ansprache. Kein Satz darf nach Textbaustein klingen. Leitsatz: „Wir lieben, was wir tun.“</p></div>
+      <div class="satz auf v3"><b>04</b><h3>Fakten aus eigenen Quellen</h3><p>Preise, Zeiten, Räume und Allergene kommen aus Karten, Website und Unterlagen des Hauses, nie aus dem Gedächtnis einer KI.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt" id="aufbau">
+  <div class="innen">
+    <div class="abschnitt__kopf auf">
+      <span class="et">Aufbau</span>
+      <h2>Sieben Module, <em>je Abteilung</em></h2>
+      <p>Ein gemeinsamer Einstieg für die Leitungen, danach je Bereich ein eigenes Modul. Gearbeitet wird an echten Vorgängen des Hauses, ohne Gästedaten. Unser Vorschlag für die Reihenfolge: nach den Grundlagen zuerst die Anfragen zu Hochzeiten, Tagungen und Catering, weil dort schnelle und vollständige Antworten am direktesten zu Buchungen führen. Danach Rezeption, Bewertungen, Karten, Personal und Hauswissen. Womit Sie beginnen, entscheiden Sie.</p>
+    </div>
+    <div class="tafel auf">
+      <table class="plan">
+        <thead><tr><th>Nr.</th><th>Modul</th><th>Wer teilnimmt</th><th>Dauer</th></tr></thead>
+        <tbody>
+          <tr><td>00</td><td><a href="#m00">Grundlagen für die Leitungen</a></td><td>Leitungen aller Abteilungen, Geschäftsführung</td><td>2 Stunden</td></tr>
+          <tr><td>01</td><td><a href="#m01">Rezeption und Gästekorrespondenz in neun Sprachen</a></td><td>Empfang, Reservierung</td><td>Halber Tag</td></tr>
+          <tr><td>02</td><td><a href="#m02">Anfragen zu Hochzeiten, Tagungen und Catering</a></td><td>Veranstaltungen, Sales &amp; Marketing</td><td>Halber Tag</td></tr>
+          <tr><td>03</td><td><a href="#m03">Antworten auf Gästebewertungen</a></td><td>Empfangs- und Gastronomieleitung, Marketing</td><td>2 Stunden</td></tr>
+          <tr><td>04</td><td><a href="#m04">Karten- und Angebotstexte</a></td><td>Küche, Service, Bar, Sommelier</td><td>Halber Tag</td></tr>
+          <tr><td>05</td><td><a href="#m05">Stellenanzeigen und Ausbildung</a></td><td>Personal, Ausbildung, Abteilungsleitungen</td><td>Halber Tag</td></tr>
+          <tr><td>06</td><td><a href="#m06">Hauswissen für neue Kolleginnen und Kollegen</a></td><td>Personal, Ausbildung, erfahrene Kräfte</td><td>Halber Tag</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt" id="jedes-modul" style="padding-top:0">
+  <div class="innen">
+    <figure class="modul__bild nur-druck"><img src="../assets/bild/hotel-europaeischer-hof-heidelberg-5-sterne-tagung-konferenz-pfalzgrafensaal-ausstattung-100-1200.webp" width="1200" height="800" alt="Der Pfalzgrafensaal, eingerichtet für eine Tagung"></figure>
+    <div class="abschnitt__kopf auf">
+      <span class="et">So läuft jedes Modul</span>
+      <h2>Erst zeigen, dann <em>selbst schreiben</em></h2>
+      <p>Jedes Modul folgt demselben Ablauf. Am Ende hat die Abteilung keine Mitschrift, sondern Vorlagen, mit denen sie am nächsten Tag arbeitet.</p>
+    </div>
+    <ol class="schritte schritte--vier">
+      <li class="auf"><b>Etwa 20 Minuten</b><h3>Zeigen</h3><p>An einem echten Vorgang des Hauses, von der leeren Seite bis zur fertigen Antwort.</p></li>
+      <li class="auf v1"><b>Etwa 60 Minuten</b><h3>Selbst schreiben</h3><p>Jede und jeder arbeitet die Fälle der eigenen Abteilung durch, die vorher gesammelt wurden.</p></li>
+      <li class="auf v2"><b>Etwa 30 Minuten</b><h3>Vorlagen bauen</h3><p>Die besten Aufträge werden zu festen Vorlagen der Abteilung, etwa „Antwort auf eine Hochzeitsanfrage“.</p></li>
+      <li class="auf v3"><b>Mitnehmen</b><h3>Fünf bis zehn Vorlagen</h3><p>Je Abteilung, am nächsten Tag im Einsatz. Wo es passt, üben wir die Werkzeuge des Hauses gleich mit.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="abschnitt" id="module" style="padding-top:0">
+  <div class="innen">
+
+    <article class="modul" id="m00">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/galerie-big-liselottenstube-tagung-1200.webp" width="1200" height="800" alt="Die Liselottenstube mit Tischen für eine Tagung"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 00</span>
+        <h3>Grundlagen für die Leitungen</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Leitungen von Empfang, Reservierung, Veranstaltungen, Gastronomie, Küche, Spa, Personal und Verwaltung, dazu die Geschäftsführung</dd><dt>Dauer</dt><dd>Zwei Stunden</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>unterscheiden, wofür KI im Haus taugt und wofür nicht</li>
+          <li>erkennen, welche Angaben in einen Auftrag an die KI dürfen</li>
+          <li>einen Auftrag so formulieren, dass ein brauchbarer Entwurf entsteht</li>
+          <li>für die eigene Abteilung zwei Aufgaben benennen, mit denen sie beginnt</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Die Fragen und Antworten der Website erklären, dass Hunde willkommen sind, ein Babybett kostenlos bereitsteht, die Rezeption rund um die Uhr besetzt ist und das WLAN nichts kostet. Daraus entsteht gemeinsam die erste Hausquelle: eine Sammlung geprüfter Antworten, aus der jeder spätere Entwurf schöpft.</p>
+          <p class="quelle">Quelle: Website, Häufig gestellte Fragen</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m01">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/1400x1400-reception-1200.webp" width="1200" height="1200" alt="Der Empfang mit dem Schild Reception und einem Porträt in Goldrahmen"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 01</span>
+        <h3>Rezeption und Gästekorrespondenz in neun Sprachen</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Empfang und Reservierung</dd><dt>Dauer</dt><dd>Ein halber Tag</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>Anfragen in der Sprache des Gastes beantworten, auch wenn im Dienst niemand sie spricht: Deutsch, Englisch, Russisch, Arabisch, Chinesisch, Französisch, Niederländisch, Hindi und Spanisch, die neun Sprachen der Website</li>
+          <li>jede fremdsprachige Antwort ins Deutsche zurückübersetzen lassen und prüfen, bevor sie hinausgeht</li>
+          <li>die Anrede und Höflichkeitsformen der jeweiligen Sprache treffen</li>
+          <li>Vorlagen für wiederkehrende Fragen anlegen, die jede Kollegin persönlich ergänzt</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Ein Gast schreibt auf Französisch, ob er seinen Hund mitbringen darf und wie er vom Hauptbahnhof ins Hotel kommt. Die Antwort steht auf der Website: Hunde sind herzlich willkommen, nur nicht im Panorama Spa und im Fitnessbereich. Vom Hauptbahnhof fahren die Buslinien 32, 33 und 34 bis Bismarckplatz, von dort sind es etwa 300 bis 350 Meter zu Fuß. Die KI formuliert auf Französisch, die Kollegin am Empfang liest die Rückübersetzung und schickt ab.</p>
+          <p class="quelle">Quelle: Website, Häufig gestellte Fragen und Kontakt</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m02">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/luxus-hotel-europaeischer-hof-heidelberg-hochzeit-im-gartensaal-1200.webp" width="1200" height="1200" alt="Der Gartensaal, festlich gedeckt für eine Hochzeit"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 02</span>
+        <h3>Anfragen zu Hochzeiten, Tagungen und Catering</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Veranstaltungsabteilung, Sales &amp; Marketing, Bankett</dd><dt>Dauer</dt><dd>Ein halber Tag</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>aus einer frei geschriebenen Anfrage Anlass, Datum, Personenzahl und Wünsche herauslesen</li>
+          <li>einen ersten Antwortentwurf schreiben, der passende Räume und Arrangements nennt und zum Gespräch einlädt</li>
+          <li>fehlende Angaben freundlich erfragen, statt zu raten</li>
+          <li>Angebot und Preis bleiben in der Hand der Veranstaltungsabteilung</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Ein Brautpaar fragt nach einer Hochzeit im kleinen Kreis. Die Website nennt Feiern bis 100 Personen, die Arrangements Bronze, Silber und Gold und Räume wie die Liselottenstube mit 77 m², das Kaminzimmer mit 85 m² und das Hotelrestaurant mit 130 m². Der Entwurf greift genau darauf zurück und nennt als Weg zum Team events@europaeischerhof.com und +49 (0)6221 515-510.</p>
+          <p class="quelle">Quelle: Website, Hochzeit, Catering und Tagungshotel</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m03">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/luxus-hotel-europaeischer-hof-heidelberg-freundliche-und-kompetente-mitarbeiter-1200.webp" width="1200" height="1200" alt="Ein Kollege im Service mit Fliege"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 03</span>
+        <h3>Antworten auf Gästebewertungen</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Empfangsleitung, Gastronomieleitung, Sales &amp; Marketing, auf Wunsch die Geschäftsführung</dd><dt>Dauer</dt><dd>Zwei Stunden</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>eine Bewertung in Lob, Hinweis und Kritik ordnen</li>
+          <li>eine Antwort entwerfen, die auf diesen einen Gast und seinen Aufenthalt eingeht</li>
+          <li>heikle Bewertungen erkennen, die die Leitung selbst beantwortet</li>
+          <li>Hinweise der Gäste an die Abteilung weitergeben, die sie betreffen</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Die Website sagt: „Viele Gäste nennen uns das herzlichste Hotel in Heidelberg“, und verweist auf die Bewertungen bei Trustyou. Diese Herzlichkeit muss in jeder Antwort zu spüren sein. Im Workshop werden öffentlich sichtbare Bewertungen des Hauses beantwortet; am Ende steht für jede Art von Bewertung ein Muster im Ton des Hauses.</p>
+          <p class="quelle">Quelle: Website, Häufig gestellte Fragen</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m04">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/eeh-essensfotos-2026-03-1200.webp" width="1200" height="1200" alt="Ein angerichteter Gang auf weißem Teller"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 04</span>
+        <h3>Karten- und Angebotstexte</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Küche, Service, Europa Bar, Sommelier, Marketing</dd><dt>Dauer</dt><dd>Ein halber Tag</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>neue Gerichte in der Sprache der Karte beschreiben, auf Deutsch und auf Englisch</li>
+          <li>Texte für Arrangements und den Kulinarischen Kalender entwerfen</li>
+          <li>prüfen, ob die Kennzeichnung der Allergene vollständig übernommen ist; was gekennzeichnet wird, entscheidet die Küche</li>
+          <li>die Karten im Werkzeug „Karten &amp; Preislisten“ selbst pflegen, aus dem die PDF wie gedruckt entsteht</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Die Karte der Kurfürstenstube führt jedes Gericht zweisprachig, etwa „Tatar vom irischen Weiderind mit Sud von geschmorter Roter Bete“ und darunter „Tartare of Irish grass-fed beef with braised beetroot broth“, mit den Kennzeichen a) c) g) j). Eine neue Zeile entsteht in genau diesem Muster: Die KI schlägt die Übersetzung vor, die Küche gibt frei.</p>
+          <p class="quelle">Quelle: Speisekarte Kurfürstenstube ab 16. Oktober 2026</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m05">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/ausbildung-hofa-1200.webp" width="1200" height="1200" alt="Eine Kollegin richtet die Kissen auf einem Bett im Zimmer"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 05</span>
+        <h3>Stellenanzeigen und Ausbildung</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Personalabteilung, Ausbildungsbeauftragte, Abteilungsleitungen, die einstellen</dd><dt>Dauer</dt><dd>Ein halber Tag</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>Stellenanzeigen schreiben, die den Alltag im Haus zeigen</li>
+          <li>Antworten auf Bewerbungen schnell und persönlich entwerfen</li>
+          <li>Texte zu den Ausbildungsberufen für Schulen, Messen und soziale Netzwerke anpassen</li>
+          <li>die Leistungen für Mitarbeitende genau so wiedergeben, wie das Haus sie zusagt</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Die Website nennt tarifgebundene Entlohnung, Jobticket, ein Patenprogramm für Auszubildende, die volle Übernahme der Internatskosten der Berufsschule und die Gründungsmitgliedschaft bei den Fair Job Hotels, dazu vier Ausbildungswege: Restaurants und Veranstaltungsgastronomie, Köchin und Koch, Hotelmanagement, Hotelfach. Aus diesen Angaben und einem Satz der Abteilungsleitung entsteht im Workshop eine Anzeige, die nach dem Europäischen Hof klingt. Bewerbungen gehen weiterhin an bewerbung@europaeischerhof.com.</p>
+          <p class="quelle">Quelle: Website, Karriere, Ausbildung und Stellenangebote</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="modul" id="m06">
+      <figure class="modul__bild auf"><img loading="lazy" src="../assets/bild/luxus-hotel-europaeischer-hof-heidelberg-fruehstueck-im-hotelrestaurant-2-1200.webp" width="1200" height="1200" alt="Das Hotelrestaurant, gedeckt zum Frühstück"></figure>
+      <div class="auf v1">
+        <span class="modul__nr">Modul 06</span>
+        <h3>Hauswissen für neue Kolleginnen und Kollegen</h3>
+        <dl class="modul__wer"><dt>Wer</dt><dd>Personalabteilung, Ausbildungsbeauftragte, je Abteilung eine erfahrene Kraft</dd><dt>Dauer</dt><dd>Ein halber Tag</dd></dl>
+        <h4>Was das Team danach kann</h4>
+        <ul class="kann">
+          <li>Wissen, das bisher in einzelnen Köpfen steckt, in die geprüfte Hausquelle schreiben</li>
+          <li>daraus Fragen zur Einarbeitung und kurze Wissensproben entwerfen lassen</li>
+          <li>neuen Mitarbeitenden zeigen, wie sie dort nachschlagen, bevor sie am vollen Empfang fragen</li>
+        </ul>
+        <div class="beispiel">
+          <h4>Beispiel aus dem Haus</h4>
+          <p>Frühstück gibt es wochentags von 06:30 bis 11:00 Uhr, an Sonn- und Feiertagen bis 11:30 Uhr. Das Sommerrestaurant hat vom 23. April bis 16. September 2026 geöffnet, die Kurfürstenstube von Mitte September bis Mitte April. Solche Angaben aus dem Kulinarischen Kalender und der Website sind der Anfang der Sammlung.</p>
+          <p class="quelle">Quelle: Kulinarischer Kalender 2026, Website</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="abschnitt" id="ablauf" style="padding-top:24px">
+  <div class="innen">
+    <div class="abschnitt__kopf auf">
+      <span class="et">Ablauf</span>
+      <h2>Vom Vorgespräch <em>bis zum Rückblick</em></h2>
+    </div>
+    <ol class="schritte">
+      <li class="auf"><b>Schritt 1</b><h3>Vorgespräch und Fälle</h3><p>Mit Ihnen: welche Abteilungen beginnen, welche Termine passen, welche KI-Dienste das Haus freigibt. Danach je eine halbe Stunde mit jeder Abteilungsleitung. Jede Abteilung sammelt zehn bis fünfzehn echte Fälle, ohne Gästedaten, und wir halten fest, wie lange sie heute dafür braucht.</p></li>
+      <li class="auf v1"><b>Schritt 2</b><h3>Grundlagen</h3><p>Modul 00 mit den Leitungen. Jede Abteilung nennt ihre zwei ersten Aufgaben.</p></li>
+      <li class="auf v2"><b>Schritt 3</b><h3>Module je Abteilung</h3><p>Module 01 bis 06 an echten Vorgängen, außerhalb der Hauptzeiten des Hauses.</p></li>
+      <li class="auf v3"><b>Schritt 4</b><h3>Vier Wochen Alltag</h3><p>Die Teams arbeiten mit ihren Vorlagen. Einmal pro Woche gibt es eine halbe Stunde Sprechstunde, und je Abteilung pflegt eine Ansprechperson die Vorlagen.</p></li>
+      <li class="auf v3"><b>Schritt 5</b><h3>Rückblick</h3><p>Mit den Leitungen: wie lange ein Vorgang jetzt dauert im Vergleich zu vorher, welche Vorlagen im Einsatz sind und was angepasst wird. Dazu eine Seite für die Geschäftsführung.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="abschnitt" id="bleibt" style="padding-top:24px">
+  <div class="innen">
+    <div class="zwei">
+      <div class="tafel auf">
+        <span class="et">Was im Haus bleibt</span>
+        <h3>Ergebnisse, die bleiben</h3>
+        <ul class="kann">
+          <li>die Hausquelle mit geprüften Antworten zu Zimmern, Anreise, Gastronomie und Spa</li>
+          <li>Vorlagen je Abteilung, für Gäste in den neun Sprachen der Website</li>
+          <li>eine Seite mit den vier Grundsätzen für jeden Arbeitsplatz</li>
+          <li>die drei Werkzeuge des Hauses: „Karten &amp; Preislisten“ für die Karten, „Markenbuch“ für Bilder und Logo, „Drucksachen &amp; Feed“ für Drucksachen</li>
+        </ul>
+      </div>
+      <div class="tafel auf v1">
+        <span class="et">Zum Gespräch</span>
+        <h3>Was wir mit Ihnen klären</h3>
+        <ul class="kann">
+          <li>Mit welchen Abteilungen beginnen wir?</li>
+          <li>Welche KI-Dienste sind im Haus für die Arbeit freigegeben?</li>
+          <li>Welche Wochen sind ruhig genug für die Module?</li>
+          <li>Wer pflegt die Hausquelle, wenn sich Zeiten oder Angebote ändern?</li>
+          <li>Sollen die Auszubildenden von Beginn an dabei sein?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="fuss">
+  <div class="innen">
+    <img src="../assets/logo/logo_black_bottom.png" width="1181" height="420" alt="Der Europäische Hof Heidelberg">
+    <span class="et">Entwurf vom 12. November 2026 · <a href="schulungsentwurf.pdf">Als PDF</a></span>
+  </div>
+</footer>
+
+<script>
+/* Auftritte beim Scrollen: was ins Bild kommt, schwebt an seinen Platz (nur transform) */
+(function () {
+  var els = document.querySelectorAll('.auf');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) { els.forEach(function (e) { e.classList.add('da'); }); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('da'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (e) { var r = e.getBoundingClientRect(); if (r.top < innerHeight * .92) e.classList.add('da'); else io.observe(e); });
+})();
+</script>
+<script id="ruecksprung" src="ruecksprung.js"></script>
+</body>
+</html>

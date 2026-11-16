@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de" class="warte">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=1,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Die drei Werkzeuge · Der Europäische Hof Heidelberg</title>
+<meta name="robots" content="noindex, nofollow">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preload" href="../assets/schrift/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/playfair-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/schrift/roboto-condensed-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="bild/laptop-kartenmappe.webp" as="image" fetchpriority="high">
+<link rel="icon" href="../assets/logo/EHH-touch-Icon.png">
+<link rel="stylesheet" href="../schulung/seite.css?v=4">
+<link rel="stylesheet" href="uebersicht.css?v=2">
+<script>
+(function () {
+  var H = document.documentElement, fertig = false;
+  function zeigen() { if (fertig) return; fertig = true; H.classList.remove('warte'); }
+  setTimeout(zeigen, 2500);
+  window.addEventListener('DOMContentLoaded', function () {
+    var warten = [document.fonts ? document.fonts.ready : Promise.resolve()];
+    document.querySelectorAll('.kopf .logo, .wz:first-of-type .wz__geraet img').forEach(function (i) { if (!i.complete) warten.push(new Promise(function (r) { i.onload = i.onerror = r; })); });
+    Promise.all(warten).then(zeigen, zeigen);
+  });
+})();
+</script>
+</head>
+<body>
+
+<header class="kopf">
+  <div class="innen">
+    <img class="logo" src="../assets/logo/logo_black_bottom.png" width="1181" height="420" alt="Der Europäische Hof Heidelberg · Privathotel seit 1865">
+    <span class="et">Stand · <!--STAND-->9. November 2026<!--/STAND--></span>
+  </div>
+</header>
+
+<section class="ue-auftakt">
+  <div class="innen">
+    <span class="et">Für den Europäischen Hof Heidelberg</span>
+    <h1>Die drei <em>Werkzeuge</em></h1>
+    <p class="unter">Karten, Drucksachen und die Marke des Hauses liegen heute in einzelnen PDF-Dateien. Diese drei Werkzeuge holen sie an einen Ort, im Stil des Hauses, mit den echten Inhalten. Dazu ein Entwurf für eine Schulung des Teams.</p>
+  </div>
+</section>
+
+<!--WERKZEUGE-->
+<section class="wz" id="kartenmappe">
+  <div class="innen">
+    <figure class="wz__geraet"><img src="bild/laptop-kartenmappe.webp" srcset="bild/laptop-kartenmappe-800.webp 800w, bild/laptop-kartenmappe.webp 1600w" sizes="(max-width:1000px) 100vw, 56vw" width="1600" height="1337" alt="Karten &amp; Preislisten im Laptop: die Karte der Kurfürstenstube, links die Einträge, rechts die Seite wie gedruckt" fetchpriority="high"></figure>
+    <div class="tafel wz__tafel">
+      <span class="et">Werkzeug 1 von 3 · Karten</span>
+      <h2>Karten <em>&amp; Preislisten</em></h2>
+      <p>Kurfürstenstube, Weinkarte, Barkarte, Zigarrenliste, Catering und Kulinarischer Kalender an einer Stelle pflegen. Jede Karte ist aus der PDF des Hauses gelesen, Wort für Wort geprüft und steht da wie gedruckt.</p>
+      <div class="ue-zahlen"><div><b>6</b><span>Karten des Hauses</span></div><div><b>60</b><span>Seiten wie das Original</span></div><div><b>2</b><span>Sprachen je Gericht</span></div></div>
+      <p class="wz__stand">Geprüft am 9. November 2026 in vier Breiten</p>
+      <div class="ue-kn"><a class="kn kn--voll" href="../_werkzeuge/carte/" target="_blank" rel="noopener"><span>Öffnen</span><i aria-hidden="true">→</i></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="wz wz--spiegel" id="markenbuch">
+  <div class="innen">
+    <figure class="wz__geraet auf"><img src="bild/laptop-markenbuch.webp" srcset="bild/laptop-markenbuch-800.webp 800w, bild/laptop-markenbuch.webp 1600w" sizes="(max-width:1000px) 100vw, 56vw" width="1600" height="1337" alt="Markenbuch im Laptop: das Bildarchiv mit Suche, Bereichen und Fotos des Hauses" loading="lazy"></figure>
+    <div class="tafel wz__tafel auf v1">
+      <span class="et">Werkzeug 2 von 3 · Marke</span>
+      <h2><em>Markenbuch</em></h2>
+      <p>Wappen, Logo, Fotos, Farben und Schriften des Hauses an einem Ort. Jedes Foto mit Herkunft und in den Größen, die eine Agentur oder das Team braucht, dazu das Markenbuch zum Nachlesen.</p>
+      <div class="ue-zahlen"><div><b>348</b><span>Fotos mit Herkunft</span></div><div><b>12</b><span>Auszeichnungen im Original</span></div><div><b>9</b><span>Kapitel im Markenbuch</span></div></div>
+      <p class="wz__stand">Geprüft am 9. November 2026 · ohne Fund</p>
+      <div class="ue-kn"><a class="kn kn--voll" href="../_werkzeuge/livre/" target="_blank" rel="noopener"><span>Öffnen</span><i aria-hidden="true">→</i></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="wz" id="hausdruckerei">
+  <div class="innen">
+    <figure class="wz__geraet auf"><img src="bild/laptop-hausdruckerei.webp" srcset="bild/laptop-hausdruckerei-800.webp 800w, bild/laptop-hausdruckerei.webp 1600w" sizes="(max-width:1000px) 100vw, 56vw" width="1600" height="1337" alt="Drucksachen &amp; Feed im Laptop: die Einladung zur Hochzeit im Editor" loading="lazy"></figure>
+    <div class="tafel wz__tafel auf v1">
+      <span class="et">Werkzeug 3 von 3 · Drucksachen</span>
+      <h2>Drucksachen <em>&amp; Feed</em></h2>
+      <p>Karten, Aushänge, Broschürenseiten, Arrangements und Einladungen im Stil der Drucksachen des Hauses selbst entwerfen, mit den Fotos und Angaben des Hauses, druckfertig als PDF.</p>
+      <div class="ue-zahlen"><div><b>75</b><span>Vorlagen im Stil des Hauses</span></div><div><b>10</b><span>Arten von Drucksachen</span></div><div><b>6</b><span>Abteilungen</span></div></div>
+      <p class="wz__stand">Geprüft am 9. November 2026 · ohne Fund</p>
+      <div class="ue-kn"><a class="kn kn--voll" href="../_werkzeuge/imprimerie/" target="_blank" rel="noopener"><span>Öffnen</span><i aria-hidden="true">→</i></a></div>
+    </div>
+  </div>
+</section>
+<!--/WERKZEUGE-->
+
+<section class="abschnitt ue-schulung" id="schulung">
+  <div class="innen">
+    <div class="tafel ue-sch auf">
+      <figure><img loading="lazy" src="../assets/bild/hotelhalle-2026-1200.webp" width="1200" height="1200" alt="Die Hotelhalle des Europäischen Hofs"></figure>
+      <div class="ue-sch__t">
+        <span class="et">Schulungsentwurf</span>
+        <h2>KI im Alltag <em>des Hauses</em></h2>
+        <p>Ein Workshop für das Team, gerichtet an Frau Dr. von Kretschmann: sieben Module für Rezeption, Anfragen, Bewertungen, Karten, Stellenanzeigen und Einarbeitung, jedes mit einem Beispiel aus dem Haus.</p>
+        <div class="ue-zahlen"><div><b>7</b><span>Module</span></div><div><b>9</b><span>Sprachen der Website</span></div><div><b>11</b><span>Seiten als PDF</span></div></div>
+        <div class="ue-kn"><a class="kn kn--voll" href="../schulung/index.html" target="_blank" rel="noopener"><span>Entwurf öffnen</span><i aria-hidden="true">→</i></a><a class="kn" href="../schulung/schulungsentwurf.pdf" target="_blank" rel="noopener"><span>Als PDF</span><i aria-hidden="true">↓</i></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="fuss">
+  <div class="innen">
+    <img src="../assets/logo/logo_black_bottom.png" width="1181" height="420" alt="Der Europäische Hof Heidelberg">
+    <span class="et">Friedrich-Ebert-Anlage 1 · 69117 Heidelberg</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.auf');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) { els.forEach(function (e) { e.classList.add('da'); }); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('da'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (e) { var r = e.getBoundingClientRect(); if (r.top < innerHeight * .92) e.classList.add('da'); else io.observe(e); });
+})();
+</script>
+<script id="ruecksprung" src="ruecksprung.js"></script>
+</body>
+</html>
