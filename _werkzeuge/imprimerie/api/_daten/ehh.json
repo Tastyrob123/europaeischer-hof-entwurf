@@ -130,7 +130,7 @@
  "logos": [
   {
    "key": "logo-schwarz",
-   "datei": "/assets/logo/logo_black_bottom.png",
+   "datei": "../assets/logo/logo_black_bottom.png",
    "alt": "Logo des Hauses, schwarz (Original)",
    "w": 1181,
    "h": 420,
@@ -138,7 +138,7 @@
   },
   {
    "key": "logo-weiss",
-   "datei": "/assets/logo/logo_white_bottom.png",
+   "datei": "../assets/logo/logo_white_bottom.png",
    "alt": "Logo des Hauses, weiß (Original)",
    "w": 500,
    "h": 178,

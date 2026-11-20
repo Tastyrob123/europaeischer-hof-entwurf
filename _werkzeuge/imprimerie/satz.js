@@ -85,7 +85,7 @@
   DS.bildUrl = (M, key, mini) => M.bildIndex && M.bildIndex[key] && M.bildIndex[key].datei ? (mini ? M.bildIndex[key].miniUrl : M.bildIndex[key].url)
     : (M.bildIndex && M.bildIndex[key] && M.bildIndex[key].vorschau) ? M.basis + M.bildIndex[key].vorschau
     : /^eigen-/.test(key) ? M.basis + (mini ? 'mini/' : 'bilder/') + key + '.webp'
-    : '/assets/bild/' + key + (mini ? '-480' : '-1200') + '.webp';   // Europäischer Hof: alle Fotos liegen einmal in _werkzeuge/assets/bild/ (480 und 1200 px), Druckfassungen in druck/
+    : new URL('../assets/bild/' + key + (mini ? '-480' : '-1200') + '.webp', location.href).href;   // Europäischer Hof: alle Fotos liegen einmal in _werkzeuge/assets/bild/ (480 und 1200 px), Druckfassungen in druck/
 
   /* ---------- Le Livre: Markenbuch des Hauses (Fotos, Farben, Dateien) ---------- */
   DS.LIVRE_TEXT = {
@@ -102,7 +102,7 @@
   DS.ALLEIN = location.hostname === 'drucksachen-studio.vercel.app';
   DS.regelSichtbar = r => String(r || '').replace(/\s*Kein Hotel, keine Zimmer\..*$/, '').trim();
   DS.LIVRE = '../livre/';
-  DS.livreUrl = p => (DS.M && !DS.M.livre && /^dateien\//.test(p)) ? '/assets/logo/' + p.slice(8) : new URL(p, new URL(DS.LIVRE, location.href)).href;   // Europäischer Hof: ohne Markenbuch-Lieferung kommen Logo und Wappen aus _werkzeuge/assets/logo
+  DS.livreUrl = p => (DS.M && !DS.M.livre && /^dateien\//.test(p)) ? new URL('../assets/logo/' + p.slice(8), location.href).href : new URL(p, new URL(DS.LIVRE, location.href)).href;   // Europäischer Hof: ohne Markenbuch-Lieferung kommen Logo und Wappen aus _werkzeuge/assets/logo
   /* Foto in passender Größe (30.10.2026, Start gedrosselt): die Website legt jedes Foto in Stufen ab (640/1000/1600/2400, 700/1300/1800 oder 800/1400/2200);
      genommen wird die kleinste Stufe ab rund 1,6 × Anzeigebreite, höchstens die große Fassung des Markenbuchs. Ohne Stufen bleibt es bei DS.bildUrl. */
   const STUFEN = [[640, 1000, 1600, 2400], [700, 1300, 1800], [800, 1400, 2200]];
