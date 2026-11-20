@@ -115,7 +115,7 @@ body.wo-app,.wo-app{background:var(--wo-papier);color:var(--wo-tinte);font-famil
 }
 @media (min-width:901px) and (max-width:1240px){
   .wo-kopf__mitte b{font-size:18px}
-  .wo-kopf .wo-kn--gold.wo-kn--klein>span{position:absolute;left:50%;top:50%;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;font-size:1px;line-height:1px;letter-spacing:0;color:transparent;text-box:none}
+  .wo-kopf .wo-kn--gold.wo-kn--klein>span{position:absolute;left:50%;top:50%;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;font-size:13px;line-height:1px;letter-spacing:0;color:transparent;text-box:none}
   .wo-kopf .wo-kn--gold.wo-kn--klein{padding:0;gap:0;width:42px;height:42px;min-height:0;min-width:0;border-radius:50%;justify-content:center;align-items:center}
 }
 .wo-sb__zier{min-width:0;max-width:100%}

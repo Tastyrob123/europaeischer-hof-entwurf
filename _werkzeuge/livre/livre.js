@@ -193,12 +193,21 @@ function zeichne(still = false) {
 let IO = null, IO2 = null;
 const RUHIG = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 function auftritte(r, still) {
-  /* R17 (Robert 14./15.10.: «nicht von meiner Geschwindigkeit abhängig … nicht erst warten»): beim Ansichtswechsel federt nur, was im ersten Bild steht,
-     der Reihe nach, höchstens 22; alles darunter und alles, was beim Scrollen nachkommt, steht sofort. Nur transform, deckend ab dem ersten Bild. */
+  /* R17 (Robert 14./15.10.: «nicht von meiner Geschwindigkeit abhängig … nicht erst warten»): beim Ansichtswechsel federt, was im ersten Bild steht,
+     der Reihe nach, höchstens 22. Fehlerbuch 09.11.2026 («diese Animationen … überall»): alles darunter wartet deckend, nur 40 px tiefer, und schwebt beim
+     Hereinscrollen an seinen Platz (Feder, Staffel höchstens vier), Fotos darin zoomen in ihren Rahmen. Nur transform, nie Deckung. */
   const alle = $$('[data-r]', r).filter(x => !x.classList.contains('da'));
-  if (still || RUHIG()) { alle.forEach(x => x.classList.add('da', 'steht')); return; }
+  if (still || RUHIG() || !('IntersectionObserver' in window)) { alle.forEach(x => x.classList.add('da', 'steht')); return; }
   const H = innerHeight; let n = 0;
-  alle.forEach(x => { const b = x.getBoundingClientRect(); if (b.top < H && b.bottom > 0 && n < 22) { x.style.setProperty('--i', Math.min(n++, 6)); requestAnimationFrame(() => requestAnimationFrame(() => x.classList.add('da'))); } else x.classList.add('da', 'steht'); });
+  if (!IO) IO = new IntersectionObserver(es => {
+    let k = 0;
+    es.forEach(x => { if (!x.isIntersecting) return; IO.unobserve(x.target); x.target.style.setProperty('--i', Math.min(k++, 3)); x.target.classList.add('da'); });
+  }, { rootMargin: '0px 0px -6% 0px' });
+  alle.forEach(x => {
+    const b = x.getBoundingClientRect();
+    if (b.top < H && b.bottom > 0) { if (n < 22) { x.style.setProperty('--i', Math.min(n++, 6)); requestAnimationFrame(() => requestAnimationFrame(() => x.classList.add('da'))); } else x.classList.add('da', 'steht'); }
+    else IO.observe(x);
+  });
 }
 
 /* ---------------------------------------------------------------- Übersicht */
@@ -584,7 +593,7 @@ function sichere(j) {
   // nur auf ausdrücklichen Wunsch: eine Datei auf diesem Rechner, nichts auf dem Server
   const html = `<!doctype html><meta charset="utf-8"><title>${esc(t('name'))} · ${esc(j.name)}</title><body style="font:15px/1.6 'Open Sans',system-ui,sans-serif;max-width:820px;margin:40px auto;color:#000;background:#fff;padding:0 20px">
     <h1 style="font:400 30px/1.15 'Playfair Display',Georgia,serif;color:#000">${esc(t('pruefung'))}: ${esc(j.name)}</h1><img src="${j.vorschau}" style="max-width:360px;border-radius:12px"><pre style="white-space:pre-wrap;font:14px/1.6 system-ui">${esc(alsText(j))}</pre>
-     <p style="color:#58595B;font-size:12px">${esc(t('name'))} · Der Europäische Hof Heidelberg · ${new Date().toLocaleString('de-DE')}</p></body>`;
+     <p style="color:#58595B;font-size:13px">${esc(t('name'))} · Der Europäische Hof Heidelberg · ${new Date().toLocaleString('de-DE')}</p></body>`;
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
   a.download = 'markenpruefung-europaeischer-hof-' + (j.name.replace(/\.[a-z0-9]+$/i, '').replace(/[^a-z0-9äöü_-]+/gi, '-').toLowerCase().slice(0, 60) || 'entwurf') + '.html';
