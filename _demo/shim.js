@@ -100,7 +100,7 @@
     return XO.apply(this, a);
   };
   XMLHttpRequest.prototype.send = function (b) { return XS.call(this, this.__demoPost ? null : b); };
-  if (navigator.sendBeacon) { var sbOrig = navigator.sendBeacon.bind(navigator); navigator.sendBeacon = function (u, d) { return /^https:\/\/tasty-besuche\.vercel\.app\//.test(String(u)) ? sbOrig(u, d) : true; }; }
+  if (navigator.sendBeacon) { var sbOrig = navigator.sendBeacon.bind(navigator); navigator.sendBeacon = function () { return true; };   // keine Meldung an fremde Server (Vercel gesperrt, 20.11.2026) }
   if (window.EventSource) window.EventSource = function () { this.close = function () {}; this.addEventListener = function () {}; };
 
   /* src/href beim Setzen umbiegen */
